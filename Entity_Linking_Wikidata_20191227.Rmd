@@ -545,6 +545,33 @@ write.csv(wd_disambiguated_new,
           paste0(analyticsDir, 'wd_search_MethodBC_solutions.csv'))
 ```
 
+Finally, we filter the results in the following way: we keep only those solutions where the `searchText` field (i.e. the exact phrase found in the text) match exactly the respective label, alias, or description. This needs to be done to guard against the Wikidata search results obtained as incomplete matches (i.e. based on partial information from the `searchText` field only).
+
+```{r echo = T}
+wd_disambiguated_new <- read.csv(paste0(analyticsDir, "wd_search_MethodBC_solutions.csv"), 
+                                 header = TRUE,
+                                 check.names = FALSE,
+                                 row.names = 1,
+                                 stringsAsFactors = FALSE)
+# - remove NAs from wd_disambiguated_new$label, wd_disambiguated_new$alias, and wd_disambiguated_new$description
+# - for strings comparison:
+wd_disambiguated_new$label[is.na(wd_disambiguated_new$label)] <- ""
+wd_disambiguated_new$alias[is.na(wd_disambiguated_new$alias)] <- ""
+wd_disambiguated_new$description[is.na(wd_disambiguated_new$description)] <- ""
+wd_disambiguated_new$matchFilter <- ifelse(grepl("[[:upper:]]", wd_disambiguated_new$label), 
+                                           (wd_disambiguated_new$searchText == wd_disambiguated_new$label),
+                                           (tolower(wd_disambiguated_new$searchText) == tolower(wd_disambiguated_new$label))) | 
+  ifelse(grepl("[[:upper:]]", wd_disambiguated_new$alias), 
+                                           (wd_disambiguated_new$searchText == wd_disambiguated_new$alias),
+                                           (tolower(wd_disambiguated_new$searchText) == tolower(wd_disambiguated_new$alias))) | 
+  ifelse(grepl("[[:upper:]]", wd_disambiguated_new$description), 
+                                           (wd_disambiguated_new$searchText == wd_disambiguated_new$description),
+                                           (tolower(wd_disambiguated_new$searchText) == tolower(wd_disambiguated_new$description)))
+wd_disambiguated_new <- dplyr::filter(wd_disambiguated_new, matchFilter)
+write.csv(wd_disambiguated_new, 
+          paste0(analyticsDir, 'wd_search_MethodBC_solutions.csv'))
+```
+
 Here are the proposed new entities found in the English Wikipedia page on Albert Einstein, in the following format (**NOTE.** the list is ordered in a decreasing order of `wd_search$methodCMatch`, the matching score from Method C)
 
 `phrase` - `(Wikidata label - Wikidata description)`:
@@ -560,7 +587,7 @@ print(paste(wd_disambiguated_new$searchText,
 )
 ```
 
-Obviously, a cut-off value for `wd_search$methodCMatch` is badly needed to make this selection more specific. However, values with high `wd_search$methodCMatch` look like good solutions indeed. But the situation is nowhere near clear: some solutions with very low match scores work as well. Some of the ideas on how to make this approach more conservative in its recommendiations on entity linking will be shared in the next notebook soon.
+Obviously, a cut-off value for `wd_search$methodCMatch` is needed to make this selection more specific. However, values with high `wd_search$methodCMatch` look like good solutions indeed. But the situation is nowhere near clear: some solutions with very low match scores work as well. Some of the ideas on how to make this approach more conservative in its recommendiations on entity linking will be shared in the next notebook soon.
 
 ```{r echo = T}
 # - How good above sitelinks?

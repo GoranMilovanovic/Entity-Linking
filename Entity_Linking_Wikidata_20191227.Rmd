@@ -1,0 +1,592 @@
+---
+title: Entity Linking - From Wikipedia to Wikidata
+author:
+- name: Goran S. Milovanović
+  affiliation: Wikimedia Deutschland, Data Scientist, DataKolektiv, Owner
+date: "`r format(Sys.time(), '%d %B %Y')`"
+abstract: 
+output:
+  html_notebook:
+    code_folding: show
+    theme: spacelab
+    toc: yes
+    toc_float: yes
+    toc_depth: 5
+  html_document:
+    toc: yes
+    toc_depth: 5
+---
+
+![](img/DK_Logo_100.png)
+
+***
+
+**Feedback.** Feedback should be send to `goran.s.milovanovic@gmail.com`, `goran.milovanovic_ext@wikimedia.de`. 
+
+**Description. ** These notebook is a part of discussion with [Martin Gerlach](https://martingerlach.github.io/about/) of [Wikimedia Research](https://research.wikimedia.org/) on the possibility of performing fast and computationally efficient entity linking from [Wikipedia](https://www.wikipedia.org/) pages to [Wikidata](https://www.wikidata.org/wiki/Wikidata:Main_Page). **Such an approach, if possible to develop, would help improve our understanding of the distributive semantics of Wikipedia (e.g. by enriching the data sets used in topic modeling), and could serve as a basis of a recommendation system for what new internal links should be included in the existing Wikipedia pages**.
+
+### 0. Introduction
+
+**Background**. Many (presumeably all) Wikipedia pages encompass [internal links](https://en.wikipedia.org/wiki/Internal_link). An internal link from one Wikipedia page always points to another Wikipedia page. Given that there is a [Wikidata item](https://www.wikidata.org/wiki/Q16222597) for each Wikipedia page, entity linking to Wikidata is already solved for (potentially many) words and phrases found in Wikipedia natural text. Each Wikidata item has [sitelinks](https://www.wikidata.org/wiki/Help:Sitelinks): a list of Wikipedia pages (in any language present) whose topic is exactly that Wikidata item. It is thus possible to obtain all Wikidata items that are also internal links from some Wikipedia page by (a) first collecting all internal links from that page, and then (b) relying on the [MediaWiki API](https://www.mediawiki.org/wiki/API:Main_page) to find out their Wikidata items (e.g. by using `action=query&prop=pageprops` and passing on the `titles` argument to the API; see [API Pageprops documentation](https://www.mediawiki.org/wiki/API:Pageprops)).
+
+**The goal here is to go beyond the internal links and search through the natural text of Wikipedia articles, recognizing phrases that are not marked as internal links but still potentially represent Wikidata items that should be recognized and linked.**
+
+**Approach**. We will rely on structured representations from Wikidata only in this approach. This means the following: (a) we will study the properties describing the Wikidata item that corresponds to one single Wikipedia article under analysis, (b) parse the article with the [{udpipe}](https://cran.r-project.org/web/packages/udpipe/index.html) NLP toolkit in R in an attempt to recognize all interesting phrases that could be queried against the Wikidata search engine, (c) query all found phrases against Wikidata (this typically results in fetching more than one search result and then we are facing a form of a [Word-Sense Disambiguation problem](https://en.wikipedia.org/wiki/Word-sense_disambiguation)), (d) study the Wikidata properties in all items obtained from the Wikidata search engine, and (e) decide which phrase refers to what Wikidata item based on a comparison of the properties of the respective search results with the properties describing the article's item.
+
+Here's a (somewhat simplified) Synopsis of what we are about to the: 
+
+- We choose the English Wikipedia article on [Albert Einstein](https://en.wikipedia.org/wiki/Albert_Einstein). 
+
+- In the first phase **(a1)** we collect all internal links from this page, and then we
+
+- **(a2)** collect all Wikidata properties describing the Wikidata item [Q937 - Albert Einstein](https://www.wikidata.org/wiki/Q937). As we will see, our selection of properites and their values will be constrained - we will not really use all properties of the article's Wikidata item here.
+
+- In the second phase **(b)** we use the {udpipe} NLP toolkit in R to parse the content of the English Wikipedia article on Albert Einstein, resulting in the recognition of [UPOS tags](https://universaldependencies.org/u/pos/). The sequences of transformed UPOS tags are then parsed by a regular expression to single out noun phrases that will be queried against Wikidata as potential candidates for entity linking.
+
+- In the third phase **(c)** we query the Wikidata search engine by a list of phrases and collect all suggested results: for all queried phrases a list of Wikidata items that might correspond to a given phrase. In this phase we also collect the properties describing the suggested Wikidata items as we already did for the article's Wikidata item in **(a2)**.
+
+- In the fourth phase **(d)** we use two approaches (detailed below) to compare the properties-based description of the article's Wikidata item to all Wikidata items suggested as possible referents of the phrases found in the article's natural text, and finally 
+
+- In the fifth **(e)** phase we make a decision on what phrases should be linked to what Wikidata items based on the results obtained in **(d)**.
+
+The details follow.
+
+**Constraints**. This is an experiment only, conducted with one single Wikipedia page. A broader experiment encompassing many Wikipedia pages is being planned. At this point we are focusing on the English Wikipedia only. The code is inefficient: it relies on making many API calls and in-memory processing with R. Any future production ready solution relying on the results of this experiment must rely at least on (a) a carefully engineered data set from the Wikidata JSON dump to fetch items and properties efficiently, and on (b) a more proximal, efficient, and faster access to the Wikidata search engine. 
+
+***
+
+
+### 1. Init: R libraries, directory tree, and helper functions
+
+Beyond standard `{data.table}` and `{tidyverse}` R packages, we will be relying on the `{udpipe}` NLP toolkit to parse natural text and the `{WikidataR}` wrapper of the [Wikibase API](https://www.mediawiki.org/wiki/Wikibase/API). The directory tree matches exactly the tree in this GitHub repository: `data/` might never be used, `analytics/` is important because all final and intermediate results will be stored there, and `functions/` is where helper R functions are to be found (under `functions/WSD_WD_Functions.R`). NOTE: `udpipe_download_model(language = "english")` downloads the English {udpipe} model for UPOS tagging.
+
+```{r echo = T, message = F}
+### --- libraries
+library(data.table)
+library(tidyverse)
+library(udpipe)
+library(WikidataR)
+library(pluralize)
+
+### --- directories
+dataDir <- 'data/'
+analyticsDir <- 'analytics/'
+funDir <- 'functions/'
+
+### --- source helper functions
+source(paste0(funDir, 'WSD_WD_Functions.R'))
+
+### --- download and load {udpipe} English Model
+model <- udpipe_download_model(language = "english")
+```
+
+### 2. Obtain a Wikipedia page + its internal links 
+
+The following actions correspond to the phase **(a1)** from the Synopsis.
+We will use the English Wikipedia page on [Albert Einstein](https://en.wikipedia.org/wiki/Albert_Einstein). The `fetch_clean_wiki_text()` helper function collects the Wikitext of the page and cleans it up. Then we rely on the MediaWiki API to find out the Wikidata item corresponding to this page. The helper function `fetch_sitelinks()` collects all internal links found in the page and returns the respective Wikidata items. The resulting variable `target_page_sitelink` holds the `Q` Wikidata identifier of the article's item, while the resulting data.frame `sitelinks` encompasses the titles of the page's internal links under `title` and the corresponding `Q` identifiers in the `sitelink` column (note that we are using the term "sitelink" inconsistently here: a sitelink belongs to a Wikidata item, not to a page that it refers to).
+
+```{r echo = T}
+# - define target_page
+target_page <- 'Albert_Einstein'
+
+# - fetch full page text from English Wikipedia
+wiki_page <- fetch_clean_wiki_text(target_page)
+
+# - target page sitelink
+APIprefix <- 'https://en.wikipedia.org/w/api.php?'
+query <- paste0(APIprefix,
+                'action=query&prop=pageprops&format=json&titles=')
+tquery <- paste0(query, target_page)
+result <- GET(url = URLencode(tquery))
+# - parse result
+# - raw to char
+result <- rawToChar(result$content)
+# - to JSON:
+result <- fromJSON(result, simplifyDataFrame = T)
+if (!is.null(result$query$pages[[1]]$pageprops$wikibase_item)) {
+  target_page_sitelink <- result$query$pages[[1]]$pageprops$wikibase_item 
+} else {
+  target_page_sitelink <- NA
+}
+
+### --- Sitelinks from the target page 
+sitelinks <- fetch_sitelinks(target_page)
+# - remove trailing spaces from the titles, if any
+sitelinks$title <- str_trim(sitelinks$title, 'both')
+# - exemplify:
+target_page_sitelink
+```
+
+```{r echo = T}
+# - exemplify:
+head(sitelinks, 10)
+```
+
+### 3. Parse the Wikipedia page + extract phrases 
+
+We are neglecting step **(a2)** (in which we need to collect all Wikidata properties describing the Wikidata item) from the Synopsis for a moment and jump ahead to step **(b)**: using the {udpipe} NLP toolkit in R to parse the content of the English Wikipedia article on Albert Einstein and recognize the key phrases in it.
+
+First we load the downloaded {udpipe} English model and perform UPOS annotation:
+```{r echo = T}
+### --- UD tagging: Annotation
+# - load English model
+udmodel_english <- udpipe_load_model(file = model$file_model)
+# - prepare for Heuristic 1. Fix N-N-N... forms:
+wiki_page <- gsub("–", "-", wiki_page)
+# - annotate target page w. {udpipe::udpipe}
+# - UD tagging
+wiki_page_annotated <- udpipe(x = wiki_page,
+                             object = udmodel_english)
+```
+
+**NOTE.** The following code from the chunk above:
+
+```{r echo = T, eval = F}
+# - prepare for Heuristic 1. Fix N-N-N... forms:
+wiki_page <- gsub("–", "-", wiki_page)
+```
+
+is a preparation for the execution of one of the heuristics that we will use to clean up the selection of phrases from the page's natural text (see below).
+
+The UPOS tags are found in the `upos` field of the `wiki_page_annotated` data.frame now. We are ready for phrase extraction now. The {udpipe} `as_phrasemachine()` function will simplify the UPOS tags to a smaller set of tags which are than parsed by a regular expression that should return noun phrases only in the `keywords_phrases()` call (see [{udpipe} documentation](https://rdrr.io/cran/udpipe/man/keywords_phrases.html)):
+
+```{r echo = T}
+### --- Phrase Extraction
+
+# - udpipe::as_phrasemachine()
+# - NOTE: using a slightly adjusted regex for Simple noun phrase: (A|N|(PO(N)+))+N(P+D*(A|N)*N)*
+# - in place of the {udpipe} standard: (A|N)*N(P+D*(A|N)*N)*
+wiki_page_annotated$phrase_tag <- as_phrasemachine(wiki_page_annotated$upos, type = "upos")
+wiki_page_phrases_as_phrasemachine <- keywords_phrases(x = wiki_page_annotated$phrase_tag,
+                                                       term = wiki_page_annotated$token,
+                                                       pattern = "(A|N|(PO(N)+))+N(P+D*(A|N)*N)*",
+                                                       ngram_max = 10,
+                                                       is_regex = T,
+                                                       detailed = T)
+rm(wiki_page_annotated)
+```
+
+The `wiki_page_phrases_as_phrasemachine` data.frame now encompasses all selected phrases in the `keyword` field. Next we apply a set of heuristics - filters indeed - to clean up a few things that we did not like about the extracted phrases. 
+
+**NOTE:** this step in the phrase extraction relies on recognizing specific cases and can be further improved. We are really making a decision on what counts as a "candidate phrase" in the first place here.
+
+The first heuristic removes all phrases containing digits, since they prove to be a source of many confusions and probably deserve a special treatment in any entity-linking or word-sense disambiguation approach. We decide not to deal with them in this experiment.
+
+```{r echo = T}
+# - Heuristic 1. Remove phrases encompassing digits
+wiki_page_phrases_as_phrasemachine <- wiki_page_phrases_as_phrasemachine %>% 
+  dplyr::filter(!grepl("[[:digit:]]", wiki_page_phrases_as_phrasemachine$keyword))
+```
+
+Heuristic 2. will fix any phrase encompassing words connected by a dash `-` - the reason is trivial and it is that the `keywords_phrases()` function simply disconnects such phrases, thus failing to recognize things like `Einstein–de Haas experiment`... We have already prepared for the application of this heuristic immediately before performing UPOS tagging (see above):
+
+```{r echo = T}
+# - Heuristic 2. Fix N-N-N... forms following udpipe::udpipe::as_phrasemachine() run:
+w <- which(grepl(" - ", wiki_page_phrases_as_phrasemachine$keyword))
+wiki_page_phrases_as_phrasemachine$keyword[w] <- 
+  gsub(" - ", "-", wiki_page_phrases_as_phrasemachine$keyword[w])
+```
+
+Heuristic 3. removes any phrase that really represents an abbreviation that is to vague to disambiguate, e.g. "E. J. C." and similar:
+
+```{r echo = T}
+# - Heuristic 3. Remove N.N.N. ... forms (abbr.) - extremly difficult to disambiguate
+w <- which(grepl("^(([[:upper:]](\\.))(\\s)*)+((\\s$)|([[:upper:]]$|$))", 
+                 wiki_page_phrases_as_phrasemachine$keyword))
+if (length(w) > 0) {
+  wiki_page_phrases_as_phrasemachine <- wiki_page_phrases_as_phrasemachine[-w, ]
+}
+```
+
+Heuristic 4. searches for all phrases where the number of alphabetic characters is lower than three (3) and that are thus to vague for disambiguation (e.g. `e m`, which is a residua of a famous equation on the relationship between the mass, energy, and speed of light):
+
+```{r echo = T}
+# - Heuristic 4. Remove phrases w. sparse information
+# - e.g. "e m"
+# - criterion: nchar(phrases) < 3 counting the [[:alnum:]] regex class only
+h4criterion <- sapply(wiki_page_phrases_as_phrasemachine$keyword, 
+                      function(x) {
+                        s <- length(unlist(str_extract_all(x, '[[:alnum:]]')))
+                      })
+w <- which(h4criterion < 3)
+if (length(w) > 0) {
+  wiki_page_phrases_as_phrasemachine <- wiki_page_phrases_as_phrasemachine[-w, ]
+}
+```
+
+Remove trailing spaces from the phrases before Wikidata search, if any are found:
+
+```{r echo = T}
+# - eliminate trailing spaces, if any
+wiki_page_phrases_as_phrasemachine$keyword <- 
+  str_trim(wiki_page_phrases_as_phrasemachine$keyword, 'both')
+```
+
+and remove any duplicates:
+
+```{r echo = T}
+# - find duplicates, if any
+# - drop start, end to find duplicates
+wiki_page_phrases_as_phrasemachine$start <- NULL
+wiki_page_phrases_as_phrasemachine$end <- NULL
+# - eliminate duplicates
+wiki_page_phrases_as_phrasemachine <- 
+  wiki_page_phrases_as_phrasemachine[!duplicated(wiki_page_phrases_as_phrasemachine$keyword), ]
+```
+
+Add singular forms to any plural ones in `wiki_page_phrases_as_phrasemachine$keyword`. We will use the `singularize()` function from the `{pluralize}` package to transform all plural forms to singular forms. Our previous experiments with Wikidata search have shown that this preparatory step might be necessary for successful search across the Wikidata entities.
+
+```{r echo = T}
+# - singularize wiki_page_phrases_as_phrasemachine$keyword:
+singularForms <- singularize(wiki_page_phrases_as_phrasemachine$keyword)
+searchPhrases <- data.frame(originalPhrase = wiki_page_phrases_as_phrasemachine$keyword,
+                            searchPhrase = singularForms, 
+                            stringsAsFactors = FALSE)
+originalForms <- data.frame(originalPhrase = wiki_page_phrases_as_phrasemachine$keyword,
+                            searchPhrase = wiki_page_phrases_as_phrasemachine$keyword, 
+                            stringsAsFactors = FALSE)
+searchPhrases <- rbind(searchPhrases, originalForms) %>% 
+  dplyr::arrange(originalPhrase)
+searchPhrases <- searchPhrases[!duplicated(searchPhrases), ]
+# - clear 
+rm(wiki_page_phrases_as_phrasemachine); rm(originalForms)
+# - exemplify:
+head(searchPhrases, 100)
+```
+
+The `searchPhrases` vector is now ready to be queried against Wikidata.
+
+### 4. Search for recognized phrases in Wikidata: produce candidates for entity-linking
+
+In this section we go straight to the phase **(c)** from the Synopsis and query the Wikidata search engine by a list of phrases and collect all suggested results: for all queried phrases a list of Wikidata items that might correspond to a given phrase. Again, the phrases are found in `searchPhrases`. We will rely on the helper function `search_wikidata()` from the `WSD_WD_Function.R` script. This function (1) connects to the Wikidata API through the `{WikidataR}` package to access the Wikidata search engine (calling `find_item()`), (2) searches w. regex through the Wikidata **labels** and **aliases** for an **exact match** with the phrase query (where by "exact" we mean the inclusion of "^" at the begining and "$" at the end of the phrase query), and (3) returns the URI (the `Q` identifier), label, alias, description of all matching results. **NOTE.** All search results containing `disambiguation page` in their description are removed.
+
+```{r echo = T}
+### --- Search for recognized phrases in Wikidata
+# - use {WikidataR} search function: WikidataR::find_item(x) in
+# - the helper function search_wikidata()` from the `WSD_WD_Function.R` script
+# - NOTE: almost the same approach as used in:
+# - https://github.com/datakolektiv/MilanoR2019
+# - notebook: 02_WikidataMatch.nb.html
+# - Section 3. {WikidataR} search for our entities
+# - used in search_wikidata() function in WSD_WD_Functions.R
+# - report:
+t1 <- Sys.time()
+print(paste0("Started {WikidataR} search: ", t1))
+wd_search <- apply(searchPhrases, 1, search_wikidata)
+# - collect results:
+wd_search <- rbindlist(wd_search)
+# - remove every entry in wd_search where 
+# - the concept uri field is absent:
+wd_search <- dplyr::filter(wd_search, 
+                           !is.na(uri))
+# - report:
+t2 <- Sys.time()
+print(paste0("Ended {WikidataR} search: ", t2))
+print(paste0("WikidataR search took: ", difftime(t2, t1, units = "mins")))
+# - clean from disambiguation pages in the description field
+wd_search <- dplyr::filter(wd_search, 
+                           !(grepl("disambiguation page", wd_search$description, ignore.case = TRUE)))
+# - drop wd_search$immediateSearchText and check for duplicates:
+wd_search$immediateSearchText <- NULL
+wd_search <- wd_search[!duplicated(wd_search), ]
+# - store wd_search
+write.csv(wd_search, 
+          paste0(analyticsDir, "wd_search.csv"))
+# - exemplify:
+head(wd_search, 1000)
+```
+
+The data.frame `wd_search` - which we have stored in `analytics/wd_search.csv` - has the `searchText` field with the exact phrase that was queried against Wikidata's search engine. Each phrase is repeated as many times as there were candidate Wikidata items whose labels or aliases matched the phrase in the `searchText` field exactly; descriptions and URIs (the Wikidata `Q` identifiers) are also provided in `wd_search`. Now, we need to disambiguate and find out about the correspondence of phrases and Wikidata items.
+
+### 5. Disambiguation
+
+Let us remind that we have skipped the phase **(a2)** from the Synopsis: the search for properties describing the article's Wikidata item. Also, we have skipped to look into such properites for the candidate items for disambiguation found in the `uri` field of the `wd_search` data.frame that we have just produced. We will now go for them describing exactly the approach to describe the candidate Wikidata items for disambiguation as we progress.
+
+#### 5.A Method A: Sitelinks
+
+First, let's also not forget about the page's internal links: they are disambiguated against Wikidata per definition. Let's recognize that fact. All Wikidata items for the page's internal links are found in `sitelinks$sitelink`, so let's see which `wd_search$uri` match:
+
+```{r echo = T}
+# - Method A. Sitelinks
+wd_search$methodSitelinks <- FALSE
+w <- which(gsub("http://www.wikidata.org/entity/", "", wd_search$uri) %in% sitelinks$sitelink)
+wd_search$methodSitelinks[w] <- TRUE
+wd_search$methodSitelinksResult <- ifelse(wd_search$methodSitelinks, 
+                                          gsub("http://www.wikidata.org/entity/", "", wd_search$uri), 
+                                          NA) 
+```
+
+Now we have the `methodSitelinks` field in `wd_search`: it is `TRUE` if the respective URI is found among the page's internal links and `FALSE` otherwise. We will also refer to this method to disambiguate (which is really what we get for free) as **Method A** simply because we will now introduce two new disambiguation approaches that will be termed as **Method B** and **Method C**, respectivelly.
+
+#### 5.B Method B: Conceptual Match
+
+Think of the page's Wikidata item, which is [Q937 - Albert Einstein](https://www.wikidata.org/wiki/Q937) in this case. Let's call this item a **target item** to avoid confusion in what follows. The target item, as any other Wikidata item indeed, is described by a set of properties in Wikidata: `P31`, maybe `P279`, `P21`, etc. Now, only some among the properites that describe any Wikidata item take other Wikidata items as their values. Think of all the Wikidata items that play a role of a property value in the description of any other given Wikidata item. If one needs to disambiguate the phrases found in natural text - a Wikipedia page in this case - describing one Wikidata item, wouldn't it be natural to think that if a phrase matches a Wikidata item that is used as a property value in the description of the target item then that item is probably a good disambiguation solution for that phrase?
+Example: [P800 (notable work)](https://www.wikidata.org/wiki/Property:P800) is a Wikidata property used to describe [Q937 - Albert Einstein](https://www.wikidata.org/wiki/Q937). We find the phrase `theory of relativity` in the English Wikipedia article on Albert Einstein, and upon Wikidata search for that phrase it turns out that the Wikidata item [Q11455 - special relativity](https://www.wikidata.org/wiki/Q11455) is suggested as one of the candidates matching that phrase. Because we find that [Q11455 - special relativity](https://www.wikidata.org/wiki/Q11455) is also used as a value for [P800 (notable work)](https://www.wikidata.org/wiki/Property:P800) in the description of [Q937 - Albert Einstein](https://www.wikidata.org/wiki/Q937), we immediatly decide to single it out as a disambiguation solution for the respective phrase.
+
+In the following chunk we use the `WikidataR::get_item()` function to fetch all the data on the target item [Q937 - Albert Einstein](https://www.wikidata.org/wiki/Q937) from Wikidata, then we parse the item in search of all properties that also have a Wikidata item as their value type, and finally collect all such items in the `target_context_item` vector. **NOTE.** We include the target item in this description per definition (i.e. rarely or never will a Wikipedia page have an internal link to itself, so we need to included it explicitly if the phrase matching the title of the page appears in the page's text).
+
+```{r echo = T}
+# - Method B. Property Values that are *Wikidata items*
+# - collect all properties that describe 
+# - the Wikidata entity of the target page
+target_entity <- WikidataR::get_item(target_page_sitelink)
+# - fetch all property values that are Wikidata entities
+target_context <- lapply(target_entity[[1]]$claims, function(x) {
+  datavalue <- x$mainsnak$datavalue$value
+  if ('entity-type' %in% colnames(datavalue)) {
+    datavalue <- datavalue$id
+    return(datavalue)
+  } else {
+    return(NULL)
+  }
+})
+# - target_context_item: all Wikidata items
+# - that play a role of a value for a property
+# - describing the target page Wikidata entity
+target_context_item <- unique(unlist(target_context))
+# - clean up from NAs if any
+wNA <- which(is.na(target_context_item))
+if (length(wNA) > 0) {
+  target_context_item <- target_context_item[-wNA]
+}
+# - include target_page's entity
+target_context_item <- c(target_context_item, target_page_sitelink)
+# - examplify:
+paste0(
+  "This items play a role of a property value in the Wikidata representation of the target item: ", 
+  paste(head(target_context_item, 100), collapse = ", "),
+  ", ..."
+)
+```
+
+Now we apply our Method B (Conceptual Match) to the phrases found in `wd_search`. We simply look at `wd_search$uri` and ask if it is found in the `target_context_item` vector (where we keep the items used as property values in the target item's Wikidata represenation). The new field `wd_search$methodB` in `wd_search` will be `TRUE` if the Method B found a match and `FALSE` if not, while the field `wd_search$methodBResult` will copy the URI of the solution.
+
+As it will become evident soon, Method B is very similar to what we will discuss as Method C. However, we have singled out the Method B solutions simply because *prima facie*, upon our first inspection, they looked like *perfect* disambiguation solutions for entity-linking against Wikidata.
+
+```{r echo = T}
+# - apply Method B: wd_search$uri and figure out
+# - if any of them are found in the target_context_item
+# - vector of Wikidata items
+w_in_target_context <-  which(
+  gsub('http://www.wikidata.org/entity/', '', wd_search$uri) %in% target_context_item)
+wd_search$methodB <- F
+if (length(w_in_target_context) > 0) {
+  wd_search$methodB[w_in_target_context] <- T
+}
+wd_search$methodBResult <- ifelse(wd_search$methodB, 
+                                  gsub("http://www.wikidata.org/entity/", "", wd_search$uri),
+                                  NA)
+```
+
+#### 5.C Method C: Relational Conceptual Match
+
+We are now going beyond simple conceptual match to include the Wikidata properties in our attempts at disambiguation for entity-linking. Again, each Wikidata item is described by a set of properties. If there is a high match between the properites describing a target item and some other item which is recognized as a disambiguation candidate for a given phrase, shouldn't that item be recognized as a possible disambiguation solution for that phrase? We can include even more specific information by inspecting the property-value pairs were a value is always another Wikidata item, e.g. `P31-Q5`, `P21-Q6581097`, P27-Q43287`, etc, where the `Q` Wikidata item after the dash represents the value that a particular property takes in the description of the item.
+
+In the following lines, we enlist all properties describing the target item irrespective of whether they take Wikidata items or something else as their values. Than we do the same for all candidate items found in the `wd_search$uri` field. We also collect all property-item pairs for properties that take Wikidata items as their values, and do the same for all candidate items in `wd_search$uri`. We then compute a simple match between the vectors describing the target item and all candidate items. We do that in a hope that a high match score means better disambiguation. We will select the recommended solutions by looking at all Wikidata items suggested as possible disambiguation solutions for a single phrase and picking the one with the highest match score.
+
+The next chunk collects all properites of the target item and all property-item pairs for those properties that take items as their values:
+```{r echo = T}
+# - Method C. Properties and property-item pairs
+# - collect all properties and property-item pairs that describe 
+# - the Wikidata entity of the target page;
+# - collect all properties and property-item pairs that describe
+# - the Wikidata entities of the candidates for WSD;
+# - match and compare.
+
+# - target_context_property: properties
+target_context_property <- names(target_context)
+# - target_context_property_item: property-item pairs
+target_context_property_item <- lapply(target_context_property, function(x) {
+  w <- which(names(target_context) %in% x)
+  p_i <- paste(x, unlist(target_context[w]), sep = "-")
+  p_i[!grepl("-$|-NA$", p_i)]
+})
+target_context_property_item <- unlist(target_context_property_item)
+# - put properties + property-item pairs together in one search vector:
+# - target_context_property_item
+target_context_property_item <- c(target_context_property, target_context_property_item)
+# - store target_context_property_item
+saveRDS(target_context_property_item, 
+        paste0(analyticsDir, "target_context_property_item.Rds"))
+# - exemplify:
+target_context_property_item
+```
+
+The `target_context_property_item` vector (above) describes the target item.  Now we need to produce similar description vectors for all candidate Wikidata items in `wd_search$uri`.
+**NOTE.** This procedure makes a lot of API calls and takes some time to execute. The reporting lines were commented out from the R code.
+
+```{r echo = T}
+# - wd_search by target_context_property_item
+# - collect target_context_property_item vectors for all
+# - candidate Wikidata URIs
+unsolved_concept <- unique(wd_search$uri)
+unsolved_concept <- gsub("http://www.wikidata.org/entity/", "", unsolved_concept)
+unsolved_context_property_item <- vector(mode = "list", length = length(unsolved_concept))
+# - report:
+t1 <- Sys.time()
+print(paste0("Started {WikidataR} search: ", t1))
+for (i in 1:length(unsolved_concept)) {
+  
+  # - get Wikidata item
+  unsolved_entity <- WikidataR::get_item(unsolved_concept[i])
+  # - fetch all property values that are Wikidata entities
+  unsolved_context <- lapply(unsolved_entity[[1]]$claims, function(x) {
+    datavalue <- x$mainsnak$datavalue$value
+    if ('entity-type' %in% colnames(datavalue)) {
+      datavalue <- datavalue$id
+      return(datavalue)
+    } else {
+      return(NULL)
+    }
+  })
+  # - unsolved_context_property_item
+  unsolved_context_property <- names(unsolved_context)
+  c_p_i <- lapply(unsolved_context_property, function(x) {
+    w <- which(names(unsolved_context) %in% x)
+    p_i <- paste(x, unlist(unsolved_context[w]), sep = "-")
+    p_i[!grepl("-$|-NA$", p_i)]
+  })
+  c_p_i <- unlist(c_p_i)
+  c_p_i <- c(unsolved_context_property, c_p_i)
+  # - return
+  if (length(c_p_i > 0)) {
+    unsolved_context_property_item[[i]] <- c_p_i  
+  } else {
+    unsolved_context_property_item[[i]] <- NA
+  }
+  
+  # # - report
+  # print(paste0("Fetched entity: ", i, ". out of ", 
+  #              length(unsolved_concept), 
+  #              ": ", 
+  #              round(i/length(unsolved_concept), 4) * 100, 
+  #              "%; ",
+  #              "Found: ", length(unsolved_context_property_item[[i]]), " property-item pairs.")
+  # )
+}
+# - report:
+t2 <- Sys.time()
+print(paste0("Ended {WikidataR} search: ", t2))
+print(paste0("WikidataR search took: ", difftime(t2, t1, units = "mins")))
+names(unsolved_context_property_item) <- unsolved_concept
+# - find empty elements in unsolved_context_property_item, if any
+# - and remove
+w <- which(is.na(unsolved_context_property_item))
+if (length(w) > 0) {
+  unsolved_context_property_item <- unsolved_context_property_item[-w]
+}
+# - store unsolved_context_property_item
+saveRDS(unsolved_context_property_item, 
+        paste0(analyticsDir, 'unsolved_context_property_item.Rds'))
+```
+
+The `unsolved_context_property_item` variable is a named `list`, each component holding a vector of properties and property-items pairs describing the items in `wd_search$uri`. The component names correspond to the values in `wd_search$uri`. Next we compare each vector - corresponding to a single entity in `wd_search$uri` - with the `target_context_property_item` vector describing the target item. We introduce three new columns to the `wd_search` data.frame: `wd_search$methodCMatch` which is a count of identical elements in the two vectors (i.e. a match score), `wd_search$methodC` which is `TRUE` if the respective URI has the maximum match score among the candidates to disambiguate the same phrase, and `wd_search$methodCResult` which copies the URI of the suggested disambiguation result.
+
+```{r echo = T}
+# - apply Method C.
+# - match target_context_property_item w. unsolved_context_property_item:
+# - calculate the match between each candidate entity's representation
+# - (unsolved_context_property_item) in wd_search by the target page's 
+# - represenation (target_context_property_item)
+match_context_property_item <- sapply(unsolved_context_property_item, 
+                                      function(x) {
+                                        sum(x %in% target_context_property_item)
+                                      })
+match_context_property_item <- data.frame(entity = names(match_context_property_item), 
+                                          methodCMatch = match_context_property_item, 
+                                          stringsAsFactors = F)
+# - join match_context_property_item to wd_search:
+match_context_property_item$entity <- 
+  paste0("http://www.wikidata.org/entity/", match_context_property_item$entity)
+wd_search <- left_join(wd_search, 
+                       match_context_property_item, 
+                       by = c("uri" = "entity"))
+# - select winning candidates by Method C in wd_search
+# - i.e. those having the highest methodCMatch score 
+# - amongst the candidates for the same searchText
+methodCResult <- lapply(unique(wd_search$searchText), 
+                        function(x) {
+                          w <- which(wd_search$searchText %in% x)
+                          dat <- wd_search[w, ]
+                          w <- which.max(dat$methodCMatch)
+                          paste(dat$uri[w], collapse = ", ")
+                        })
+methodCResult <- unlist(methodCResult)
+methodCResult <- data.frame(searchText = unique(wd_search$searchText), 
+                            methodCResult = methodCResult,
+                            stringsAsFactors = F)
+wd_search <- left_join(wd_search,
+                       methodCResult, 
+                       by = 'searchText')
+wd_search$methodC <- wd_search$uri == wd_search$methodCResult
+wd_search$methodCResult <- ifelse(wd_search$methodC, 
+                                  wd_search$methodCResult, 
+                                  NA)
+wd_search$methodCResult <- gsub("http://www.wikidata.org/entity/", "", wd_search$methodCResult)
+write.csv(wd_search, 
+          paste0(analyticsDir, 'wd_search.csv'))
+```
+
+### 6. Solutions
+
+Now we have the (a) internal links found in the page, (b) the Method B (Conceptual Match) suggestions, and (c) the Method C (Relational Conceptual Match) all in `wd_search`.
+To enable for at least a prima facie evaluation of this experiment, we first keep all entity-linking solutions following the criterion that an URI is suggested as a solution both by Method B and Method C, and then count how many new entities are found beyond what was already recognized as an internal link on the page.
+
+```{r echo = T}
+# - only methods B, C
+wd_disambiguated_new <- dplyr::filter(wd_search,
+                                      ((!methodSitelinks) & (methodB|methodC)))
+wd_disambiguated_new <- arrange(wd_disambiguated_new, desc(methodCMatch))
+wd_disambiguated_new <- wd_disambiguated_new[!duplicated(wd_disambiguated_new), ]
+wd_disambiguated_new <- dplyr::arrange(wd_disambiguated_new, 
+                                       desc(methodB),
+                                       desc(methodCMatch))
+write.csv(wd_disambiguated_new, 
+          paste0(analyticsDir, 'wd_search_MethodBC_solutions.csv'))
+```
+
+Here are the proposed new entities found in the English Wikipedia page on Albert Einstein, in the following format (**NOTE.** the list is ordered in a decreasing order of `wd_search$methodCMatch`, the matching score from Method C)
+
+`phrase` - `(Wikidata label - Wikidata description)`:
+
+```{r echo = T}
+print(paste(wd_disambiguated_new$searchText,
+            " - (",
+            wd_disambiguated_new$label,
+            " - ",
+            wd_disambiguated_new$description,
+            ")", 
+            collapse = ", ", sep = "")
+)
+```
+
+Obviously, a cut-off value for `wd_search$methodCMatch` is badly needed to make this selection more specific. However, values with high `wd_search$methodCMatch` look like good solutions indeed. But the situation is nowhere near clear: some solutions with very low match scores work as well. Some of the ideas on how to make this approach more conservative in its recommendiations on entity linking will be shared in the next notebook soon.
+
+```{r echo = T}
+# - How good above sitelinks?
+n_sitelinks <- dim(sitelinks)[1]
+n_new <- sum(!(gsub("http://www.wikidata.org/entity/", "", wd_disambiguated_new$uri) %in% sitelinks$sitelink))
+print(paste0("The number of internal links found in the page: ", 
+             n_sitelinks, "; ", 
+             "The number of newly suggested entity links: ",
+             n_new, "."))
+```
+
+
+***
+Goran S. Milovanović
+
+DataKolektiv, 2019.
+
+contact: datakolektiv@datakolektiv.com
+
+![](img/DK_Logo_100.png)
+
+***
+License: [GPLv3](http://www.gnu.org/licenses/gpl-3.0.txt)
+This Notebook is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
+This Notebook is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more details.
+You should have received a copy of the GNU General Public License along with this Notebook. If not, see <http://www.gnu.org/licenses/>.
+
+***
+

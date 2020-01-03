@@ -1,0 +1,583 @@
+"","searchText","label","alias","description","uri","methodSitelinks","methodSitelinksResult","methodB","methodBResult","methodCMatch","methodCResult","methodC"
+"1","Albert Einstein","Albert Einstein",NA,"German-born physicist and founder of the theory of relativity","http://www.wikidata.org/entity/Q937",FALSE,NA,TRUE,"Q937",417,"Q937",TRUE
+"2","United States","United States of America",NA,"federal republic in North America","http://www.wikidata.org/entity/Q30",FALSE,NA,TRUE,"Q30",53,"Q30",TRUE
+"3","Charles University","Charles University",NA,"oldest and largest university in the Czech Republic","http://www.wikidata.org/entity/Q31519",FALSE,NA,TRUE,"Q31519",30,"Q31519",TRUE
+"4","Charles University in Prague","Charles University","Charles University in Prague","oldest and largest university in the Czech Republic","http://www.wikidata.org/entity/Q31519",FALSE,NA,TRUE,"Q31519",30,"Q31519",TRUE
+"5","Hermann Einstein","Hermann Einstein",NA,"German electrical engineer and businessman, father of Albert Einstein","http://www.wikidata.org/entity/Q88665",FALSE,NA,TRUE,"Q88665",29,"Q88665",TRUE
+"6","Jewish religion","Judaism","Jewish religion","ancient, monotheistic, Abrahamic religion with the Torah as its foundational text","http://www.wikidata.org/entity/Q9268",FALSE,NA,TRUE,"Q9268",27,"Q9268",TRUE
+"7","National Academy","National Academy of Sciences",NA,"science branch of the United States National Academies","http://www.wikidata.org/entity/Q270794",FALSE,NA,TRUE,"Q270794",25,"Q270794",TRUE
+"8","National Academy of Science","National Academy of Sciences",NA,"science branch of the United States National Academies","http://www.wikidata.org/entity/Q270794",FALSE,NA,TRUE,"Q270794",25,"Q270794",TRUE
+"9","human beings","human","human being","common name of Homo sapiens, unique extant species of the genus Homo","http://www.wikidata.org/entity/Q5",FALSE,NA,TRUE,"Q5",20,"Q5",TRUE
+"10","Pauline Koch","Pauline Koch",NA,"(1858-1920)","http://www.wikidata.org/entity/Q4357787",FALSE,NA,TRUE,"Q4357787",19,"Q4357787",TRUE
+"11","Kaiser Wilhelm","Kaiser Wilhelm Society",NA,"German Scientific Institution","http://www.wikidata.org/entity/Q708038",FALSE,NA,TRUE,"Q708038",16,NA,FALSE
+"12","theoretical physics","theoretical physics",NA,"branch of physics","http://www.wikidata.org/entity/Q18362",FALSE,NA,TRUE,"Q18362",7,"Q18362",TRUE
+"13","Theoretical Physics","theoretical physics",NA,"branch of physics","http://www.wikidata.org/entity/Q18362",FALSE,NA,TRUE,"Q18362",7,"Q18362",TRUE
+"14","ETH Zurich","ETH Zurich University Archives",NA,"institutional archives of ETH Zurich","http://www.wikidata.org/entity/Q39934978",FALSE,NA,TRUE,"Q39934978",6,NA,FALSE
+"15","theoretical physicist","theoretical physicist",NA,"occupation","http://www.wikidata.org/entity/Q19350898",FALSE,NA,TRUE,"Q19350898",5,"Q19350898",TRUE
+"16","theoretical physics","theoretical physicist",NA,"occupation","http://www.wikidata.org/entity/Q19350898",FALSE,NA,TRUE,"Q19350898",5,NA,FALSE
+"17","Theoretical Physics","theoretical physicist",NA,"occupation","http://www.wikidata.org/entity/Q19350898",FALSE,NA,TRUE,"Q19350898",5,NA,FALSE
+"18","Foreign Member","Foreign Member of the Royal Society",NA,NA,"http://www.wikidata.org/entity/Q14906020",FALSE,NA,TRUE,"Q14906020",4,"Q14906020",TRUE
+"19","Foreign Member of the Royal","Foreign Member of the Royal Society",NA,NA,"http://www.wikidata.org/entity/Q14906020",FALSE,NA,TRUE,"Q14906020",4,"Q14906020",TRUE
+"20","Foreign Member of the Royal Society","Foreign Member of the Royal Society",NA,NA,"http://www.wikidata.org/entity/Q14906020",FALSE,NA,TRUE,"Q14906020",4,"Q14906020",TRUE
+"21","full professor","full professor",NA,"highest academic rank at universities (i.e. full professor)","http://www.wikidata.org/entity/Q25339110",FALSE,NA,TRUE,"Q25339110",1,NA,FALSE
+"22","Sir Arthur","Arthur Conan Doyle","Sir Arthur Ignatius Conan Doyle","Scottish physician and author","http://www.wikidata.org/entity/Q35610",FALSE,NA,FALSE,NA,142,"Q35610",TRUE
+"23","President Roosevelt","Theodore Roosevelt","President Roosevelt","American politician, 26th President of the United States (in office from 1901 to 1909)","http://www.wikidata.org/entity/Q33866",FALSE,NA,FALSE,NA,121,"Q33866",TRUE
+"24","Baruch Spinoza","John Milton","Baruch Spinoza","English epic poet","http://www.wikidata.org/entity/Q79759",FALSE,NA,FALSE,NA,111,"Q79759",TRUE
+"25","Kaiser Wilhelm","Wilhelm II","Kaiser Wilhelm II","German Emperor and King of Prussia","http://www.wikidata.org/entity/Q2677",FALSE,NA,FALSE,NA,100,"Q2677",TRUE
+"26","Leó Szilárd","Leó Szilárd",NA,"physicist and biologist","http://www.wikidata.org/entity/Q153238",FALSE,NA,FALSE,NA,91,"Q153238",TRUE
+"27","Sir Herbert","Herbert Edward Read","Sir Herbert Edward Read","English anarchist, poet, and critic of literature and art","http://www.wikidata.org/entity/Q460061",FALSE,NA,FALSE,NA,70,"Q460061",TRUE
+"28","J. S. Bell","John Stewart Bell","J. S. Bell","Northern Irish physicist","http://www.wikidata.org/entity/Q370077",FALSE,NA,FALSE,NA,65,"Q370077",TRUE
+"29","John Francis","Guercino","John Francis Barbieri","painter of the Italian 17th century","http://www.wikidata.org/entity/Q334262",FALSE,NA,FALSE,NA,65,"Q334262",TRUE
+"30","Herbert Samuel","Herbert Samuel, 1st Viscount Samuel",NA,"British politician","http://www.wikidata.org/entity/Q335218",FALSE,NA,FALSE,NA,60,"Q335218",TRUE
+"31","Sir Herbert Samuel","Herbert Samuel, 1st Viscount Samuel","Sir Herbert Samuel","British politician","http://www.wikidata.org/entity/Q335218",FALSE,NA,FALSE,NA,60,"Q335218",TRUE
+"32","Hans Albert","Hans Albert",NA,"German philosopher","http://www.wikidata.org/entity/Q62309",FALSE,NA,FALSE,NA,58,"Q62309",TRUE
+"33","General Eric","Erich von Falkenhayn","General Erich Georg Anton von Falkenhayn","Chief of Germany's General Staff during the first two years of the First World War","http://www.wikidata.org/entity/Q57153",FALSE,NA,FALSE,NA,48,"Q57153",TRUE
+"34","old he","Francisco Herrera the Elder","Old Herrera","Spanish artist","http://www.wikidata.org/entity/Q454912",FALSE,NA,FALSE,NA,41,"Q454912",TRUE
+"35","Eric Drummond","Eric Drummond, 16th Earl of Perth",NA,"Scottish diplomat, Secretary General of the League of Nations","http://www.wikidata.org/entity/Q335120",FALSE,NA,FALSE,NA,40,"Q335120",TRUE
+"36","Du Bois","Guy Pène du Bois","Du Bois","American painter, critic and educator","http://www.wikidata.org/entity/Q5622550",FALSE,NA,FALSE,NA,34,"Q5622550",TRUE
+"37","Jost Winteler","Jost Winteler",NA,"Swiss linguist, teacher, ornithologist and poet, and Albert Einstein's housefather at Aarau (1846-1929)","http://www.wikidata.org/entity/Q18021448",FALSE,NA,FALSE,NA,33,"Q18021448",TRUE
+"38","German Democratic","German Democratic Republic",NA,"former communist country, 1949-1990","http://www.wikidata.org/entity/Q16957",FALSE,NA,FALSE,NA,32,"Q16957",TRUE
+"39","International Committee","International Committee of the Red Cross",NA,"humanitarian institution","http://www.wikidata.org/entity/Q5987345",FALSE,NA,FALSE,NA,32,"Q5987345",TRUE
+"40","Thomas Stoltz","Thomas Stoltzer",NA,"German renaissance composer","http://www.wikidata.org/entity/Q324586",FALSE,NA,FALSE,NA,31,"Q324586",TRUE
+"41","New York","New York City",NA,"city in state of New York, largest city in the United States by population","http://www.wikidata.org/entity/Q60",FALSE,NA,FALSE,NA,30,"Q60",TRUE
+"42","New York City","New York City",NA,"city in state of New York, largest city in the United States by population","http://www.wikidata.org/entity/Q60",FALSE,NA,FALSE,NA,30,"Q60",TRUE
+"43","De Haan","Meijer de Haan","De Haan","Dutch painter","http://www.wikidata.org/entity/Q2297603",FALSE,NA,FALSE,NA,29,"Q2297603",TRUE
+"44","de Haas","Meijer de Haan","De Haan","Dutch painter","http://www.wikidata.org/entity/Q2297603",FALSE,NA,FALSE,NA,29,"Q2297603",TRUE
+"45","De Haas","Meijer de Haan","De Haan","Dutch painter","http://www.wikidata.org/entity/Q2297603",FALSE,NA,FALSE,NA,29,"Q2297603",TRUE
+"46","Federal Bureau","Federal Bureau of Investigation",NA,"Law enforcement agency","http://www.wikidata.org/entity/Q8333",FALSE,NA,FALSE,NA,28,"Q8333",TRUE
+"47","Federal Bureau of Investigation","Federal Bureau of Investigation",NA,"Law enforcement agency","http://www.wikidata.org/entity/Q8333",FALSE,NA,FALSE,NA,28,"Q8333",TRUE
+"48","Los Angeles","Los Angeles",NA,"county seat of Los Angeles County, California; second largest city in the United States by population","http://www.wikidata.org/entity/Q65",FALSE,NA,FALSE,NA,28,"Q65",TRUE
+"49","Nobel Prize","Nobel Prize",NA,"set of annual international awards, primarily 5 established in 1895 by Alfred Nobel","http://www.wikidata.org/entity/Q7191",FALSE,NA,FALSE,NA,26,"Q7191",TRUE
+"50","periodic table","periodic table",NA,"a chart used to organize elements based on atomic number.","http://www.wikidata.org/entity/Q10693",FALSE,NA,FALSE,NA,24,"Q10693",TRUE
+"51","Technische Hochschule","Technical University of Munich","Technische Hochschule","research university in Germany","http://www.wikidata.org/entity/Q157808",FALSE,NA,FALSE,NA,24,"Q157808",TRUE
+"52","National Association","National Association for the Advancement of Colored People",NA,"advocacy group","http://www.wikidata.org/entity/Q502044",FALSE,NA,FALSE,NA,23,"Q502044",TRUE
+"53","National Association for the Advancement","National Association for the Advancement of Colored People",NA,"advocacy group","http://www.wikidata.org/entity/Q502044",FALSE,NA,FALSE,NA,23,"Q502044",TRUE
+"54","nuclear weapons","nuclear weapon",NA,"explosive device that derives its destructive force from nuclear reactions","http://www.wikidata.org/entity/Q12802",FALSE,NA,FALSE,NA,22,"Q12802",TRUE
+"55","nuclear weapons","nuclear weapon","nuclear weapons","explosive device that derives its destructive force from nuclear reactions","http://www.wikidata.org/entity/Q12802",FALSE,NA,FALSE,NA,22,"Q12802",TRUE
+"56","European universities","Viadrina European University","European University Viadrina Frankfurt (Oder)","university","http://www.wikidata.org/entity/Q149481",FALSE,NA,FALSE,NA,21,"Q149481",TRUE
+"57","First Impression","Pride and Prejudice","First Impressions","novel by Jane Austen","http://www.wikidata.org/entity/Q170583",FALSE,NA,FALSE,NA,21,"Q170583",TRUE
+"58","Mayor John","Jahja Daniel Dharma","Mayor John Lie","Indonesian general","http://www.wikidata.org/entity/Q5239332",FALSE,NA,FALSE,NA,21,"Q5239332",TRUE
+"59","American universities","American University of Beirut",NA,"private university in Lebanon","http://www.wikidata.org/entity/Q469482",FALSE,NA,FALSE,NA,20,"Q469482",TRUE
+"60","Democratic Party","Democratic Party",NA,"political party in the United States","http://www.wikidata.org/entity/Q29552",FALSE,NA,FALSE,NA,20,"Q29552",TRUE
+"61","queen mother","Yaa Asantewaa","Queen Mother of Ejisu","Ashanti Queen Mother and military leader","http://www.wikidata.org/entity/Q467803",FALSE,NA,FALSE,NA,20,"Q467803",TRUE
+"62","hundred years","Hundred Years' War",NA,"series of conflicts from 1337 to 1453 between France and England","http://www.wikidata.org/entity/Q12551",FALSE,NA,FALSE,NA,19,"Q12551",TRUE
+"63","Metropolitan Opera","Metropolitan Opera House",NA,"former opera house, the former home of the Metropolitan Opera Company in New York City, United States","http://www.wikidata.org/entity/Q6825160",FALSE,NA,FALSE,NA,19,"Q6825160",TRUE
+"64","one hundred years","One Hundred Years of Solitude",NA,"novel by Gabriel García Márquez","http://www.wikidata.org/entity/Q178869",FALSE,NA,FALSE,NA,18,"Q178869",TRUE
+"65","world federation","World Federation of Trade Unions",NA,"international organization","http://www.wikidata.org/entity/Q748999",FALSE,NA,FALSE,NA,17,"Q748999",TRUE
+"66","seven years","Seven Years' War",NA,"global conflict between 1756 and 1763","http://www.wikidata.org/entity/Q33143",FALSE,NA,FALSE,NA,16,"Q33143",TRUE
+"67","US citizenship","United States Citizenship and Immigration Services","US Citizenship and Immigration Services","immigration benefits agency of the United States government","http://www.wikidata.org/entity/Q2097315",FALSE,NA,FALSE,NA,16,"Q2097315",TRUE
+"68","mad scientists","David Willey","Mad Scientist","Physicist and entertainer","http://www.wikidata.org/entity/Q5241104",FALSE,NA,FALSE,NA,15,"Q5241104",TRUE
+"69","S. Bell","Stefano Bellucci","S. Bellucci","university lecturer, Faculty of Humanities, Leiden University; country specialization: Horn of Africa, Eastern Africa, Libya","http://www.wikidata.org/entity/Q39993588",FALSE,NA,FALSE,NA,15,"Q39993588",TRUE
+"70","Universal Studios","Universal Studios",NA,"American motion picture studio","http://www.wikidata.org/entity/Q168383",FALSE,NA,FALSE,NA,15,"Q168383",TRUE
+"71","Barbara Wolff","Barbara Wolff",NA,"German politician","http://www.wikidata.org/entity/Q807694",FALSE,NA,FALSE,NA,14,"Q807694",TRUE
+"72","Berlin University","Berlin University of the Arts",NA,"public art school in Berlin, Germany","http://www.wikidata.org/entity/Q55038",FALSE,NA,FALSE,NA,14,"Q55038",TRUE
+"73","Far East","Far Eastern Republic",NA,"former country","http://www.wikidata.org/entity/Q61292",FALSE,NA,FALSE,NA,14,"Q61292",TRUE
+"74","Physical cosmology","cosmology","physical cosmology","academic study of the Universe","http://www.wikidata.org/entity/Q338",FALSE,NA,FALSE,NA,14,"Q338",TRUE
+"75","War I","Iraq War","War in Iraq","war which started on 20 March 2003","http://www.wikidata.org/entity/Q545449",FALSE,NA,FALSE,NA,14,"Q545449",TRUE
+"76","civil rights","civil and political rights","civil rights","rights preventing the infringement of personal freedom by other social actors","http://www.wikidata.org/entity/Q191600",FALSE,NA,FALSE,NA,13,"Q191600",TRUE
+"77","elementary particles","elementary particle",NA,"quantum particle having no known substructure; quark, electron, photon, etc.","http://www.wikidata.org/entity/Q43116",FALSE,NA,FALSE,NA,13,"Q43116",TRUE
+"78","Elementary Particles","elementary particle",NA,"quantum particle having no known substructure; quark, electron, photon, etc.","http://www.wikidata.org/entity/Q43116",FALSE,NA,FALSE,NA,13,"Q43116",TRUE
+"79","federal district","Federal District",NA,"federal district of Brazil","http://www.wikidata.org/entity/Q119158",FALSE,NA,FALSE,NA,13,"Q119158",TRUE
+"80","Newtonian mechanics","Newton's laws of motion","Newtonian mechanics","classical formulation of Mechanics by Isaac Newton","http://www.wikidata.org/entity/Q38433",FALSE,NA,FALSE,NA,13,"Q38433",TRUE
+"81","political figures","politician","political figure","person involved in politics, person who holds or seeks positions in government","http://www.wikidata.org/entity/Q82955",FALSE,NA,FALSE,NA,13,"Q82955",TRUE
+"82","U.S. Patent","United States Patent and Trademark Office","U.S. Patent Office","agency in the United States Department of Commerce","http://www.wikidata.org/entity/Q1459541",FALSE,NA,FALSE,NA,13,"Q1459541",TRUE
+"83","UNESCO headquarters","World Heritage Centre","UNESCO headquarters","building at number 7 Place de Fontenoy in Paris, France; headquarters for UNESCO","http://www.wikidata.org/entity/Q3279650",FALSE,NA,FALSE,NA,13,"Q3279650",TRUE
+"84","weak nuclear forces","weak interaction","weak nuclear force","the fundamental interaction responsible for beta decay and nuclear fission","http://www.wikidata.org/entity/Q11418",FALSE,NA,FALSE,NA,13,"Q11418",TRUE
+"85","Chemical Institute","Chemical Institute of Sarrià",NA,NA,"http://www.wikidata.org/entity/Q9008733",FALSE,NA,FALSE,NA,12,"Q9008733",TRUE
+"86","Intellectual Property","intellectual property",NA,"legal concept","http://www.wikidata.org/entity/Q131257",FALSE,NA,FALSE,NA,12,"Q131257",TRUE
+"87","Ramón y","Ramón Yuraszeck Doggenweiler",NA,"Chilean politician","http://www.wikidata.org/entity/Q16624325",FALSE,NA,FALSE,NA,12,"Q16624325",TRUE
+"88","book burnings","book burning",NA,"practice of destroying, often ceremoniously, books or other written material","http://www.wikidata.org/entity/Q22702",FALSE,NA,FALSE,NA,11,"Q22702",TRUE
+"89","book burnings","book burning","book burnings","practice of destroying, often ceremoniously, books or other written material","http://www.wikidata.org/entity/Q22702",FALSE,NA,FALSE,NA,11,"Q22702",TRUE
+"90","classical mechanics","classical mechanics",NA,"sub-field of mechanics, which is concerned with the set of physical laws describing the motion of bodies under the action of a system of forces","http://www.wikidata.org/entity/Q11397",FALSE,NA,FALSE,NA,11,"Q11397",TRUE
+"91","elementary school","primary school","elementary school","school in which children receive primary or elementary education from the age of about five to twelve","http://www.wikidata.org/entity/Q9842",FALSE,NA,FALSE,NA,11,"Q9842",TRUE
+"92","information theory","information theory",NA,"mathematical theory from the field of probability theory and statistics","http://www.wikidata.org/entity/Q131222",FALSE,NA,FALSE,NA,11,"Q131222",TRUE
+"93","Lincoln University","Lincoln University",NA,"New Zealand university","http://www.wikidata.org/entity/Q1048626",FALSE,NA,FALSE,NA,11,"Q1048626",TRUE
+"94","Magnetic Field","magnetic field",NA,"spatial distribution of vectors allowing the calculation of the magnetic force on a test particle","http://www.wikidata.org/entity/Q11408",FALSE,NA,FALSE,NA,11,"Q11408",TRUE
+"95","Pure Reason","Pure Reason Revolution",NA,"band","http://www.wikidata.org/entity/Q729904",FALSE,NA,FALSE,NA,11,"Q729904",TRUE
+"96","thought experiments","thought experiment",NA,"considering hypothesis, theory, or principle for the purpose of thinking through its consequences","http://www.wikidata.org/entity/Q147027",FALSE,NA,FALSE,NA,11,"Q147027",TRUE
+"97","thought experiments","thought experiment","thought experiments","considering hypothesis, theory, or principle for the purpose of thinking through its consequences","http://www.wikidata.org/entity/Q147027",FALSE,NA,FALSE,NA,11,"Q147027",TRUE
+"98","twenty years","Twenty Years After",NA,"novel by Alexandre Dumas; sequel to The Three Musketeers","http://www.wikidata.org/entity/Q1639633",FALSE,NA,FALSE,NA,11,"Q1639633",TRUE
+"99","associate professor","Abdul Hafiz Ab Majid","Associate Professor Dr. Abdul Hafiz Ab Majid","researcher","http://www.wikidata.org/entity/Q47698577",FALSE,NA,FALSE,NA,10,"Q47698577",TRUE
+"100","atomic bomb","atomic bomb",NA,"explosive device","http://www.wikidata.org/entity/Q650051",FALSE,NA,FALSE,NA,10,"Q650051",TRUE
+"101","atomic bombs","atomic bomb",NA,"explosive device","http://www.wikidata.org/entity/Q650051",FALSE,NA,FALSE,NA,10,"Q650051",TRUE
+"102","Beit Hatfutsot","Beit Hatfutsot",NA,"museum in Israel","http://www.wikidata.org/entity/Q796764",FALSE,NA,FALSE,NA,10,"Q796764",TRUE
+"103","Digital Library","digital library",NA,"library in which collections are stored in electronic media formats and accessible via computers","http://www.wikidata.org/entity/Q212805",FALSE,NA,FALSE,NA,10,"Q212805",TRUE
+"104","Federal Office","German Domestic Intelligence Service","Federal Office for the Protection of the Constitution","domestic security agency of Germany","http://www.wikidata.org/entity/Q310522",FALSE,NA,FALSE,NA,10,"Q310522",TRUE
+"105","internal bleeding","Internal Bleeding",NA,"US death metal musical group","http://www.wikidata.org/entity/Q1666276",FALSE,NA,FALSE,NA,10,"Q1666276",TRUE
+"106","military service","military service",NA,"performing the service in the armed forces of a state","http://www.wikidata.org/entity/Q209572",FALSE,NA,FALSE,NA,10,"Q209572",TRUE
+"107","wave equation","wave equation",NA,"second-order linear differential equation important in physics","http://www.wikidata.org/entity/Q193846",FALSE,NA,FALSE,NA,10,"Q193846",TRUE
+"108","York City","York City F.C.",NA,"association football club in York, England","http://www.wikidata.org/entity/Q48954",FALSE,NA,FALSE,NA,10,"Q48954",TRUE
+"109","academic freedom","academic freedom",NA,"liberty","http://www.wikidata.org/entity/Q414706",FALSE,NA,FALSE,NA,9,"Q414706",TRUE
+"110","angular momentum","angular momentum",NA,"measure of the extent to which an object will continue to rotate in the absence of an applied torque","http://www.wikidata.org/entity/Q161254",FALSE,NA,FALSE,NA,9,"Q161254",TRUE
+"111","Commander Oliver","Commander Oliver Lascelles",NA,"(1921-1999)","http://www.wikidata.org/entity/Q75266133",FALSE,NA,FALSE,NA,9,"Q75266133",TRUE
+"112","full professor","Richard Chbeir","Full Professor","Researcher","http://www.wikidata.org/entity/Q62056198",FALSE,NA,FALSE,NA,9,"Q62056198",TRUE
+"113","liberal party","Liberal Party",NA,"Norwegian political party","http://www.wikidata.org/entity/Q500190",FALSE,NA,FALSE,NA,9,"Q500190",TRUE
+"114","low temperatures","cold","low temperature","state of low tempature","http://www.wikidata.org/entity/Q270952",FALSE,NA,FALSE,NA,9,"Q270952",TRUE
+"115","Physical Society","Physical Society of Japan",NA,NA,"http://www.wikidata.org/entity/Q385221",FALSE,NA,FALSE,NA,9,"Q385221",TRUE
+"116","Prime Minister","prime minister",NA,"most senior minister of cabinet in the executive branch of government in a parliamentary system","http://www.wikidata.org/entity/Q14212",FALSE,NA,FALSE,NA,9,"Q14212",TRUE
+"117","public domain","public domain",NA,"works that are no longer in copyright term or were never protected by copyright law","http://www.wikidata.org/entity/Q19652",FALSE,NA,FALSE,NA,9,"Q19652",TRUE
+"118","Royal Family","House of Saud","Royal family of the Arabian Kingdom","the royal family of Saudi Arabia","http://www.wikidata.org/entity/Q31711",FALSE,NA,FALSE,NA,9,"Q31711",TRUE
+"119","British universities","British University in Egypt",NA,"private university in Egypt","http://www.wikidata.org/entity/Q3087723",FALSE,NA,FALSE,NA,8,"Q3087723",TRUE
+"120","Euclidean geometry","Euclidean geometry",NA,"mathematical system attributed to Euclid","http://www.wikidata.org/entity/Q162886",FALSE,NA,FALSE,NA,8,"Q162886",TRUE
+"121","general public","GNU General Public License","General Public Licence","set of free software licenses","http://www.wikidata.org/entity/Q7603",FALSE,NA,FALSE,NA,8,"Q7603",TRUE
+"122","high speeds","high speed train",NA,"type of train","http://www.wikidata.org/entity/Q13402959",FALSE,NA,FALSE,NA,8,"Q13402959",TRUE
+"123","his name","His Name Is Alive",NA,NA,"http://www.wikidata.org/entity/Q3136462",FALSE,NA,FALSE,NA,8,"Q3136462",TRUE
+"124","Indian people","Indians","Indian people","nationals or citizens of India","http://www.wikidata.org/entity/Q862086",FALSE,NA,FALSE,NA,8,"Q862086",TRUE
+"125","Kaiser Wilhelm Institute","Kaiser Wilhelm Institute of Anthropology, Human Heredity, and Eugenics",NA,NA,"http://www.wikidata.org/entity/Q881143",FALSE,NA,FALSE,NA,8,"Q881143",TRUE
+"126","New York Society","New York Society Library",NA,"oldest cultural institution in New York City","http://www.wikidata.org/entity/Q7013996",FALSE,NA,FALSE,NA,8,"Q7013996",TRUE
+"127","Oriental Studies","Oriental studies",NA,"academic field focus on Asian cultures","http://www.wikidata.org/entity/Q476294",FALSE,NA,FALSE,NA,8,"Q476294",TRUE
+"128","polytechnic school","Polytechnic School of the University of São Paulo",NA,NA,"http://www.wikidata.org/entity/Q2600751",FALSE,NA,FALSE,NA,8,"Q2600751",TRUE
+"129","popular culture","popular culture",NA,"culture aimed at wider audiences","http://www.wikidata.org/entity/Q131265",FALSE,NA,FALSE,NA,8,"Q131265",TRUE
+"130","role model","Johan Kotlinski","Role Model","chip musician, creator of LSDJ","http://www.wikidata.org/entity/Q64692695",FALSE,NA,FALSE,NA,8,"Q64692695",TRUE
+"131","special guests","WWE Raw","Special Guest Host","WWE television show","http://www.wikidata.org/entity/Q18754",FALSE,NA,FALSE,NA,8,"Q18754",TRUE
+"132","discussion group","Internet forum","discussion group","online discussion site","http://www.wikidata.org/entity/Q168210",FALSE,NA,FALSE,NA,7,"Q168210",TRUE
+"133","entrance examinations","entrance examination",NA,"type of exams for a attending  an educational institution","http://www.wikidata.org/entity/Q759860",FALSE,NA,FALSE,NA,7,"Q759860",TRUE
+"134","field theory","field theory",NA,"theory in mathematics","http://www.wikidata.org/entity/Q903820",FALSE,NA,FALSE,NA,7,"Q903820",TRUE
+"135","fundamental forces","fundamental interaction","fundamental force","any of the physical interactions or forces: gravitational, electromagnetic, strong nuclear, and weak nuclear","http://www.wikidata.org/entity/Q104934",FALSE,NA,FALSE,NA,7,"Q104934",TRUE
+"136","Imperial Palace","Imperial Palace of Goslar",NA,"Palace of the Holy Roman Empire","http://www.wikidata.org/entity/Q632379",FALSE,NA,FALSE,NA,7,"Q632379",TRUE
+"137","Oval Office","Oval Office",NA,"office of the U.S. President","http://www.wikidata.org/entity/Q338067",FALSE,NA,FALSE,NA,7,"Q338067",TRUE
+"138","physical interactions","fundamental interaction","physical interaction","any of the physical interactions or forces: gravitational, electromagnetic, strong nuclear, and weak nuclear","http://www.wikidata.org/entity/Q104934",FALSE,NA,FALSE,NA,7,"Q104934",TRUE
+"139","social life","social relation","social life","relationship between two people or groups in which their thinking, acting or feeling is related mutually","http://www.wikidata.org/entity/Q853725",FALSE,NA,FALSE,NA,7,"Q853725",TRUE
+"140","thirteen years","Thirteen Years' War",NA,"conflict","http://www.wikidata.org/entity/Q315921",FALSE,NA,FALSE,NA,7,"Q315921",TRUE
+"141","violin sonatas","Violin Sonata",NA,"Composition for violin and piano by César Franck","http://www.wikidata.org/entity/Q2181451",FALSE,NA,FALSE,NA,7,"Q2181451",TRUE
+"142","Zionist Organization","Zionist Organization of America",NA,"non-profit organisation in the USA","http://www.wikidata.org/entity/Q205366",FALSE,NA,FALSE,NA,7,"Q205366",TRUE
+"143","alma mater","alma mater",NA,"school or university that a person has attended","http://www.wikidata.org/entity/Q174376",FALSE,NA,FALSE,NA,6,"Q174376",TRUE
+"144","analytical mechanics","analytical mechanics",NA,"formalism of mechanics based on the least action principle","http://www.wikidata.org/entity/Q833065",FALSE,NA,FALSE,NA,6,"Q833065",TRUE
+"145","de facto","De Facto",NA,"dub reggae band","http://www.wikidata.org/entity/Q3020156",FALSE,NA,FALSE,NA,6,"Q3020156",TRUE
+"146","ethical culture","Ethical Culture Fieldston School",NA,"american school","http://www.wikidata.org/entity/Q5403378",FALSE,NA,FALSE,NA,6,"Q5403378",TRUE
+"147","Ethical Culture","Ethical Culture Fieldston School",NA,"american school","http://www.wikidata.org/entity/Q5403378",FALSE,NA,FALSE,NA,6,"Q5403378",TRUE
+"148","Experimental Physics","experimental physics",NA,"category of disciplines and sub-disciplines concerned with the observation of physical phenomena","http://www.wikidata.org/entity/Q18366",FALSE,NA,FALSE,NA,6,"Q18366",TRUE
+"149","great mistake","Naval Station Great Lakes","Great Mistakes","naval training base for the United States Navy near Chicago, Illinois, USA","http://www.wikidata.org/entity/Q3337219",FALSE,NA,FALSE,NA,6,"Q3337219",TRUE
+"150","Humanist Society","Humanist Society Scotland",NA,"organization","http://www.wikidata.org/entity/Q3143145",FALSE,NA,FALSE,NA,6,"Q3143145",TRUE
+"151","Hungarian Empire","Kingdom of Hungary","Hungarian Empire","former Central European monarchy (1000–1946)","http://www.wikidata.org/entity/Q171150",FALSE,NA,FALSE,NA,6,"Q171150",TRUE
+"152","ideal gas","ideal gas law",NA,"equation of state of a hypothetical ideal gas; approximation of the behavior of many gases under many conditions (although it has several limitations)","http://www.wikidata.org/entity/Q191785",FALSE,NA,FALSE,NA,6,"Q191785",TRUE
+"153","linear transformations","linear map","linear transformation","mapping that preserves the operations of addition and scalar multiplication","http://www.wikidata.org/entity/Q207643",FALSE,NA,FALSE,NA,6,"Q207643",TRUE
+"154","Lloyd George","Lloyd George",NA,"died 1974","http://www.wikidata.org/entity/Q75963446",FALSE,NA,FALSE,NA,6,"Q75963446",TRUE
+"155","long walks","The Long Walk Home","Long Walk Home","1990 film by Richard Pearce","http://www.wikidata.org/entity/Q1199337",FALSE,NA,FALSE,NA,6,"Q1199337",TRUE
+"156","my life","My Life",NA,"1993 American film by Bruce Joel Rubin","http://www.wikidata.org/entity/Q1676429",FALSE,NA,FALSE,NA,6,"Q1676429",TRUE
+"157","naval officer","naval officer",NA,"commissioned officer serving in a navy","http://www.wikidata.org/entity/Q10669499",FALSE,NA,FALSE,NA,6,"Q10669499",TRUE
+"158","patent office","Patent Office of the Republic of Latvia",NA,"organization","http://www.wikidata.org/entity/Q15712854",FALSE,NA,FALSE,NA,6,"Q15712854",TRUE
+"159","Patent office","Patent Office of the Republic of Latvia",NA,"organization","http://www.wikidata.org/entity/Q15712854",FALSE,NA,FALSE,NA,6,"Q15712854",TRUE
+"160","Patent Office","Patent Office of the Republic of Latvia",NA,"organization","http://www.wikidata.org/entity/Q15712854",FALSE,NA,FALSE,NA,6,"Q15712854",TRUE
+"161","physical principle","physical law","physical principle",NA,"http://www.wikidata.org/entity/Q214070",FALSE,NA,FALSE,NA,6,"Q214070",TRUE
+"162","PSR B","Vela Pulsar","PSR B0833-45","multi-spectrum pulsar associated with the Vela Supernova Remnant","http://www.wikidata.org/entity/Q167462",FALSE,NA,FALSE,NA,6,"Q167462",TRUE
+"163","public lecture","speech","public lecture","address delivered to an audience","http://www.wikidata.org/entity/Q861911",FALSE,NA,FALSE,NA,6,"Q861911",TRUE
+"164","same time","Same Time, Next Year",NA,"1978 film by Robert Mulligan","http://www.wikidata.org/entity/Q2558644",FALSE,NA,FALSE,NA,6,"Q2558644",TRUE
+"165","secondary school","secondary school",NA,"organization where secondary education is provided","http://www.wikidata.org/entity/Q159334",FALSE,NA,FALSE,NA,6,"Q159334",TRUE
+"166","technical standards","technical standard",NA,"established norm or requirement to facilitate consistency","http://www.wikidata.org/entity/Q317623",FALSE,NA,FALSE,NA,6,"Q317623",TRUE
+"167","two weeks","Two Weeks Notice",NA,"2002 romantic comedy movie directed by Marc Lawrence","http://www.wikidata.org/entity/Q719823",FALSE,NA,FALSE,NA,6,"Q719823",TRUE
+"168","two years","Two Years' Vacation",NA,"book by Jules Verne","http://www.wikidata.org/entity/Q232055",FALSE,NA,FALSE,NA,6,"Q232055",TRUE
+"169","William Frauenglass","William Frauenglass",NA,"American high school teacher fired during McCarthyism","http://www.wikidata.org/entity/Q56728865",FALSE,NA,FALSE,NA,6,"Q56728865",TRUE
+"170","work he","occupational safety and health","work health and safety","area concerned with the safety, health and welfare of people engaged in work or employment","http://www.wikidata.org/entity/Q629029",FALSE,NA,FALSE,NA,6,"Q629029",TRUE
+"171","Albert Einstein Gymnasium","Albert Einstein Gymnasium",NA,"School in Hameln, Germany","http://www.wikidata.org/entity/Q1790085",FALSE,NA,FALSE,NA,5,"Q1790085",TRUE
+"172","American citizen","An American Citizen","American Citizen","1914 film by J. Searle Dawley","http://www.wikidata.org/entity/Q2085303",FALSE,NA,FALSE,NA,5,"Q2085303",TRUE
+"173","American culture","culture of the United States","American culture","culture of an area","http://www.wikidata.org/entity/Q1044835",FALSE,NA,FALSE,NA,5,"Q1044835",TRUE
+"174","aortic aneurysm","aortic aneurysm",NA,"orta to greater than 1.5 times normal size.","http://www.wikidata.org/entity/Q616003",FALSE,NA,FALSE,NA,5,"Q616003",TRUE
+"175","Brownian movement","Brownian Movement",NA,"2010 film by Nanouk Leopold","http://www.wikidata.org/entity/Q991119",FALSE,NA,FALSE,NA,5,"Q991119",TRUE
+"176","diatomic molecules","diatomic molecule",NA,"molecule composed of only two atoms of the same or different chemical elements","http://www.wikidata.org/entity/Q1751859",FALSE,NA,FALSE,NA,5,"Q1751859",TRUE
+"177","district court","district court",NA,"category of courts","http://www.wikidata.org/entity/Q75029",FALSE,NA,FALSE,NA,5,"Q75029",TRUE
+"178","electric signals","signal","electric signal","varying physical quantity that conveys information","http://www.wikidata.org/entity/Q174984",FALSE,NA,FALSE,NA,5,"Q174984",TRUE
+"179","film star","Film Stars Don't Die in Liverpool",NA,"2017 film by Paul McGuigan","http://www.wikidata.org/entity/Q28101361",FALSE,NA,FALSE,NA,5,"Q28101361",TRUE
+"180","first cousin","first cousin",NA,"child of an uncle or aunt","http://www.wikidata.org/entity/Q76666",FALSE,NA,FALSE,NA,5,"Q76666",TRUE
+"181","first time","The First Time","First Time","2012 film by Jon Kasdan","http://www.wikidata.org/entity/Q3019431",FALSE,NA,FALSE,NA,5,"Q3019431",TRUE
+"182","five years","Five Years",NA,"2013 film by Stefan Schaller","http://www.wikidata.org/entity/Q15260449",FALSE,NA,FALSE,NA,5,"Q15260449",TRUE
+"183","free energy","Free Energy",NA,"American rock band","http://www.wikidata.org/entity/Q5499811",FALSE,NA,FALSE,NA,5,"Q5499811",TRUE
+"184","gauge symmetry","gauge theory","Gauge symmetry","physical theory having a gauge symmetry","http://www.wikidata.org/entity/Q214850",FALSE,NA,FALSE,NA,5,"Q214850",TRUE
+"185","general part","general partnership",NA,"association of persons or unincorporated company","http://www.wikidata.org/entity/Q646164",FALSE,NA,FALSE,NA,5,"Q646164",TRUE
+"186","German regime","8th Virginia Regiment","German Regiment",NA,"http://www.wikidata.org/entity/Q4645493",FALSE,NA,FALSE,NA,5,"Q4645493",TRUE
+"187","his father","His Father's Portrait",NA,"1953 film by André Berthomieu","http://www.wikidata.org/entity/Q2185610",FALSE,NA,FALSE,NA,5,"Q2185610",TRUE
+"188","His father","His Father's Portrait",NA,"1953 film by André Berthomieu","http://www.wikidata.org/entity/Q2185610",FALSE,NA,FALSE,NA,5,"Q2185610",TRUE
+"189","Humanist Society of New","Humanist Society of New Zealand",NA,"organization","http://www.wikidata.org/entity/Q5939375",FALSE,NA,FALSE,NA,5,"Q5939375",TRUE
+"190","initial programs","booting","Initial Program Load","initial set of operations that a computer system performs after electrical power to the CPU is switched on or when the computer is reset","http://www.wikidata.org/entity/Q180256",FALSE,NA,FALSE,NA,5,"Q180256",TRUE
+"191","international media","International Media Support",NA,"organization","http://www.wikidata.org/entity/Q16958299",FALSE,NA,FALSE,NA,5,"Q16958299",TRUE
+"192","Luitpold Gymnasium","Luitpold Gymnasium",NA,NA,"http://www.wikidata.org/entity/Q2324614",FALSE,NA,FALSE,NA,5,"Q2324614",TRUE
+"193","mathematical structure","mathematical structure",NA,"additional mathematical object that, in some manner, attaches (or relates) to that set to endow it with some additional meaning or significance","http://www.wikidata.org/entity/Q748349",FALSE,NA,FALSE,NA,5,"Q748349",TRUE
+"194","new era","New Era",NA,"human settlement in Oceana County, Michigan, United States of America","http://www.wikidata.org/entity/Q648053",FALSE,NA,FALSE,NA,5,"Q648053",TRUE
+"195","new law","New Laws",NA,"laws intended to prevent the exploitation and mistreatment of the indigenous peoples of the Americas","http://www.wikidata.org/entity/Q1121487",FALSE,NA,FALSE,NA,5,"Q1121487",TRUE
+"196","old friend","hygiene hypothesis","Old friends hypothesis","hypothesis in medicine that early childhood exposure to certain microorganisms (e.g. gut flora, helminths) protects against allergies by helping the immune system develop","http://www.wikidata.org/entity/Q2109172",FALSE,NA,FALSE,NA,5,"Q2109172",TRUE
+"197","one life","A Woman's Life","One Life","2016 film by Stéphane Brizé","http://www.wikidata.org/entity/Q20899743",FALSE,NA,FALSE,NA,5,"Q20899743",TRUE
+"198","other end","The Other End of the Line","Other End of the Line","2008 film by James Dodson","http://www.wikidata.org/entity/Q814612",FALSE,NA,FALSE,NA,5,"Q814612",TRUE
+"199","people who","People Who Travel",NA,"1938 film by Jacques Feyder in French","http://www.wikidata.org/entity/Q1934360",FALSE,NA,FALSE,NA,5,"Q1934360",TRUE
+"200","Prize Winners","The Prize Winner of Defiance, Ohio","Prize Winner of Defiance, Ohio","2005 film by Jane Anderson","http://www.wikidata.org/entity/Q3338792",FALSE,NA,FALSE,NA,5,"Q3338792",TRUE
+"201","quantum information","quantum information science",NA,"interdisciplinary theory behind quantum computing","http://www.wikidata.org/entity/Q2122216",FALSE,NA,FALSE,NA,5,"Q2122216",TRUE
+"202","quantum information theory","quantum information science","quantum information theory","interdisciplinary theory behind quantum computing","http://www.wikidata.org/entity/Q2122216",FALSE,NA,FALSE,NA,5,"Q2122216",TRUE
+"203","second cousin","first cousin","Second cousin","child of an uncle or aunt","http://www.wikidata.org/entity/Q76666",FALSE,NA,FALSE,NA,5,"Q76666",TRUE
+"204","second time","The Second Time Around","Second Time Around","1961 film by Vincent Sherman","http://www.wikidata.org/entity/Q7762968",FALSE,NA,FALSE,NA,5,"Q7762968",TRUE
+"205","specific heat","specific heat capacity",NA,"intensive quantity, heat capacity per mass","http://www.wikidata.org/entity/Q487756",FALSE,NA,FALSE,NA,5,"Q487756",TRUE
+"206","statistical model","statistical models",NA,"type of mathematical model","http://www.wikidata.org/entity/Q3284399",FALSE,NA,FALSE,NA,5,"Q3284399",TRUE
+"207","Student Union","students' union","student union","type of student organization","http://www.wikidata.org/entity/Q877998",FALSE,NA,FALSE,NA,5,"Q877998",TRUE
+"208","those who","Those Who Love Me Can Take the Train",NA,"1998 film directed by Patrice Chéreau","http://www.wikidata.org/entity/Q683529",FALSE,NA,FALSE,NA,5,"Q683529",TRUE
+"209","World War II in Europe","European Theatre of World War II","World War II in Europe","huge area of heavy fighting across Europe","http://www.wikidata.org/entity/Q44700",FALSE,NA,FALSE,NA,5,"Q44700",TRUE
+"210","auction house","auction house",NA,"place or business where auctions are held","http://www.wikidata.org/entity/Q9209474",FALSE,NA,FALSE,NA,4,"Q9209474",TRUE
+"211","cantonal school","Cantonal School of Graubünden",NA,NA,"http://www.wikidata.org/entity/Q1020798",FALSE,NA,FALSE,NA,4,"Q1020798",TRUE
+"212","critical point","critical point",NA,"Temperature and pressure point where phase boundaries disappear","http://www.wikidata.org/entity/Q111059",FALSE,NA,FALSE,NA,4,"Q111059",TRUE
+"213","de Sitter","De Sitter",NA,"impact crater","http://www.wikidata.org/entity/Q1180300",FALSE,NA,FALSE,NA,4,"Q1180300",TRUE
+"214","Federal Polytechnic","Federal Polytechnic, Idah",NA,NA,"http://www.wikidata.org/entity/Q25044411",FALSE,NA,FALSE,NA,4,"Q25044411",TRUE
+"215","few days","A Few Days in September","Few Days in September","2006 first film directed by Santiago Amigorena","http://www.wikidata.org/entity/Q3179069",FALSE,NA,FALSE,NA,4,"Q3179069",TRUE
+"216","fifth anniversary","Fifth Anniversary",NA,"episode of Laverne & Shirley (S6 E18)","http://www.wikidata.org/entity/Q52722667",FALSE,NA,FALSE,NA,4,"Q52722667",TRUE
+"217","general field","field marshal","general field marshal","rank in the German Army","http://www.wikidata.org/entity/Q7820253",FALSE,NA,FALSE,NA,4,"Q7820253",TRUE
+"218","German consulate","German Consulate-General in Shanghai",NA,NA,"http://www.wikidata.org/entity/Q1501886",FALSE,NA,FALSE,NA,4,"Q1501886",TRUE
+"219","German culture","culture of Germany","German culture","culture of an area","http://www.wikidata.org/entity/Q1979615",FALSE,NA,FALSE,NA,4,"Q1979615",TRUE
+"220","God who","The God Who Wasn't There","God Who Wasn't There","2005 film by Brian Flemming","http://www.wikidata.org/entity/Q3084513",FALSE,NA,FALSE,NA,4,"Q3084513",TRUE
+"221","gravitational field","gravitational field",NA,"field","http://www.wikidata.org/entity/Q558066",FALSE,NA,FALSE,NA,4,"Q558066",TRUE
+"222","gravitational fields","gravitational field",NA,"field","http://www.wikidata.org/entity/Q558066",FALSE,NA,FALSE,NA,4,"Q558066",TRUE
+"223","Gravitational Fields","gravitational field",NA,"field","http://www.wikidata.org/entity/Q558066",FALSE,NA,FALSE,NA,4,"Q558066",TRUE
+"224","harmonic oscillator","harmonic oscillator",NA,"physical system that responds to a restoring force inversely proportional to displacement","http://www.wikidata.org/entity/Q190070",FALSE,NA,FALSE,NA,4,"Q190070",TRUE
+"225","historical monuments","Historical Monument",NA,"protected French building as a Historical Monument (use « classified Historical Monument » and « inscribed Historical Monument »)","http://www.wikidata.org/entity/Q916475",FALSE,NA,FALSE,NA,4,"Q916475",TRUE
+"226","honorary member","Honorary Member of the Order of Merit (Portugal)",NA,"rank of the Order of Merit (Portugal)","http://www.wikidata.org/entity/Q66401029",FALSE,NA,FALSE,NA,4,"Q66401029",TRUE
+"227","hydrogen gas","dihydrogen","hydrogen gas","primary form in which hydrogen is found","http://www.wikidata.org/entity/Q3027893",FALSE,NA,FALSE,NA,4,"Q3027893",TRUE
+"228","international exchange","International Exchange Bank",NA,NA,"http://www.wikidata.org/entity/Q6050332",FALSE,NA,FALSE,NA,4,"Q6050332",TRUE
+"229","MIT OpenCourseWare","MIT OpenCourseWare",NA,"a web-based publication of virtually all MIT course content","http://www.wikidata.org/entity/Q1637597",FALSE,NA,FALSE,NA,4,"Q1637597",TRUE
+"230","most promising","Most Promising Young Actress",NA,"2000 film by Gérard Jugnot","http://www.wikidata.org/entity/Q3304654",FALSE,NA,FALSE,NA,4,"Q3304654",TRUE
+"231","Nazi propaganda","Nazi propaganda",NA,NA,"http://www.wikidata.org/entity/Q705157",FALSE,NA,FALSE,NA,4,"Q705157",TRUE
+"232","new term","Do Not Disturb","New Terminal Hotel","2010 American horror thriller film directed by BC Furtney","http://www.wikidata.org/entity/Q4835288",FALSE,NA,FALSE,NA,4,"Q4835288",TRUE
+"233","nuclear physicist","nuclear physicist",NA,"physicist in nuclear science","http://www.wikidata.org/entity/Q16742096",FALSE,NA,FALSE,NA,4,"Q16742096",TRUE
+"234","orbital period","orbital period",NA,"time taken for a given object to make one complete orbit around another object, and applies in astronomy to mostly either planets or asteroids orbiting the Sun, moons orbiting planets, exoplanets orbiting other stars, or binary stars","http://www.wikidata.org/entity/Q37640",FALSE,NA,FALSE,NA,4,"Q37640",TRUE
+"235","Press Archives","press archives of the German Bundestag",NA,NA,"http://www.wikidata.org/entity/Q65652991",FALSE,NA,FALSE,NA,4,"Q65652991",TRUE
+"236","scientific journal","scientific journal",NA,"periodical journal publishing scientific research","http://www.wikidata.org/entity/Q5633421",FALSE,NA,FALSE,NA,4,"Q5633421",TRUE
+"237","second child","A Second Childhood","Second Childhood","2010 film by Pupi Avati","http://www.wikidata.org/entity/Q4004376",FALSE,NA,FALSE,NA,4,"Q4004376",TRUE
+"238","short time","Short Time",NA,"1990 film directed by Gregg Champion","http://www.wikidata.org/entity/Q7501938",FALSE,NA,FALSE,NA,4,"Q7501938",TRUE
+"239","six weeks","Six Weeks",NA,"1982 film by Tony Bill","http://www.wikidata.org/entity/Q7532915",FALSE,NA,FALSE,NA,4,"Q7532915",TRUE
+"240","three years","Great Chinese Famine","Three Years of Great Famine","period of widespread famine in the People's Republic of China between the years 1959 and 1961","http://www.wikidata.org/entity/Q2454958",FALSE,NA,FALSE,NA,4,"Q2454958",TRUE
+"241","what they","What They Had",NA,"2018 American drama film directed by Elizabeth Chomko","http://www.wikidata.org/entity/Q28975644",FALSE,NA,FALSE,NA,4,"Q28975644",TRUE
+"242","annus mirabilis","Annus Mirabilis",NA,"poem by John Dryden","http://www.wikidata.org/entity/Q567422",FALSE,NA,FALSE,NA,3,"Q567422",TRUE
+"243","Annus Mirabilis","Annus Mirabilis",NA,"poem by John Dryden","http://www.wikidata.org/entity/Q567422",FALSE,NA,FALSE,NA,3,"Q567422",TRUE
+"244","British newspaper","British Newspaper Archive",NA,NA,"http://www.wikidata.org/entity/Q17512154",FALSE,NA,FALSE,NA,3,"Q17512154",TRUE
+"245","Daily Herald","Daily Herald",NA,"British daily newspaper","http://www.wikidata.org/entity/Q2713264",FALSE,NA,FALSE,NA,3,"Q2713264",TRUE
+"246","der Physik","Portrait of the Physicist Hermann von Helmholtz","Der Physiker Hermann von Helmholtz","painting by Ludwig Knaus","http://www.wikidata.org/entity/Q50113620",FALSE,NA,FALSE,NA,3,"Q50113620",TRUE
+"247","electrical equipment","electrical equipment",NA,"machine powered by electricity","http://www.wikidata.org/entity/Q3749263",FALSE,NA,FALSE,NA,3,"Q3749263",TRUE
+"248","FBI file","F.B. Eyes Digital Archive","FBI Files on African American Authors Obtained through the U.S.","website","http://www.wikidata.org/entity/Q76001142",FALSE,NA,FALSE,NA,3,"Q76001142",TRUE
+"249","first president","First President's Park",NA,NA,"http://www.wikidata.org/entity/Q16684909",FALSE,NA,FALSE,NA,3,"Q16684909",TRUE
+"250","fundamental law","Fundamental Law of Vatican City State",NA,NA,"http://www.wikidata.org/entity/Q441709",FALSE,NA,FALSE,NA,3,"Q441709",TRUE
+"251","high commissioner","High Commissioner",NA,"position; the senior diplomat in charge of the diplomatic mission of one Commonwealth government to another","http://www.wikidata.org/entity/Q123695",FALSE,NA,FALSE,NA,3,"Q123695",TRUE
+"252","high I","high island",NA,"island of volcanic origin","http://www.wikidata.org/entity/Q1161185",FALSE,NA,FALSE,NA,3,"Q1161185",TRUE
+"253","higher mathematics","advanced mathematics","Higher mathematics","certain type of mathematics from secondary school onwards","http://www.wikidata.org/entity/Q4464",FALSE,NA,FALSE,NA,3,"Q4464",TRUE
+"254","His mother","His Mother",NA,"1912 American silent film directed by Sidney Olcott","http://www.wikidata.org/entity/Q18612207",FALSE,NA,FALSE,NA,3,"Q18612207",TRUE
+"255","his wife","His Wife's Diary",NA,"2000 film by Alexei Uchitel","http://www.wikidata.org/entity/Q4163083",FALSE,NA,FALSE,NA,3,"Q4163083",TRUE
+"256","honorary degree","honorary degree",NA,"degree awarded waiving requirements to honour an individual","http://www.wikidata.org/entity/Q209896",FALSE,NA,FALSE,NA,3,"Q209896",TRUE
+"257","official positions","corporate title","official position","job title given to company and organization officials to show what duties and responsibilities they have in the organization","http://www.wikidata.org/entity/Q11488158",FALSE,NA,FALSE,NA,3,"Q11488158",TRUE
+"258","potential development","Potential developmental neurotoxicity of pesticides used in Europe",NA,"scientific article","http://www.wikidata.org/entity/Q21245813",FALSE,NA,FALSE,NA,3,"Q21245813",TRUE
+"259","scientific papers","scholarly article","scientific paper","article in an academic publication, usually peer reviewed","http://www.wikidata.org/entity/Q13442814",FALSE,NA,FALSE,NA,3,"Q13442814",TRUE
+"260","Second Class","Second Class",NA,"2012 film","http://www.wikidata.org/entity/Q14955278",FALSE,NA,FALSE,NA,3,"Q14955278",TRUE
+"261","second quantum","azimuthal quantum number","second quantum number","quantum number for an atomic orbital that determines its orbital angular momentum and describes the shape of the orbital, and is symbolized as ℓ","http://www.wikidata.org/entity/Q1916324",FALSE,NA,FALSE,NA,3,"Q1916324",TRUE
+"262","teaching method","teaching methodology",NA,"methodology for teaching a particular subject","http://www.wikidata.org/entity/Q350453",FALSE,NA,FALSE,NA,3,"Q350453",TRUE
+"263","their son","Their Son",NA,"1929 film by Joe May, Gennaro Righelli","http://www.wikidata.org/entity/Q3793408",FALSE,NA,FALSE,NA,3,"Q3793408",TRUE
+"264","Their son","Their Son",NA,"1929 film by Joe May, Gennaro Righelli","http://www.wikidata.org/entity/Q3793408",FALSE,NA,FALSE,NA,3,"Q3793408",TRUE
+"265","their sons","Their Son",NA,"1929 film by Joe May, Gennaro Righelli","http://www.wikidata.org/entity/Q3793408",FALSE,NA,FALSE,NA,3,"Q3793408",TRUE
+"266","thermodynamic properties","state function","thermodynamic property of system","measurable characteristic of the current state of a thermodynamic system, independent of the history of the system","http://www.wikidata.org/entity/Q230937",FALSE,NA,FALSE,NA,3,"Q230937",TRUE
+"267","three weeks","Three Weeks",NA,"1924 film by Alan Crosland","http://www.wikidata.org/entity/Q3990877",FALSE,NA,FALSE,NA,3,"Q3990877",TRUE
+"268","time he","Time Heist",NA,"episode of Doctor Who","http://www.wikidata.org/entity/Q17640044",FALSE,NA,FALSE,NA,3,"Q17640044",TRUE
+"269","Youth camp","Park Ridge Youth Campus","Youth Campus","former school/orphanage in Park Ridge, Illinois","http://www.wikidata.org/entity/Q62088390",FALSE,NA,FALSE,NA,3,"Q62088390",TRUE
+"270","Academic career","Academic career in medicine: requirements and conditions for successful advancement in Switzerland.",NA,"scientific article","http://www.wikidata.org/entity/Q33436409",FALSE,NA,FALSE,NA,2,"Q33436409",TRUE
+"271","Advanced Study","Advanced Study at the University of Cambridge",NA,"scientific article published in Nature","http://www.wikidata.org/entity/Q60268853",FALSE,NA,FALSE,NA,2,"Q60268853",TRUE
+"272","advisory board","advisory board",NA,"body providing strategic advice to an organisation","http://www.wikidata.org/entity/Q4686866",FALSE,NA,FALSE,NA,2,"Q4686866",TRUE
+"273","atom bombs","Atom Bomb",NA,"1964 film by P. Subramaniam","http://www.wikidata.org/entity/Q4817206",FALSE,NA,FALSE,NA,2,"Q4817206",TRUE
+"274","Austrian citizenship","Austrian nationality law","Austrian citizenship",NA,"http://www.wikidata.org/entity/Q305961",FALSE,NA,FALSE,NA,2,"Q305961",TRUE
+"275","award ceremony","award ceremony",NA,"event and/or television programming genre based on the presentation of an award","http://www.wikidata.org/entity/Q4504495",FALSE,NA,FALSE,NA,2,"Q4504495",TRUE
+"276","Belgian Royal","Belgian Royal Escort",NA,NA,"http://www.wikidata.org/entity/Q3057967",FALSE,NA,FALSE,NA,2,"Q3057967",TRUE
+"277","better teacher","Better teachers are needed to improve science education",NA,NA,"http://www.wikidata.org/entity/Q59056071",FALSE,NA,FALSE,NA,2,"Q59056071",TRUE
+"278","black student","Black Student Movement",NA,"Student organization in North Carolina","http://www.wikidata.org/entity/Q4921922",FALSE,NA,FALSE,NA,2,"Q4921922",TRUE
+"279","capillary attraction","Capillary Attraction",NA,"scientific article published in Nature","http://www.wikidata.org/entity/Q59063355",FALSE,NA,FALSE,NA,2,"Q59063355",TRUE
+"280","Collected Papers","Collected Papers on Analytical Psychology",NA,NA,"http://www.wikidata.org/entity/Q19047281",FALSE,NA,FALSE,NA,2,"Q19047281",TRUE
+"281","commercial production","Commercial Production of Oil from Coal",NA,"scientific article published in Nature","http://www.wikidata.org/entity/Q60088476",FALSE,NA,FALSE,NA,2,"Q60088476",TRUE
+"282","concrete evidence","Concrete evidence that volcanoes can be stopped.",NA,"scientific article published in February 2007","http://www.wikidata.org/entity/Q43586810",FALSE,NA,FALSE,NA,2,"Q43586810",TRUE
+"283","creative thought","Creative Thought and Social Service",NA,"scientific article published in Nature","http://www.wikidata.org/entity/Q60079582",FALSE,NA,FALSE,NA,2,"Q60079582",TRUE
+"284","de Sitter universe","De Sitter universe",NA,NA,"http://www.wikidata.org/entity/Q3036474",FALSE,NA,FALSE,NA,2,"Q3036474",TRUE
+"285","deep love","Deep Love",NA,NA,"http://www.wikidata.org/entity/Q614433",FALSE,NA,FALSE,NA,2,"Q614433",TRUE
+"286","diffusion phenomena","Diffusion Phenomena",NA,"scientific article published in Nature","http://www.wikidata.org/entity/Q59028777",FALSE,NA,FALSE,NA,2,"Q59028777",TRUE
+"287","dynamic models","Dynamic model",NA,"scientific article published in Nature","http://www.wikidata.org/entity/Q59047304",FALSE,NA,FALSE,NA,2,"Q59047304",TRUE
+"288","dynamic universe","Dynamic Universe",NA,"journal article; published in Nature on 2005-06-22","http://www.wikidata.org/entity/Q74196577",FALSE,NA,FALSE,NA,2,"Q74196577",TRUE
+"289","Early correspondence","Early Correspondence (NAID 1609090)",NA,"a series in the National Archives and Records Administration's holdings","http://www.wikidata.org/entity/Q66284070",FALSE,NA,FALSE,NA,2,"Q66284070",TRUE
+"290","Europe he","Europe Hebdo",NA,NA,"http://www.wikidata.org/entity/Q3060732",FALSE,NA,FALSE,NA,2,"Q3060732",TRUE
+"291","evidence that","Evidence that stem cells reside in the adult Drosophila midgut epithelium.",NA,"scientific article published on 7 December 2005","http://www.wikidata.org/entity/Q52663260",FALSE,NA,FALSE,NA,2,"Q52663260",TRUE
+"292","experiments that","Experiments that fast-tracked big brains questioned",NA,"journal article; published in Nature on 2013-08-27","http://www.wikidata.org/entity/Q74440533",FALSE,NA,FALSE,NA,2,"Q74440533",TRUE
+"293","External links","Template:External links","External links","Wikimedia template","http://www.wikidata.org/entity/Q13365838",FALSE,NA,FALSE,NA,2,"Q13365838",TRUE
+"294","Federal Bureau of Investigation file","Federal Bureau of Investigation Files (NAID 12004580)",NA,"series in the National Archives and Records Administration's holdings","http://www.wikidata.org/entity/Q63912922",FALSE,NA,FALSE,NA,2,"Q63912922",TRUE
+"295","first Board","First Board of Trustees of the Detroit Museum of Art",NA,"painting by Percy Ives","http://www.wikidata.org/entity/Q64576325",FALSE,NA,FALSE,NA,2,"Q64576325",TRUE
+"296","French chemist","French chemists and the international reorganisation of chemistry after World War I.",NA,"journal article; published in 2011","http://www.wikidata.org/entity/Q48587494",FALSE,NA,FALSE,NA,2,"Q48587494",TRUE
+"297","frequency f","Frequency fluctuations in silicon nanoresonators",NA,"scientific article published on 29 February 2016","http://www.wikidata.org/entity/Q36966992",FALSE,NA,FALSE,NA,2,"Q36966992",TRUE
+"298","German government","German Government Securities (NAID 4684611)",NA,"a series in the National Archives and Records Administration's holdings","http://www.wikidata.org/entity/Q64298267",FALSE,NA,FALSE,NA,2,"Q64298267",TRUE
+"299","German magazine","German Magazines Seized from the German American Bund (NAID 6924649)",NA,"a series in the National Archives and Records Administration's holdings","http://www.wikidata.org/entity/Q64479054",FALSE,NA,FALSE,NA,2,"Q64479054",TRUE
+"300","German scientists","German scientists left in the cold as Berlin rejects rescue plan",NA,"scientific article published in Nature","http://www.wikidata.org/entity/Q59004102",FALSE,NA,FALSE,NA,2,"Q59004102",TRUE
+"301","good grades","Good grades, but who gets the cash?",NA,"journal article; published in Nature on 2008-12-29","http://www.wikidata.org/entity/Q73913549",FALSE,NA,FALSE,NA,2,"Q73913549",TRUE
+"302","gravitational radiation","Gravitational Radiation",NA,"scientific article published in Nature","http://www.wikidata.org/entity/Q58945923",FALSE,NA,FALSE,NA,2,"Q58945923",TRUE
+"303","her death","Her Death Was Hysterical",NA,"painting by Sophie Von Hellermann","http://www.wikidata.org/entity/Q64541295",FALSE,NA,FALSE,NA,2,"Q64541295",TRUE
+"304","her son","Her Son",NA,"1920 film by Walter West","http://www.wikidata.org/entity/Q12124758",FALSE,NA,FALSE,NA,2,"Q12124758",TRUE
+"305","his family","His Family",NA,"book by Ernest Poole","http://www.wikidata.org/entity/Q5771986",FALSE,NA,FALSE,NA,2,"Q5771986",TRUE
+"306","his friend","His Friend's Wife",NA,"1911 film by Harry McRae Webster","http://www.wikidata.org/entity/Q3785802",FALSE,NA,FALSE,NA,2,"Q3785802",TRUE
+"307","his life","His Life",NA,"1912 silent short film","http://www.wikidata.org/entity/Q21534845",FALSE,NA,FALSE,NA,2,"Q21534845",TRUE
+"308","his marriage","His Marriage Failure",NA,"1917 film by Herman C. Raymaker","http://www.wikidata.org/entity/Q28001065",FALSE,NA,FALSE,NA,2,"Q28001065",TRUE
+"309","his return","His Return",NA,"1915 film by Raoul Walsh","http://www.wikidata.org/entity/Q3136456",FALSE,NA,FALSE,NA,2,"Q3136456",TRUE
+"310","his son","His Son",NA,"1911 film by Bert Haldane","http://www.wikidata.org/entity/Q15695883",FALSE,NA,FALSE,NA,2,"Q15695883",TRUE
+"311","his sons","His Son",NA,"1911 film by Bert Haldane","http://www.wikidata.org/entity/Q15695883",FALSE,NA,FALSE,NA,2,"Q15695883",TRUE
+"312","his studio","His Studio",NA,"painting by Ignaz Marcel Gaugengigl","http://www.wikidata.org/entity/Q20635096",FALSE,NA,FALSE,NA,2,"Q20635096",TRUE
+"313","his uncle","His Uncle's Wives",NA,"1913 film by Lawrence Marston","http://www.wikidata.org/entity/Q8844457",FALSE,NA,FALSE,NA,2,"Q8844457",TRUE
+"314","honorary associate","Honorary Associates of the City of Birmingham College of Technology",NA,"scientific article published in Nature","http://www.wikidata.org/entity/Q59025892",FALSE,NA,FALSE,NA,2,"Q59025892",TRUE
+"315","Hungarian scientists","Hungarian scientists want better links with government",NA,"journal article; published in Nature on 1979-5","http://www.wikidata.org/entity/Q71899749",FALSE,NA,FALSE,NA,2,"Q71899749",TRUE
+"316","Investigation file","Investigation Files Relating to War Crimes and Malfeasance by Vietnamese Officials (NAID 3190081)",NA,"a series in the National Archives and Records Administration's holdings","http://www.wikidata.org/entity/Q66243908",FALSE,NA,FALSE,NA,2,"Q66243908",TRUE
+"317","iron bar","Iron Barbs",NA,"Pokémon ability","http://www.wikidata.org/entity/Q56736899",FALSE,NA,FALSE,NA,2,"Q56736899",TRUE
+"318","kidney problems","Kidney problems",NA,"scientific article published in Nature","http://www.wikidata.org/entity/Q58973217",FALSE,NA,FALSE,NA,2,"Q58973217",TRUE
+"319","large fluctuations","Large fluctuations in speed on Greenland's Jakobshavn Isbrae glacier",NA,"scientific article","http://www.wikidata.org/entity/Q28296371",FALSE,NA,FALSE,NA,2,"Q28296371",TRUE
+"320","lattice structure","Lattice structure of the fullerene ferromagnet TDAE–C60",NA,"scientific article published in Nature","http://www.wikidata.org/entity/Q58232324",FALSE,NA,FALSE,NA,2,"Q58232324",TRUE
+"321","light quanta","Light Quanta and Photo-electric Emission",NA,"scientific article published in Nature","http://www.wikidata.org/entity/Q60137061",FALSE,NA,FALSE,NA,2,"Q60137061",TRUE
+"322","many years","Paul McCartney: Many Years from Now","Many Years From Now","book by Barry Miles","http://www.wikidata.org/entity/Q7152309",FALSE,NA,FALSE,NA,2,"Q7152309",TRUE
+"323","memorial lecture","Memorial Lectureship",NA,"journal article; published in Nature on 1972-12-01","http://www.wikidata.org/entity/Q71890213",FALSE,NA,FALSE,NA,2,"Q71890213",TRUE
+"324","modern astrophysics","Modern Astrophysics",NA,"scientific article published in Nature","http://www.wikidata.org/entity/Q60099089",FALSE,NA,FALSE,NA,2,"Q60099089",TRUE
+"325","modern quests","Modern questions in a traditional form",NA,"journal article; published in Nature on 1999-9","http://www.wikidata.org/entity/Q71930545",FALSE,NA,FALSE,NA,2,"Q71930545",TRUE
+"326","molecular theory","Molecular Theory of Sweet Taste",NA,"scientific article published in Nature","http://www.wikidata.org/entity/Q59068837",FALSE,NA,FALSE,NA,2,"Q59068837",TRUE
+"327","more harm","MORE HARM THAN GOOD: WHEN INVADER VULNERABILITY TO PREDATORS ENHANCES IMPACT ON NATIVE SPECIES",NA,"article","http://www.wikidata.org/entity/Q56782645",FALSE,NA,FALSE,NA,2,"Q56782645",TRUE
+"328","new chancellor","New Chancellor at the University of Leeds",NA,"scientific article published in Nature","http://www.wikidata.org/entity/Q60140127",FALSE,NA,FALSE,NA,2,"Q60140127",TRUE
+"329","new Institute","New institute for Berlin",NA,"scientific article published in Nature","http://www.wikidata.org/entity/Q59008581",FALSE,NA,FALSE,NA,2,"Q59008581",TRUE
+"330","new particles","New particle formation in forests inhibited by isoprene emissions.",NA,"scientific article published in September 2009","http://www.wikidata.org/entity/Q33504015",FALSE,NA,FALSE,NA,2,"Q33504015",TRUE
+"331","new theory","New theory of cerebral amine function and its clinical application.",NA,"scientific article published in June 1968","http://www.wikidata.org/entity/Q51184096",FALSE,NA,FALSE,NA,2,"Q51184096",TRUE
+"332","New Theory","New theory of cerebral amine function and its clinical application.",NA,"scientific article published in June 1968","http://www.wikidata.org/entity/Q51184096",FALSE,NA,FALSE,NA,2,"Q51184096",TRUE
+"333","new type","New type of POU domain in germ line-specific protein Oct-4",NA,"scientific journal article","http://www.wikidata.org/entity/Q28508721",FALSE,NA,FALSE,NA,2,"Q28508721",TRUE
+"334","Newspaper clippings","Newspaper Clippings (NAID 2102989)",NA,"series in the National Archives and Records Administration's holdings","http://www.wikidata.org/entity/Q59927881",FALSE,NA,FALSE,NA,2,"Q59927881",TRUE
+"335","next year","Next Year",NA,"2000 single by Foo Fighters","http://www.wikidata.org/entity/Q3136614",FALSE,NA,FALSE,NA,2,"Q3136614",TRUE
+"336","Nobel Prize for Physics","Nobel Prize for Physics for 1953: Prof. F. Zernike",NA,"scientific article published in Nature","http://www.wikidata.org/entity/Q58931589",FALSE,NA,FALSE,NA,2,"Q58931589",TRUE
+"337","nuclear forces","Nuclear Forces",NA,NA,"http://www.wikidata.org/entity/Q60085763",FALSE,NA,FALSE,NA,2,"Q60085763",TRUE
+"338","observational evidence","Observational evidence for an ocean heat pump induced by tropical cyclones.",NA,"scientific article published on May 2007","http://www.wikidata.org/entity/Q39098014",FALSE,NA,FALSE,NA,2,"Q39098014",TRUE
+"339","one generation","One generation at a time",NA,"scientific article published in Nature","http://www.wikidata.org/entity/Q58980804",FALSE,NA,FALSE,NA,2,"Q58980804",TRUE
+"340","one year","One Year",NA,"1997 film by Laurits Munch-Petersen","http://www.wikidata.org/entity/Q20756991",FALSE,NA,FALSE,NA,2,"Q20756991",TRUE
+"341","only woman","The Only Woman","Only Woman","1924 film by Sidney Olcott","http://www.wikidata.org/entity/Q18393604",FALSE,NA,FALSE,NA,2,"Q18393604",TRUE
+"342","other nations","Other Nationalities rugby league team",NA,NA,"http://www.wikidata.org/entity/Q2873078",FALSE,NA,FALSE,NA,2,"Q2873078",TRUE
+"343","Pardon me","Pardon Me",NA,"episode of Porridge","http://www.wikidata.org/entity/Q18161776",FALSE,NA,FALSE,NA,2,"Q18161776",TRUE
+"344","Personal Correspondence","Personal Correspondence of Colonel Fred L. Hamilton (NAID 12016634)",NA,"a series in the National Archives and Records Administration's holdings","http://www.wikidata.org/entity/Q64480949",FALSE,NA,FALSE,NA,2,"Q64480949",TRUE
+"345","personal God","personal god",NA,"deity who can be related to as a person","http://www.wikidata.org/entity/Q1932138",FALSE,NA,FALSE,NA,2,"Q1932138",TRUE
+"346","personal invitation","Personal Invitations Returned from Central Files (NAID 648739)",NA,"series in the National Archives and Records Administration's holdings","http://www.wikidata.org/entity/Q63906554",FALSE,NA,FALSE,NA,2,"Q63906554",TRUE
+"347","personal letters","Personal Letters, Oral Testimony and Scottish Migration to New Zealand in the 1950s: The Case of Lorna Carter",NA,"journal article; published in Immigrants & Minorities, Jan 2005","http://www.wikidata.org/entity/Q57552638",FALSE,NA,FALSE,NA,2,"Q57552638",TRUE
+"348","Personal life","personal life",NA,"course of an individual's life, especially when viewed as the sum of personal choices contributing to one's personal identity","http://www.wikidata.org/entity/Q2867027",FALSE,NA,FALSE,NA,2,"Q2867027",TRUE
+"349","philosophical outlook","Philosophical Outlook of Mansel",NA,"scientific article published in Nature","http://www.wikidata.org/entity/Q58939778",FALSE,NA,FALSE,NA,2,"Q58939778",TRUE
+"350","political view","Political views",NA,"scientific article published in Nature","http://www.wikidata.org/entity/Q59029309",FALSE,NA,FALSE,NA,2,"Q59029309",TRUE
+"351","position measurement","Position measurement for mobile robots using a new acceleration sensor",NA,"journal article; published in Advanced Robotics in 1998","http://www.wikidata.org/entity/Q58027767",FALSE,NA,FALSE,NA,2,"Q58027767",TRUE
+"352","President Franklin","President Franklin Pierce",NA,"painting by George Peter Alexander Healy","http://www.wikidata.org/entity/Q20634907",FALSE,NA,FALSE,NA,2,"Q20634907",TRUE
+"353","President Franklin D.","PRESIDENT FRANKLIN D. ROOSEVELT IN HAWAII ; 7TH DIVISION REVIEW, SCHOFIELD BARRACKS ; (NAID 15780)",NA,"item in the National Archives and Records Administration's holdings","http://www.wikidata.org/entity/Q67689862",FALSE,NA,FALSE,NA,2,"Q67689862",TRUE
+"354","President Franklin D. Roosevelt","PRESIDENT FRANKLIN D. ROOSEVELT IN HAWAII ; 7TH DIVISION REVIEW, SCHOFIELD BARRACKS ; (NAID 15780)",NA,"item in the National Archives and Records Administration's holdings","http://www.wikidata.org/entity/Q67689862",FALSE,NA,FALSE,NA,2,"Q67689862",TRUE
+"355","private correspondence","Private Correspondence of Commodore J. C. Watson (NAID 4299426)",NA,"a series in the National Archives and Records Administration's holdings","http://www.wikidata.org/entity/Q66238896",FALSE,NA,FALSE,NA,2,"Q66238896",TRUE
+"356","public appearances","Public Appearances Files (NAID 6233019)",NA,"a series in the National Archives and Records Administration's holdings","http://www.wikidata.org/entity/Q66186126",FALSE,NA,FALSE,NA,2,"Q66186126",TRUE
+"357","quantum motion","Quantum motion captured",NA,"journal article; published in Nature on 2012-02-01","http://www.wikidata.org/entity/Q74435522",FALSE,NA,FALSE,NA,2,"Q74435522",TRUE
+"358","religious views","Religious views on masturbation",NA,"Religious views on masturbation","http://www.wikidata.org/entity/Q556924",FALSE,NA,FALSE,NA,2,"Q556924",TRUE
+"359","Scientific career","Scientific career renewal",NA,"scientific article published in Nature","http://www.wikidata.org/entity/Q59032744",FALSE,NA,FALSE,NA,2,"Q59032744",TRUE
+"360","scientific exploration","Scientific Exploration of the Belgian African National Park of the Garamba",NA,"scientific article published in Nature","http://www.wikidata.org/entity/Q58953808",FALSE,NA,FALSE,NA,2,"Q58953808",TRUE
+"361","scientific publications","Scientific Publication",NA,NA,"http://www.wikidata.org/entity/Q60134852",FALSE,NA,FALSE,NA,2,"Q60134852",TRUE
+"362","scientific resources","Scientific Resources and Atomic Energy",NA,"scientific article published in Nature","http://www.wikidata.org/entity/Q58947851",FALSE,NA,FALSE,NA,2,"Q58947851",TRUE
+"363","scientific works","scientific work",NA,"distinct intellectual creation in science","http://www.wikidata.org/entity/Q11826511",FALSE,NA,FALSE,NA,2,"Q11826511",TRUE
+"364","second derivative","second derivative",NA,"mathematical operation","http://www.wikidata.org/entity/Q1932744",FALSE,NA,FALSE,NA,2,"Q1932744",TRUE
+"365","seventh anniversary","Seventh Anniversary",NA,"2003 film directed by Isao Yukisada","http://www.wikidata.org/entity/Q11314416",FALSE,NA,FALSE,NA,2,"Q11314416",TRUE
+"366","Shapell Manuscript","Shapell Manuscript Foundation",NA,NA,"http://www.wikidata.org/entity/Q18210228",FALSE,NA,FALSE,NA,2,"Q18210228",TRUE
+"367","Shapell Manuscript Foundation","Shapell Manuscript Foundation",NA,NA,"http://www.wikidata.org/entity/Q18210228",FALSE,NA,FALSE,NA,2,"Q18210228",TRUE
+"368","short supply","Short supply.",NA,"scientific article","http://www.wikidata.org/entity/Q54123777",FALSE,NA,FALSE,NA,2,"Q54123777",TRUE
+"369","singular solution","Singular solution",NA,NA,"http://www.wikidata.org/entity/Q4338245",FALSE,NA,FALSE,NA,2,"Q4338245",TRUE
+"370","Spanish Academy","Spanish Academy of Dermatology and Venereology",NA,"organization in Madrid, Spain","http://www.wikidata.org/entity/Q43896233",FALSE,NA,FALSE,NA,2,"Q43896233",TRUE
+"371","static universe","static universe",NA,"model of the universe that is not expanding or contracting, e.g. one in which the cosmological constant exactly balances things","http://www.wikidata.org/entity/Q1190516",FALSE,NA,FALSE,NA,2,"Q1190516",TRUE
+"372","study course","Study Course in Grassland Survey Methods",NA,"scientific article published in Nature","http://www.wikidata.org/entity/Q59049743",FALSE,NA,FALSE,NA,2,"Q59049743",TRUE
+"373","teaching post","Teaching posterior composite resin restorations in the United Kingdom and Ireland: consensus views of teachers.",NA,"scientific article published on August 2007","http://www.wikidata.org/entity/Q36919987",FALSE,NA,FALSE,NA,2,"Q36919987",TRUE
+"374","thermal equilibrium","thermal equilibrium",NA,"state of no net thermal energy flow between two connected systems","http://www.wikidata.org/entity/Q3175122",FALSE,NA,FALSE,NA,2,"Q3175122",TRUE
+"375","torsion pendulum","Torsion pendulum clock",NA,NA,"http://www.wikidata.org/entity/Q1256599",FALSE,NA,FALSE,NA,2,"Q1256599",TRUE
+"376","trait he","Trait heritability in major transitions",NA,"article","http://www.wikidata.org/entity/Q60044827",FALSE,NA,FALSE,NA,2,"Q60044827",TRUE
+"377","travel diaries","Travel diary from the Rivonia Trial",NA,"diary by Nelson Mandela","http://www.wikidata.org/entity/Q55669983",FALSE,NA,FALSE,NA,2,"Q55669983",TRUE
+"378","true feel","True Feelings Compared: The Founts of Love",NA,"woodblock printing series by Kitagawa Utamaro","http://www.wikidata.org/entity/Q59627901",FALSE,NA,FALSE,NA,2,"Q59627901",TRUE
+"379","weapons research","Weapons research crosses the Channel",NA,"scientific article published in Nature","http://www.wikidata.org/entity/Q59038864",FALSE,NA,FALSE,NA,2,"Q59038864",TRUE
+"380","which he","Which health-related quality of life score? A comparison of alternative utility measures in patients with Type 2 diabetes in the ADVANCE trial",NA,"scientific article","http://www.wikidata.org/entity/Q35945237",FALSE,NA,FALSE,NA,2,"Q35945237",TRUE
+"381","York Times","York Time Institute",NA,"school in York, Pennsylvania, U.S.","http://www.wikidata.org/entity/Q16904114",FALSE,NA,FALSE,NA,2,"Q16904114",TRUE
+"382","young age","Young age: an independent risk factor for disease-free survival in women with operable breast cancer",NA,"scientific article","http://www.wikidata.org/entity/Q24791855",FALSE,NA,FALSE,NA,2,"Q24791855",TRUE
+"383","additional projects","Additional projections of the os calcis",NA,"scientific article published on 01 March 1956","http://www.wikidata.org/entity/Q73985403",FALSE,NA,FALSE,NA,1,"Q73985403",TRUE
+"384","adiabatic invariance","Adiabatic invariance with first integrals of motion.",NA,"scientific article published in October 2002","http://www.wikidata.org/entity/Q47315381",FALSE,NA,FALSE,NA,1,"Q47315381",TRUE
+"385","adiabatic invariant","Adiabatic invariants and scalar fields in a de Sitter space-time",NA,NA,"http://www.wikidata.org/entity/Q58917318",FALSE,NA,FALSE,NA,1,"Q58917318",TRUE
+"386","affine connection","Affine connection",NA,"construct allowing differentiation of tangent vector fields of manifolds","http://www.wikidata.org/entity/Q1371213",FALSE,NA,FALSE,NA,1,"Q1371213",TRUE
+"387","angle variables","Angle variable holonomy in adiabatic excursion of an integrable Hamiltonian",NA,"scientific article (publication date: February 1985)","http://www.wikidata.org/entity/Q29038980",FALSE,NA,FALSE,NA,1,"Q29038980",TRUE
+"388","antisymmetric part","Antisymmetric part of the dynamic structure function of liquid 4He",NA,"scientific article published on 01 February 1989","http://www.wikidata.org/entity/Q78013562",FALSE,NA,FALSE,NA,1,"Q78013562",TRUE
+"389","atomic size","Atomic size packing defects in proteins.",NA,"scientific article published in October 1986","http://www.wikidata.org/entity/Q47204399",FALSE,NA,FALSE,NA,1,"Q47204399",TRUE
+"390","atomic transitions","Atomic transition probabilities and tests of the spectroscopic coupling scheme for N I",NA,"scientific article published on 01 May 1995","http://www.wikidata.org/entity/Q77883203",FALSE,NA,FALSE,NA,1,"Q77883203",TRUE
+"391","atomic vibrations","Atomic vibrations in a self-consistent-field atom-in-jellium model of condensed matter",NA,"scientific article published on 01 August 1990","http://www.wikidata.org/entity/Q78200783",FALSE,NA,FALSE,NA,1,"Q78200783",TRUE
+"392","attention he","Attention Health Care Leaders: Literature Review Deems Baccalaureate Nurses Improve Patient Outcomes",NA,"article","http://www.wikidata.org/entity/Q57178760",FALSE,NA,FALSE,NA,1,"Q57178760",TRUE
+"393","black college","Black College Football: BCFX: The Xperience",NA,"video game","http://www.wikidata.org/entity/Q4920558",FALSE,NA,FALSE,NA,1,"Q4920558",TRUE
+"394","British citizenship","British Citizenship and the ‘Other’: An Analysis of the Earned Citizenship Discourse",NA,"article","http://www.wikidata.org/entity/Q58230869",FALSE,NA,FALSE,NA,1,"Q58230869",TRUE
+"395","capillarity phenomena","Capillarity Phenomena in Gonococcal Infection in the Male Urethra.",NA,"scientific article published on October 1947","http://www.wikidata.org/entity/Q42340430",FALSE,NA,FALSE,NA,1,"Q42340430",TRUE
+"396","Capillarity Phenomena","Capillarity Phenomena in Gonococcal Infection in the Male Urethra.",NA,"scientific article published on October 1947","http://www.wikidata.org/entity/Q42340430",FALSE,NA,FALSE,NA,1,"Q42340430",TRUE
+"397","Catholic values","Catholic values and the market: friends or foes? Can Catholic health care support market-based reforms?",NA,"scientific article published in January 2009","http://www.wikidata.org/entity/Q53116502",FALSE,NA,FALSE,NA,1,"Q53116502",TRUE
+"398","character witness","Character witness",NA,"scientific article published on 01 March 1998","http://www.wikidata.org/entity/Q77064829",FALSE,NA,FALSE,NA,1,"Q77064829",TRUE
+"399","clear demonstration","Clear demonstration of carcinoma of the ampulla of Vater with ultrasonography",NA,"scientific article published on 01 September 1998","http://www.wikidata.org/entity/Q77637785",FALSE,NA,FALSE,NA,1,"Q77637785",TRUE
+"400","close friendship","Close friendship as understood by socially withdrawn, anxious early adolescents.",NA,"scientific article published on 13 June 2007","http://www.wikidata.org/entity/Q47574662",FALSE,NA,FALSE,NA,1,"Q47574662",TRUE
+"401","college degrees","College degrees and heart disease",NA,"scientific article published on 01 December 1968","http://www.wikidata.org/entity/Q72177507",FALSE,NA,FALSE,NA,1,"Q72177507",TRUE
+"402","college tuition","College tuition in the United States",NA,NA,"http://www.wikidata.org/entity/Q16972779",FALSE,NA,FALSE,NA,1,"Q16972779",TRUE
+"403","complete list","list of Wikimedia projects","Complete list of Wikimedia projects","Wikimedia list article","http://www.wikidata.org/entity/Q1581901",FALSE,NA,FALSE,NA,1,"Q1581901",TRUE
+"404","continuous creation","Continuous creation of a vortex in a Bose Einstein condensate with hyperfine spinF 2",NA,"scientific article published on 27 November 2002","http://www.wikidata.org/entity/Q62036906",FALSE,NA,FALSE,NA,1,"Q62036906",TRUE
+"405","counting method","Counting methods (EM algorithm) in human pedigree analysis: linkage and segregation analysis.",NA,"scientific article published in May 1977","http://www.wikidata.org/entity/Q51661898",FALSE,NA,FALSE,NA,1,"Q51661898",TRUE
+"406","critical opalescence","Critical opalescence in baryonic QCD matter",NA,"scientific article published on 21 July 2006","http://www.wikidata.org/entity/Q80108105",FALSE,NA,FALSE,NA,1,"Q80108105",TRUE
+"407","current understanding","Current understanding of stem cell mobilization: the roles of chemokines, proteolytic enzymes, adhesion molecules, cytokines, and stromal cells.",NA,"scientific article","http://www.wikidata.org/entity/Q34843244",FALSE,NA,FALSE,NA,1,"Q34843244",TRUE
+"408","de Reynold","de Reynold",NA,"family name","http://www.wikidata.org/entity/Q76477736",FALSE,NA,FALSE,NA,1,"Q76477736",TRUE
+"409","death his","Death Hits the Jackpot",NA,"episode of Columbo","http://www.wikidata.org/entity/Q71171244",FALSE,NA,FALSE,NA,1,"Q71171244",TRUE
+"410","demonstration that","Demonstration that CFTR is a chloride channel by alteration of its anion selectivity.",NA,"scientific article published in July 1991","http://www.wikidata.org/entity/Q43847410",FALSE,NA,FALSE,NA,1,"Q43847410",TRUE
+"411","density fluctuations","Density fluctuations in saturated phospholipid bilayers increase as the acyl-chain length decreases.",NA,"scientific article published on November 1990","http://www.wikidata.org/entity/Q39634802",FALSE,NA,FALSE,NA,1,"Q39634802",TRUE
+"412","density variations","Density variation of parotid glands during IMRT for head-neck cancer: correlation with treatment and anatomical parameters.",NA,"scientific article published on 16 July 2012","http://www.wikidata.org/entity/Q44438919",FALSE,NA,FALSE,NA,1,"Q44438919",TRUE
+"413","detailed experiments","Detailed Experimental Study of Ion Acceleration by Interaction of an Ultra-Short Intense Laser with an Underdense Plasma",NA,"scientific article","http://www.wikidata.org/entity/Q36105498",FALSE,NA,FALSE,NA,1,"Q36105498",TRUE
+"414","different systems","Different systems in human brain are involved in presemantic discrimination of pictures as revealed by event-related potentials.",NA,"scientific article published in December 1998","http://www.wikidata.org/entity/Q48319749",FALSE,NA,FALSE,NA,1,"Q48319749",TRUE
+"415","different temperature","Different temperature dependence of carrier-mediated (cytoplasmic) and stimulus-evoked (exocytotic) release of transmitter: a simple method to separate the two types of release.",NA,"scientific article published in October 1998","http://www.wikidata.org/entity/Q48336163",FALSE,NA,FALSE,NA,1,"Q48336163",TRUE
+"416","diploma program","Diploma programs in nursing accredited by the NLN 1996-97",NA,"scientific article published on 01 September 1996","http://www.wikidata.org/entity/Q71837669",FALSE,NA,FALSE,NA,1,"Q71837669",TRUE
+"417","distribution law","Distribution law",NA,NA,"http://www.wikidata.org/entity/Q900380",FALSE,NA,FALSE,NA,1,"Q900380",TRUE
+"418","Do Gravitational","Do gravitational lens galaxies have an excess of luminous substructure ?",NA,"scientific article published in January 2013","http://www.wikidata.org/entity/Q68739104",FALSE,NA,FALSE,NA,1,"Q68739104",TRUE
+"419","dynamical spacetime","Dynamical spacetimes and gravitational radiation in a Fully Constrained Formulation",NA,NA,"http://www.wikidata.org/entity/Q57693196",FALSE,NA,FALSE,NA,1,"Q57693196",TRUE
+"420","early age","Early age at menarche associated with cardiovascular disease and mortality.",NA,"scientific article published on 30 October 2009","http://www.wikidata.org/entity/Q43251083",FALSE,NA,FALSE,NA,1,"Q43251083",TRUE
+"421","Early life","Early life",NA,NA,"http://www.wikidata.org/entity/Q57241503",FALSE,NA,FALSE,NA,1,"Q57241503",TRUE
+"422","electrical lighting","lighting technician","electrical lighting technician","controls lighting for art and entertainment venues or for films","http://www.wikidata.org/entity/Q17082153",FALSE,NA,FALSE,NA,1,"Q17082153",TRUE
+"423","emotional outburst","Emotional outbursts and post-traumatic stress disorder during intracarotid amobarbital procedure.",NA,"scientific article published in April 2000","http://www.wikidata.org/entity/Q52027745",FALSE,NA,FALSE,NA,1,"Q52027745",TRUE
+"424","energy equivalence","Energy Equivalence of Information in the Mitochondrion and the Thermodynamic Efficiency of ATP Synthase.",NA,"scientific article","http://www.wikidata.org/entity/Q33361257",FALSE,NA,FALSE,NA,1,"Q33361257",TRUE
+"425","equilibrium state","Equilibrium state of ATP-driven ion pumps in relation to physiological ion concentration gradients",NA,"scientific article","http://www.wikidata.org/entity/Q36408493",FALSE,NA,FALSE,NA,1,"Q36408493",TRUE
+"426","essential tool","Essential tools for assessing influenza vaccine efficacy in improperly conducted studies: a Japanese perspective.",NA,"scientific article published on 23 June 2008","http://www.wikidata.org/entity/Q37198092",FALSE,NA,FALSE,NA,1,"Q37198092",TRUE
+"427","experimental data","Experimental data for total deposition in the respiratory tract of children.",NA,"scientific article published on June 1994","http://www.wikidata.org/entity/Q36752177",FALSE,NA,FALSE,NA,1,"Q36752177",TRUE
+"428","experimental results","Experimental results from a preclinical X-ray phase-contrast CT scanner.",NA,"scientific article","http://www.wikidata.org/entity/Q36300863",FALSE,NA,FALSE,NA,1,"Q36300863",TRUE
+"429","expressive face","Expressive Faces Confuse Identity.",NA,"scientific article published on 19 September 2017","http://www.wikidata.org/entity/Q42132807",FALSE,NA,FALSE,NA,1,"Q42132807",TRUE
+"430","extra-curricular physics","Extra-curricular physical activity and socioeconomic status in Italian adolescents",NA,"scientific article","http://www.wikidata.org/entity/Q34521727",FALSE,NA,FALSE,NA,1,"Q34521727",TRUE
+"431","federal district court","Federal district court upholds HCFA Medicare labor room day reimbursement policy in AHA-coordinated litigation",NA,"scientific article published on 01 November 1981","http://www.wikidata.org/entity/Q77653229",FALSE,NA,FALSE,NA,1,"Q77653229",TRUE
+"432","field equations","Field equation for interface propagation in an unsteady homogeneous flow field.",NA,"scientific article published in April 1988","http://www.wikidata.org/entity/Q52426824",FALSE,NA,FALSE,NA,1,"Q52426824",TRUE
+"433","fifteen months","Fifteen months' follow-up on bilateral embryonic mesencephalic grafts in two cases of severe MPTP-induced parkinsonism.",NA,"scientific article published on January 1993","http://www.wikidata.org/entity/Q39113165",FALSE,NA,FALSE,NA,1,"Q39113165",TRUE
+"434","firm evidence","Firm evidence of complete revascularization with culprit and target vessel revascularization only after ST-segment elevation myocardial infarction.",NA,"scientific article","http://www.wikidata.org/entity/Q42074114",FALSE,NA,FALSE,NA,1,"Q42074114",TRUE
+"435","first paper","First Papers of Surrealism",NA,NA,"http://www.wikidata.org/entity/Q1419516",FALSE,NA,FALSE,NA,1,"Q1419516",TRUE
+"436","first particle","First particle results for the HEPAPS4 characterisation",NA,NA,"http://www.wikidata.org/entity/Q59262686",FALSE,NA,FALSE,NA,1,"Q59262686",TRUE
+"437","first trip","First trip to ICN is memorable.",NA,"scientific article","http://www.wikidata.org/entity/Q53748386",FALSE,NA,FALSE,NA,1,"Q53748386",TRUE
+"438","Foreign Member of the Royal Netherlands","Foreign Member of the Royal Netherlands Academy of Arts and Sciences",NA,"elected fellowship for scientists working primarily outside the Netherlands","http://www.wikidata.org/entity/Q61664991",FALSE,NA,FALSE,NA,1,"Q61664991",TRUE
+"439","Foreign Member of the Royal Netherlands Academy","Foreign Member of the Royal Netherlands Academy of Arts and Sciences",NA,"elected fellowship for scientists working primarily outside the Netherlands","http://www.wikidata.org/entity/Q61664991",FALSE,NA,FALSE,NA,1,"Q61664991",TRUE
+"440","Foreign Member of the Royal Netherlands Academy of Arts","Foreign Member of the Royal Netherlands Academy of Arts and Sciences",NA,"elected fellowship for scientists working primarily outside the Netherlands","http://www.wikidata.org/entity/Q61664991",FALSE,NA,FALSE,NA,1,"Q61664991",TRUE
+"441","former Prime","Former Prime Minister of Senegal Mamadou Dia dies",NA,"Wikinews article","http://www.wikidata.org/entity/Q17670268",FALSE,NA,FALSE,NA,1,"Q17670268",TRUE
+"442","former Prime Minister","Former Prime Minister of Senegal Mamadou Dia dies",NA,"Wikinews article","http://www.wikidata.org/entity/Q17670268",FALSE,NA,FALSE,NA,1,"Q17670268",TRUE
+"443","four papers","Four papers related to the challenge to psychiatry in a changing world: a symposium. Introduction",NA,"scientific article published on 01 June 1966","http://www.wikidata.org/entity/Q72826870",FALSE,NA,FALSE,NA,1,"Q72826870",TRUE
+"444","four works","Four worksite weight loss programs with high-stress occupations using a meal replacement product.",NA,"scientific article published in February 2002","http://www.wikidata.org/entity/Q47191755",FALSE,NA,FALSE,NA,1,"Q47191755",TRUE
+"445","free study","FREE Study - Fracture Reduction Evaluation",NA,"clinical trial","http://www.wikidata.org/entity/Q65545673",FALSE,NA,FALSE,NA,1,"Q65545673",TRUE
+"446","friends he","Friends Helping Friends: a nonrandomized control trial of a peer-based response to dating violence.",NA,"scientific article published on 3 February 2015","http://www.wikidata.org/entity/Q47202096",FALSE,NA,FALSE,NA,1,"Q47202096",TRUE
+"447","fundamental flaw","Fundamental flaws of hormesis for public health decisions.",NA,"scientific article","http://www.wikidata.org/entity/Q24815905",FALSE,NA,FALSE,NA,1,"Q24815905",TRUE
+"448","gas model","Gas modelling in the disc of HD 163296",NA,"scientific article published in January 2012","http://www.wikidata.org/entity/Q69024215",FALSE,NA,FALSE,NA,1,"Q69024215",TRUE
+"449","gauge invariance","Gauge Invariance and Mass. II",NA,"scientific article","http://www.wikidata.org/entity/Q21709490",FALSE,NA,FALSE,NA,1,"Q21709490",TRUE
+"450","general linear","general linear group",NA,NA,"http://www.wikidata.org/entity/Q524607",FALSE,NA,FALSE,NA,1,"Q524607",TRUE
+"451","general linear transformations","General linear transformations and entangled states",NA,"scientific article published on 01 January 1994","http://www.wikidata.org/entity/Q77875400",FALSE,NA,FALSE,NA,1,"Q77875400",TRUE
+"452","Generalized Theory","Generalized theory of semiflexible polymers.",NA,"scientific article published on 7 March 2006","http://www.wikidata.org/entity/Q40335224",FALSE,NA,FALSE,NA,1,"Q40335224",TRUE
+"453","geometric theory","Geometric Theory of Semilinear Parabolic Equations",NA,NA,"http://www.wikidata.org/entity/Q56656036",FALSE,NA,FALSE,NA,1,"Q56656036",TRUE
+"454","German citizenship","German citizenship price",NA,NA,"http://www.wikidata.org/entity/Q1205355",FALSE,NA,FALSE,NA,1,"Q1205355",TRUE
+"455","global government","Global government applications of analogues, SARs and QSARs to predict aquatic toxicity, chemical or physical properties, environmental fate parameters and health effects of organic chemicals.",NA,"scientific article published on October 2002","http://www.wikidata.org/entity/Q40616012",FALSE,NA,FALSE,NA,1,"Q40616012",TRUE
+"456","gravitational attraction","Gravitational Attraction in Connection with the Rectangular Interferometer.",NA,"scientific article","http://www.wikidata.org/entity/Q33779700",FALSE,NA,FALSE,NA,1,"Q33779700",TRUE
+"457","gravitational field equations","Gravitational field equations on and off a 3-brane world",NA,NA,"http://www.wikidata.org/entity/Q63354360",FALSE,NA,FALSE,NA,1,"Q63354360",TRUE
+"458","great insight","Great insight created by tiny holes; celebrating 40 years of brain micropunch technique",NA,"scientific article","http://www.wikidata.org/entity/Q28655833",FALSE,NA,FALSE,NA,1,"Q28655833",TRUE
+"459","groundbreaking papers","Groundbreaking papers in Water Research 1967-2006. A dynamic model of the clarification-thickening process.",NA,"scientific article","http://www.wikidata.org/entity/Q43336530",FALSE,NA,FALSE,NA,1,"Q43336530",TRUE
+"460","heat problem","Heat problems in the tennis player.",NA,"scientific article","http://www.wikidata.org/entity/Q48574539",FALSE,NA,FALSE,NA,1,"Q48574539",TRUE
+"461","his future","His future foretold--the 1904 address by Herbert Evans.",NA,"scientific article published on January 1985","http://www.wikidata.org/entity/Q41400369",FALSE,NA,FALSE,NA,1,"Q41400369",TRUE
+"462","his head","His head Moţoc want it!",NA,NA,"http://www.wikidata.org/entity/Q25273267",FALSE,NA,FALSE,NA,1,"Q25273267",TRUE
+"463","his ideas","His ideas make Beloit Memorial fly again.",NA,"scientific article published in April 1987","http://www.wikidata.org/entity/Q52400976",FALSE,NA,FALSE,NA,1,"Q52400976",TRUE
+"464","his mind","His mind of man, a secret makes",NA,"poem by Emily Dickinson","http://www.wikidata.org/entity/Q19039738",FALSE,NA,FALSE,NA,1,"Q19039738",TRUE
+"465","His mind","His mind of man, a secret makes",NA,"poem by Emily Dickinson","http://www.wikidata.org/entity/Q19039738",FALSE,NA,FALSE,NA,1,"Q19039738",TRUE
+"466","his services","His services are free of charge",NA,"scientific article published on 01 March 1981","http://www.wikidata.org/entity/Q67299435",FALSE,NA,FALSE,NA,1,"Q67299435",TRUE
+"467","Important Role","Important roles of drought- and cold-inducible genes for galactinol synthase in stress tolerance in Arabidopsis thaliana.",NA,"scientific article","http://www.wikidata.org/entity/Q39505609",FALSE,NA,FALSE,NA,1,"Q39505609",TRUE
+"468","increasing interest","Increasing interest in child and adolescent psychiatry in the third-year clerkship: results from a post-clerkship survey.",NA,"scientific article published in September 2008","http://www.wikidata.org/entity/Q48607421",FALSE,NA,FALSE,NA,1,"Q48607421",TRUE
+"469","Indian physicist","Indian physicist questions 'Big Bang' basics",NA,NA,"http://www.wikidata.org/entity/Q56875094",FALSE,NA,FALSE,NA,1,"Q56875094",TRUE
+"470","indistinguishable particles","Indistinguishable particles in quantum mechanics: an introduction",NA,NA,"http://www.wikidata.org/entity/Q62588518",FALSE,NA,FALSE,NA,1,"Q62588518",TRUE
+"471","inertial motion","Inertial motion capture in conjunction with an artificial neural network can differentiate the gait patterns of hemiparetic stroke patients compared with able-bodied counterparts.",NA,"scientific article published on 24 May 2011","http://www.wikidata.org/entity/Q51581702",FALSE,NA,FALSE,NA,1,"Q51581702",TRUE
+"472","inertial motions","Inertial motion capture in conjunction with an artificial neural network can differentiate the gait patterns of hemiparetic stroke patients compared with able-bodied counterparts.",NA,"scientific article published on 24 May 2011","http://www.wikidata.org/entity/Q51581702",FALSE,NA,FALSE,NA,1,"Q51581702",TRUE
+"473","intensive work","Intensive Working Memory Training Produces Functional Changes in Large-scale Frontoparietal Networks.",NA,"scientific article published on 7 January 2016","http://www.wikidata.org/entity/Q47147937",FALSE,NA,FALSE,NA,1,"Q47147937",TRUE
+"474","Jewish Nobel","Jewish Nobel Prize-winners in medicine and physiology.",NA,"scientific article published in January 1989","http://www.wikidata.org/entity/Q48405902",FALSE,NA,FALSE,NA,1,"Q48405902",TRUE
+"475","Jewish Nobel Prize","Jewish Nobel Prize-winners in medicine and physiology.",NA,"scientific article published in January 1989","http://www.wikidata.org/entity/Q48405902",FALSE,NA,FALSE,NA,1,"Q48405902",TRUE
+"476","later development","Later developments: molecular keys to age-related memory impairment.",NA,"scientific article published on July 2003","http://www.wikidata.org/entity/Q35544993",FALSE,NA,FALSE,NA,1,"Q35544993",TRUE
+"477","later years","Later years at Columbia.",NA,"scientific article published in March 2004","http://www.wikidata.org/entity/Q48662211",FALSE,NA,FALSE,NA,1,"Q48662211",TRUE
+"478","legal impact","Legal impact of Title 22 on practice procedures.",NA,"scientific article published in August 1980","http://www.wikidata.org/entity/Q46825592",FALSE,NA,FALSE,NA,1,"Q46825592",TRUE
+"479","light particles","Light Particle Solution to the Cosmic Lithium Problem.",NA,"scientific article published on 25 May 2016","http://www.wikidata.org/entity/Q53083470",FALSE,NA,FALSE,NA,1,"Q53083470",TRUE
+"480","local realism","Local Realism of Macroscopic Correlations",NA,NA,"http://www.wikidata.org/entity/Q62567496",FALSE,NA,FALSE,NA,1,"Q62567496",TRUE
+"481","Lorentz invariance","Lorentz Invariance with an Invariant Energy Scale",NA,"scientific article","http://www.wikidata.org/entity/Q27346279",FALSE,NA,FALSE,NA,1,"Q27346279",TRUE
+"482","major role","Major role of marine vegetation on the oceanic carbon cycle",NA,NA,"http://www.wikidata.org/entity/Q56916460",FALSE,NA,FALSE,NA,1,"Q56916460",TRUE
+"483","many novels","Many novel mammalian microRNA candidates identified by extensive cloning and RAKE analysis.",NA,"scientific article","http://www.wikidata.org/entity/Q35056725",FALSE,NA,FALSE,NA,1,"Q35056725",TRUE
+"484","mechanical motion","Mechanical motion of azobenzene crystals upon photoirradiation.",NA,"scientific article","http://www.wikidata.org/entity/Q46005822",FALSE,NA,FALSE,NA,1,"Q46005822",TRUE
+"485","mechanical synchronization","Mechanical synchronization of ciliary beating within comb plates of ctenophores",NA,"scientific article published on 01 November 1984","http://www.wikidata.org/entity/Q72600429",FALSE,NA,FALSE,NA,1,"Q72600429",TRUE
+"486","medical reasons","Medical reasons behind player departures from male and female professional tennis competitions.",NA,"scientific article published on 14 November 2014","http://www.wikidata.org/entity/Q42693427",FALSE,NA,FALSE,NA,1,"Q42693427",TRUE
+"487","milky white","Calocybe indica","milky white mushroom","species of fungus","http://www.wikidata.org/entity/Q44140422",FALSE,NA,FALSE,NA,1,"Q44140422",TRUE
+"488","modern quantum","Modern quantum chemical methods for calculating spin–spin coupling constants: theoretical basis and structural applications in chemistry",NA,NA,"http://www.wikidata.org/entity/Q58223917",FALSE,NA,FALSE,NA,1,"Q58223917",TRUE
+"489","modern quantum mechanics","Modern Quantum Mechanics",NA,NA,"http://www.wikidata.org/entity/Q63987792",FALSE,NA,FALSE,NA,1,"Q63987792",TRUE
+"490","momentum distribution","Momentum Distribution and Renormalization Factor in Sodium and the Electron Gas",NA,"scientific article published in Physical Review Letters","http://www.wikidata.org/entity/Q58810215",FALSE,NA,FALSE,NA,1,"Q58810215",TRUE
+"491","momentum measurement","Momentum measurement by the multiple Coulomb scattering method in the OPERA lead-emulsion target",NA,NA,"http://www.wikidata.org/entity/Q57598507",FALSE,NA,FALSE,NA,1,"Q57598507",TRUE
+"492","Moving Bodies","Moving body and mind: a nurse-led dance group for young people with a mental illness.",NA,"scientific article published in May 2005","http://www.wikidata.org/entity/Q51929941",FALSE,NA,FALSE,NA,1,"Q51929941",TRUE
+"493","moving body","Moving body and mind: a nurse-led dance group for young people with a mental illness.",NA,"scientific article published in May 2005","http://www.wikidata.org/entity/Q51929941",FALSE,NA,FALSE,NA,1,"Q51929941",TRUE
+"494","Munich factory","Munich Factory",NA,"drawing in the National Gallery of Art (NGA 57055)","http://www.wikidata.org/entity/Q64634319",FALSE,NA,FALSE,NA,1,"Q64634319",TRUE
+"495","my share","My share of the task: A memoir",NA,NA,"http://www.wikidata.org/entity/Q72893267",FALSE,NA,FALSE,NA,1,"Q72893267",TRUE
+"496","national attention","National Attention on Opioid Use and Abuse: National Association of Clinical Nurse Specialists in the Forefront.",NA,"scientific article published on March 2017","http://www.wikidata.org/entity/Q40346461",FALSE,NA,FALSE,NA,1,"Q40346461",TRUE
+"497","Netherlands Academy","Netherlands Academy of Technology and Innovation",NA,NA,"http://www.wikidata.org/entity/Q2495741",FALSE,NA,FALSE,NA,1,"Q2495741",TRUE
+"498","New Determination","New Determination of the Fine Structure Constant and Test of the Quantum Electrodynamics",NA,"scientific article","http://www.wikidata.org/entity/Q27336104",FALSE,NA,FALSE,NA,1,"Q27336104",TRUE
+"499","new German government","New German government muddies the biotech waters",NA,"scientific article published on 01 December 1998","http://www.wikidata.org/entity/Q77683776",FALSE,NA,FALSE,NA,1,"Q77683776",TRUE
+"500","next week","Next Week's News",NA,NA,"http://www.wikidata.org/entity/Q59088737",FALSE,NA,FALSE,NA,1,"Q59088737",TRUE
+"501","Nobel Prize Winners","Nobel Prize winners Robin Warren and Barry Marshall.",NA,"scientific article published in October 2005","http://www.wikidata.org/entity/Q48340952",FALSE,NA,FALSE,NA,1,"Q48340952",TRUE
+"502","occupation number","Occupation numbers in density-functional calculations",NA,"scientific article published on 01 October 1995","http://www.wikidata.org/entity/Q78136783",FALSE,NA,FALSE,NA,1,"Q78136783",TRUE
+"503","official welcome","Official Welcome",NA,"exhibition","http://www.wikidata.org/entity/Q55353618",FALSE,NA,FALSE,NA,1,"Q55353618",TRUE
+"504","one particle","One particle reduced density matrix of impenetrable bosons in one dimension at zero temperature",NA,NA,"http://www.wikidata.org/entity/Q56950868",FALSE,NA,FALSE,NA,1,"Q56950868",TRUE
+"505","ongoing epidemics","Ongoing epidemic of blaVIM-1-positive Klebsiella pneumoniae in Athens, Greece: a prospective survey.",NA,"scientific article published on 13 November 2007","http://www.wikidata.org/entity/Q46902034",FALSE,NA,FALSE,NA,1,"Q46902034",TRUE
+"506","original proof","Original proof of Gödel's completeness theorem",NA,NA,"http://www.wikidata.org/entity/Q7102603",FALSE,NA,FALSE,NA,1,"Q7102603",TRUE
+"507","other religions","Other religions and economy and health: reflections from conciliar Protestantism.",NA,"scientific article published in January 2000","http://www.wikidata.org/entity/Q53448938",FALSE,NA,FALSE,NA,1,"Q53448938",TRUE
+"508","other research","Other research and experimental development on natural sciences and engineering",NA,"economic activity","http://www.wikidata.org/entity/Q29585741",FALSE,NA,FALSE,NA,1,"Q29585741",TRUE
+"509","our Views","Our view of adolescent sexuality--a focus on risk behavior without the developmental context.",NA,"scientific article published in November 1996","http://www.wikidata.org/entity/Q52199300",FALSE,NA,FALSE,NA,1,"Q52199300",TRUE
+"510","permanent home","Permanent homelessness in America?",NA,NA,"http://www.wikidata.org/entity/Q56519971",FALSE,NA,FALSE,NA,1,"Q56519971",TRUE
+"511","personal conception","Personal conceptions of intelligence, self-esteem, and school achievement in Italian and Portuguese students.",NA,"scientific article published in January 2006","http://www.wikidata.org/entity/Q47816142",FALSE,NA,FALSE,NA,1,"Q47816142",TRUE
+"512","physical process","Physical processes and real-time chemical measurement of the insect olfactory environment",NA,"scientific article","http://www.wikidata.org/entity/Q30485279",FALSE,NA,FALSE,NA,1,"Q30485279",TRUE
+"513","pivotal step","Pivotal steps towards quantification of molecular diffusion coefficients by NMR.",NA,"scientific article","http://www.wikidata.org/entity/Q33276625",FALSE,NA,FALSE,NA,1,"Q33276625",TRUE
+"514","positive attitude","Positive Attitude",NA,"828th strip of the webcomic xkcd","http://www.wikidata.org/entity/Q18614706",FALSE,NA,FALSE,NA,1,"Q18614706",TRUE
+"515","possible quantum","Possible quantum criticality inNaxCoO2",NA,"scientific article published on 8 February 2006","http://www.wikidata.org/entity/Q58357076",FALSE,NA,FALSE,NA,1,"Q58357076",TRUE
+"516","Prague he","Prague hereditary hypercholesterolemic (PHHC) rat - a model of polygenic hypercholesterolemia.",NA,"scientific article published on January 2009","http://www.wikidata.org/entity/Q37687357",FALSE,NA,FALSE,NA,1,"Q37687357",TRUE
+"517","precise momentum","Precise momentum determination of the external COSY proton beam near 1930 MeV",NA,NA,"http://www.wikidata.org/entity/Q58383109",FALSE,NA,FALSE,NA,1,"Q58383109",TRUE
+"518","precise position","Precise positioning with current multi-constellation Global Navigation Satellite Systems: GPS, GLONASS, Galileo and BeiDou.",NA,"scientific article","http://www.wikidata.org/entity/Q35062380",FALSE,NA,FALSE,NA,1,"Q35062380",TRUE
+"519","Princeton Hospital","Princeton Hospital expands",NA,"scientific article published on 01 October 1953","http://www.wikidata.org/entity/Q73295482",FALSE,NA,FALSE,NA,1,"Q73295482",TRUE
+"520","problems that","Problems That Couples Bring To Therapy: A View Across the Family Life Cycle*",NA,NA,"http://www.wikidata.org/entity/Q58136349",FALSE,NA,FALSE,NA,1,"Q58136349",TRUE
+"521","process he","Process heterochronies in endochondral ossification.",NA,"scientific article published on August 2000","http://www.wikidata.org/entity/Q40758362",FALSE,NA,FALSE,NA,1,"Q40758362",TRUE
+"522","professional musician","Professional musicians with craniomandibular dysfunctions treated with oral splints.",NA,"scientific article","http://www.wikidata.org/entity/Q30546221",FALSE,NA,FALSE,NA,1,"Q30546221",TRUE
+"523","Professor Einstein","Professor Einsteinlaan",NA,"street in Voorschoten, the Netherlands","http://www.wikidata.org/entity/Q19441599",FALSE,NA,FALSE,NA,1,"Q19441599",TRUE
+"524","professor Hendrik","Professor Hendrik Burger; in memoriam.",NA,"scientific article published in January 1958","http://www.wikidata.org/entity/Q52496361",FALSE,NA,FALSE,NA,1,"Q52496361",TRUE
+"525","quality that","Quality that counts. Interview by Pauline Chudley.",NA,"scientific article published in November 1985","http://www.wikidata.org/entity/Q52404555",FALSE,NA,FALSE,NA,1,"Q52404555",TRUE
+"526","quantized states","Quantized State Based Simulation of Time Invariant and Time Varying Continuous Systems",NA,NA,"http://www.wikidata.org/entity/Q59117358",FALSE,NA,FALSE,NA,1,"Q59117358",TRUE
+"527","quantum theory of radiation","Quantum Theory of Radiation",NA,"scientific article","http://www.wikidata.org/entity/Q21709609",FALSE,NA,FALSE,NA,1,"Q21709609",TRUE
+"528","quantum theory of solids","Quantum theory of solid-liquid coexistence and interface in 4He",NA,"scientific article published on 01 April 1994","http://www.wikidata.org/entity/Q74546713",FALSE,NA,FALSE,NA,1,"Q74546713",TRUE
+"529","Ramón y Cajal","Ramón y Cajal",NA,"family name","http://www.wikidata.org/entity/Q47453882",FALSE,NA,FALSE,NA,1,"Q47453882",TRUE
+"530","real name","taboo name","real name",NA,"http://www.wikidata.org/entity/Q64026473",FALSE,NA,FALSE,NA,1,"Q64026473",TRUE
+"531","Refugee status","Refugee Status as a Possible Risk Factor for Childhood Enuresis",NA,NA,"http://www.wikidata.org/entity/Q64055321",FALSE,NA,FALSE,NA,1,"Q64055321",TRUE
+"532","regular part","Regular partners and risky behaviour: why do gay men have unprotected intercourse?",NA,"scientific article","http://www.wikidata.org/entity/Q41053062",FALSE,NA,FALSE,NA,1,"Q41053062",TRUE
+"533","relativistic field","Relativistic Field Theories of Elementary Particles",NA,"article","http://www.wikidata.org/entity/Q54250748",FALSE,NA,FALSE,NA,1,"Q54250748",TRUE
+"534","resident scholar","Resident scholarship expectations and experiences: sources of uncertainty as barriers to success.",NA,"scientific article published on December 2013","http://www.wikidata.org/entity/Q37456264",FALSE,NA,FALSE,NA,1,"Q37456264",TRUE
+"535","Resident scholar","Resident scholarship expectations and experiences: sources of uncertainty as barriers to success.",NA,"scientific article published on December 2013","http://www.wikidata.org/entity/Q37456264",FALSE,NA,FALSE,NA,1,"Q37456264",TRUE
+"536","romantic attraction","Romantic attraction and adolescent smoking trajectories.",NA,"scientific article published on 5 August 2011","http://www.wikidata.org/entity/Q50513912",FALSE,NA,FALSE,NA,1,"Q50513912",TRUE
+"537","school education","School Education Journal PGSD FIP Unimed",NA,"Academic journal published by Universitas Negeri Medan , covering the subjects:  Education: Education (General)","http://www.wikidata.org/entity/Q50811802",FALSE,NA,FALSE,NA,1,"Q50811802",TRUE
+"538","Schwarzschild black holes","Schwarzschild black holes in Matrix theory II",NA,NA,"http://www.wikidata.org/entity/Q59390097",FALSE,NA,FALSE,NA,1,"Q59390097",TRUE
+"539","secondary school education","Secondary school educational practitioners’ experiences of school attendance problems and interventions to address them: a qualitative study",NA,NA,"http://www.wikidata.org/entity/Q59484251",FALSE,NA,FALSE,NA,1,"Q59484251",TRUE
+"540","secondary schooling","Secondary schooling might be as good an HIV investment as male circumcision.",NA,"scientific article published in October 2015","http://www.wikidata.org/entity/Q43414880",FALSE,NA,FALSE,NA,1,"Q43414880",TRUE
+"541","shifting process","Shifting processes model: a conceptual model for sustainable weight management.",NA,"scientific article published on 12 August 2013","http://www.wikidata.org/entity/Q43495707",FALSE,NA,FALSE,NA,1,"Q43495707",TRUE
+"542","short essay","Short essay questions",NA,"scientific article published on 01 March 1980","http://www.wikidata.org/entity/Q71166328",FALSE,NA,FALSE,NA,1,"Q71166328",TRUE
+"543","short periods","Short periods of prenatal stress affect growth, behaviour and hypothalamo-pituitary-adrenal axis activity in male guinea pig offspring.",NA,"scientific article published on 2 June 2005","http://www.wikidata.org/entity/Q46516346",FALSE,NA,FALSE,NA,1,"Q46516346",TRUE
+"544","single entity","single entity of population",NA,"Spanish statistical unit of human settlements","http://www.wikidata.org/entity/Q3055118",FALSE,NA,FALSE,NA,1,"Q3055118",TRUE
+"545","social barriers","Social barriers to emotional expression and their relations to distress in male and female cancer patients.",NA,"scientific article published in September 2003","http://www.wikidata.org/entity/Q51015182",FALSE,NA,FALSE,NA,1,"Q51015182",TRUE
+"546","space curves","Space Curve",NA,"painting by Charles Shaw","http://www.wikidata.org/entity/Q20504647",FALSE,NA,FALSE,NA,1,"Q20504647",TRUE
+"547","speech he","Speech hesitation pauses as markers for mood disorder in stroke patients",NA,"scientific article published on 01 March 1991","http://www.wikidata.org/entity/Q70119459",FALSE,NA,FALSE,NA,1,"Q70119459",TRUE
+"548","spooky action","Spooky Action at a Distance",NA,"album by Lockett James Pundt IV","http://www.wikidata.org/entity/Q7579122",FALSE,NA,FALSE,NA,1,"Q7579122",TRUE
+"549","spooky action at a distance","Spooky Action at a Distance",NA,"album by Lockett James Pundt IV","http://www.wikidata.org/entity/Q7579122",FALSE,NA,FALSE,NA,1,"Q7579122",TRUE
+"550","state model","state model",NA,NA,"http://www.wikidata.org/entity/Q2325086",FALSE,NA,FALSE,NA,1,"Q2325086",TRUE
+"551","static model","Static model simulation for routine mumps vaccination in Japan: with a result of mumps-related complications in a Japanese community hospital",NA,"scientific article published on 26 July 2017","http://www.wikidata.org/entity/Q38641896",FALSE,NA,FALSE,NA,1,"Q38641896",TRUE
+"552","statistical point","Statistical points and pitfalls - series - introduction.",NA,"scientific article published on 19 January 2016","http://www.wikidata.org/entity/Q36581945",FALSE,NA,FALSE,NA,1,"Q36581945",TRUE
+"553","strong feelings","Strong Feelings",NA,"album by Doug Paisley","http://www.wikidata.org/entity/Q17121706",FALSE,NA,FALSE,NA,1,"Q17121706",TRUE
+"554","Swedish company","Swedish company launches NHS partnership in bid to enter GP app market",NA,"scientific article published in the British Medical Journal","http://www.wikidata.org/entity/Q58093469",FALSE,NA,FALSE,NA,1,"Q58093469",TRUE
+"555","teaching diploma","Teaching diploma students how to utilize the ANA Quality Assurance Model",NA,"scientific article published on 01 November 1982","http://www.wikidata.org/entity/Q67245979",FALSE,NA,FALSE,NA,1,"Q67245979",TRUE
+"556","technical problems","Technical problems and complications of axillary artery cannulation.",NA,"scientific article","http://www.wikidata.org/entity/Q36077497",FALSE,NA,FALSE,NA,1,"Q36077497",TRUE
+"557","theoretical prediction","Theoretical predictions for hot-carrier generation from surface plasmon decay.",NA,"scientific article","http://www.wikidata.org/entity/Q30421009",FALSE,NA,FALSE,NA,1,"Q30421009",TRUE
+"558","thermal equilibrium state","Thermal equilibrium states of the quantum hydrodynamic model for semiconductors in one dimension",NA,"article","http://www.wikidata.org/entity/Q57386783",FALSE,NA,FALSE,NA,1,"Q57386783",TRUE
+"559","thermal properties","Thermal property changes of poly(N-isopropylacrylamide) microgel particles and block copolymers",NA,NA,"http://www.wikidata.org/entity/Q57346263",FALSE,NA,FALSE,NA,1,"Q57346263",TRUE
+"560","thermal properties of light","Thermal properties of light nuclei from12C +12C fusion–evaporation reactions",NA,NA,"http://www.wikidata.org/entity/Q60524362",FALSE,NA,FALSE,NA,1,"Q60524362",TRUE
+"561","thermodynamic fluctuations","Thermodynamic Fluctuations in a Reacting System—Measurement by Fluorescence Correlation Spectroscopy",NA,"scientific article","http://www.wikidata.org/entity/Q21563722",FALSE,NA,FALSE,NA,1,"Q21563722",TRUE
+"562","Thermodynamic fluctuations","Thermodynamic Fluctuations in a Reacting System—Measurement by Fluorescence Correlation Spectroscopy",NA,"scientific article","http://www.wikidata.org/entity/Q21563722",FALSE,NA,FALSE,NA,1,"Q21563722",TRUE
+"563","three short periods","Three short period Miras - Z Aql, RZ Sco and R Cet: water maser emission and its implications",NA,NA,"http://www.wikidata.org/entity/Q68623171",FALSE,NA,FALSE,NA,1,"Q68623171",TRUE
+"564","top grade","Top grade health fair: an ""A"" fair to remember",NA,"scientific article published on 01 July 2004","http://www.wikidata.org/entity/Q80268977",FALSE,NA,FALSE,NA,1,"Q80268977",TRUE
+"565","translation invariance","Translation invariance, topology, and protection of criticality in chains of interacting anyons",NA,NA,"http://www.wikidata.org/entity/Q59435538",FALSE,NA,FALSE,NA,1,"Q59435538",TRUE
+"566","Two papers","Two papers in The BMJ with statin side effect errors shouldn't be retracted, independent panel concludes.",NA,"scientific article","http://www.wikidata.org/entity/Q46219910",FALSE,NA,FALSE,NA,1,"Q46219910",TRUE
+"567","two particles","Two particle enhanced nano Raman microscopy and spectroscopy.",NA,"scientific article published on 11 May 2007","http://www.wikidata.org/entity/Q53482055",FALSE,NA,FALSE,NA,1,"Q53482055",TRUE
+"568","two pillars","Two pillar[5]arene-based mechanically selflocked molecules (MSMs): planar chirality in crystals and conformer inversion in solutions",NA,NA,"http://www.wikidata.org/entity/Q58482248",FALSE,NA,FALSE,NA,1,"Q58482248",TRUE
+"569","two possibilities","Two possibilities how to increase the efficacy of antidotal treatment of nerve agent poisonings.",NA,"scientific article published on January 2012","http://www.wikidata.org/entity/Q37987609",FALSE,NA,FALSE,NA,1,"Q37987609",TRUE
+"570","über das","Über das Elektrenkephalogramm des Menschen",NA,"article","http://www.wikidata.org/entity/Q55881406",FALSE,NA,FALSE,NA,1,"Q55881406",TRUE
+"571","unified quantum","Unified quantum field theory of Raman scattering of light in piezoelectric crystals",NA,"article published in 2005","http://www.wikidata.org/entity/Q66664413",FALSE,NA,FALSE,NA,1,"Q66664413",TRUE
+"572","universal acceptance","Universal acceptance of computerized physician order entry: what would it take?",NA,"scientific article","http://www.wikidata.org/entity/Q54665196",FALSE,NA,FALSE,NA,1,"Q54665196",TRUE
+"573","university positions","University Positions in Conservation: Queen's University at Kingston, Canada",NA,"article","http://www.wikidata.org/entity/Q58538839",FALSE,NA,FALSE,NA,1,"Q58538839",TRUE
+"574","unusual properties","Unusual property of prion protein unfolding in neutral salt solution",NA,"scientific journal article","http://www.wikidata.org/entity/Q28507576",FALSE,NA,FALSE,NA,1,"Q28507576",TRUE
+"575","which period","Which Period of Growth Is Determinant for Blood Pressure?",NA,NA,"http://www.wikidata.org/entity/Q57316122",FALSE,NA,FALSE,NA,1,"Q57316122",TRUE
+"576","wide array","Wide array of T-cell subpopulation alterations in patients with alcohol use disorders.",NA,"scientific article","http://www.wikidata.org/entity/Q40731110",FALSE,NA,FALSE,NA,1,"Q40731110",TRUE
+"577","covariant tensor","covariant tensor",NA,NA,"http://www.wikidata.org/entity/Q77982957",FALSE,NA,FALSE,NA,0,"Q77982957",TRUE
+"578","first university","First university in the United States",NA,NA,"http://www.wikidata.org/entity/Q5454259",FALSE,NA,FALSE,NA,0,"Q5454259",TRUE
+"579","first university in the United","First university in the United States",NA,NA,"http://www.wikidata.org/entity/Q5454259",FALSE,NA,FALSE,NA,0,"Q5454259",TRUE
+"580","first university in the United States","First university in the United States",NA,NA,"http://www.wikidata.org/entity/Q5454259",FALSE,NA,FALSE,NA,0,"Q5454259",TRUE
+"581","propaganda minister","minister of propaganda","propaganda minister",NA,"http://www.wikidata.org/entity/Q20011328",FALSE,NA,FALSE,NA,0,"Q20011328",TRUE
+"582","theoretical entities","hypothetical entity","theoretical entity","entity whose existence is possible, but not proven","http://www.wikidata.org/entity/Q18706315",FALSE,NA,FALSE,NA,0,"Q18706315",TRUE

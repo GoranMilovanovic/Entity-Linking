@@ -11,9 +11,9 @@
 "10","abdominal aortic aneurysm","Abdominal aortic aneurysm",NA,"scientific article published on 01 July 2002","http://www.wikidata.org/entity/Q74469230",FALSE,NA,FALSE,NA,1,NA,FALSE
 "11","abdominal aortic aneurysm","Abdominal aortic aneurysm",NA,"scientific article published on 01 June 1997","http://www.wikidata.org/entity/Q73422662",FALSE,NA,FALSE,NA,1,NA,FALSE
 "12","abdominal aortic aneurysm","Abdominal aortic aneurysm",NA,"scientific article published on 01 February 1988","http://www.wikidata.org/entity/Q68263146",FALSE,NA,FALSE,NA,1,NA,FALSE
-"13","abdominal aortic aneurysm","Abdominal aortic aneurysm",NA,"scientific article published on 01 January 2002","http://www.wikidata.org/entity/Q78771489",FALSE,NA,FALSE,NA,1,NA,FALSE
-"14","abdominal aortic aneurysm","Abdominal aortic aneurysm",NA,"scientific article published on 01 October 1989","http://www.wikidata.org/entity/Q69537042",FALSE,NA,FALSE,NA,1,NA,FALSE
-"15","abdominal aortic aneurysm","Abdominal aortic aneurysm",NA,"scientific article published on 01 August 1963","http://www.wikidata.org/entity/Q79671567",FALSE,NA,FALSE,NA,1,NA,FALSE
+"13","abdominal aortic aneurysm","Abdominal aortic aneurysm",NA,"scientific article published on 01 October 1989","http://www.wikidata.org/entity/Q69537042",FALSE,NA,FALSE,NA,1,NA,FALSE
+"14","abdominal aortic aneurysm","Abdominal aortic aneurysm",NA,"scientific article published on 01 January 2002","http://www.wikidata.org/entity/Q78771489",FALSE,NA,FALSE,NA,1,NA,FALSE
+"15","abdominal aortic aneurysm","Abdominal aortic aneurysm",NA,"scientific article published on 01 February 2004","http://www.wikidata.org/entity/Q75828416",FALSE,NA,FALSE,NA,1,NA,FALSE
 "16","absorption refrigerator","absorption refrigerator",NA,"Single pressure absorption refrigeration","http://www.wikidata.org/entity/Q332868",TRUE,"Q332868",FALSE,NA,2,"Q332868",TRUE
 "17","Academic career","Academic career in medicine: requirements and conditions for successful advancement in Switzerland.",NA,"scientific article","http://www.wikidata.org/entity/Q33436409",FALSE,NA,FALSE,NA,2,"Q33436409",TRUE
 "18","Academic career","Academic career after treatment for acute lymphoblastic leukaemia.",NA,"scientific article","http://www.wikidata.org/entity/Q35266424",FALSE,NA,FALSE,NA,1,NA,FALSE
@@ -569,8 +569,8 @@
 "568","classical mechanics","Classical mechanics",NA,"journal article; published in Nature on 1979-03-01","http://www.wikidata.org/entity/Q74196277",FALSE,NA,FALSE,NA,2,NA,FALSE
 "569","classical mechanics","Classical Mechanical Analogies in Wide Dirty SFS Junctions",NA,NA,"http://www.wikidata.org/entity/Q59891725",FALSE,NA,FALSE,NA,1,NA,FALSE
 "570","classical mechanics","Classical mechanical analysis of the experimental high-energy spectrum of the sodium trimer molecule",NA,"scientific article published in Physical Review Letters","http://www.wikidata.org/entity/Q59657475",FALSE,NA,FALSE,NA,1,NA,FALSE
-"571","classical mechanics","Classical mechanics as an example of generalized quantum mechanics",NA,"scientific article published on 01 April 1992","http://www.wikidata.org/entity/Q74420161",FALSE,NA,FALSE,NA,1,NA,FALSE
-"572","classical mechanics","Classical mechanics at T=0: Mobility of negative ions in 3He",NA,"scientific article published on 01 October 1990","http://www.wikidata.org/entity/Q74503544",FALSE,NA,FALSE,NA,1,NA,FALSE
+"571","classical mechanics","Classical mechanics at T=0: Mobility of negative ions in 3He",NA,"scientific article published on 01 October 1990","http://www.wikidata.org/entity/Q74503544",FALSE,NA,FALSE,NA,1,NA,FALSE
+"572","classical mechanics","Classical mechanics as an example of generalized quantum mechanics",NA,"scientific article published on 01 April 1992","http://www.wikidata.org/entity/Q74420161",FALSE,NA,FALSE,NA,1,NA,FALSE
 "573","classical mechanics","Classical mechanics of two-electron atoms",NA,"scientific article published on 01 December 1993","http://www.wikidata.org/entity/Q77875062",FALSE,NA,FALSE,NA,1,NA,FALSE
 "574","classical mechanics","Classical mechanics without absolute space",NA,"scientific article published on 01 December 1995","http://www.wikidata.org/entity/Q74438476",FALSE,NA,FALSE,NA,1,NA,FALSE
 "575","classical mechanics","Template:Classical mechanics","Classical mechanics","Wikimedia template","http://www.wikidata.org/entity/Q6234453",FALSE,NA,FALSE,NA,1,NA,FALSE
@@ -1702,8 +1702,8 @@
 "1701","German scientists","German scientists campaign for liberalisation of stem cell law ahead of crucial parliamentary vote.",NA,"scientific article published in February 2008","http://www.wikidata.org/entity/Q42999740",FALSE,NA,FALSE,NA,1,NA,FALSE
 "1702","German scientists","German scientists left in the cold as Berlin rejects rescue plan",NA,"scientific article published in Nature","http://www.wikidata.org/entity/Q59004102",FALSE,NA,FALSE,NA,2,"Q59004102",TRUE
 "1703","German scientists","German scientists hope for windfall from incoming government.",NA,"scientific article published in January 2018","http://www.wikidata.org/entity/Q49716479",FALSE,NA,FALSE,NA,2,NA,FALSE
-"1704","German scientists","German scientists rail at animal welfare law",NA,"scientific article published on 01 May 1986","http://www.wikidata.org/entity/Q74793411",FALSE,NA,FALSE,NA,1,NA,FALSE
-"1705","German scientists","German scientists withdraw research paper on cancer vaccine.",NA,"scientific article published in September 2003","http://www.wikidata.org/entity/Q49500217",FALSE,NA,FALSE,NA,1,NA,FALSE
+"1704","German scientists","German scientists withdraw research paper on cancer vaccine.",NA,"scientific article published in September 2003","http://www.wikidata.org/entity/Q49500217",FALSE,NA,FALSE,NA,1,NA,FALSE
+"1705","German scientists","German scientists rail at animal welfare law",NA,"scientific article published on 01 May 1986","http://www.wikidata.org/entity/Q74793411",FALSE,NA,FALSE,NA,1,NA,FALSE
 "1706","German scientists","German scientist makes early practical contributions in electricity.",NA,"scientific article published in June 1988","http://www.wikidata.org/entity/Q52398063",FALSE,NA,FALSE,NA,1,NA,FALSE
 "1707","German scientists","German scientists demand right to genetic research",NA,"scientific article published on 01 January 1990","http://www.wikidata.org/entity/Q74801508",FALSE,NA,FALSE,NA,1,NA,FALSE
 "1708","German scientists","German scientists regain access to Elsevier journals",NA,"scientific article published in Nature","http://www.wikidata.org/entity/Q58929228",FALSE,NA,FALSE,NA,2,NA,FALSE
@@ -2040,12 +2040,12 @@
 "2039","honorary degree","Honorary degree",NA,NA,"http://www.wikidata.org/entity/Q64361297",FALSE,NA,FALSE,NA,1,NA,FALSE
 "2040","honorary degree","Honorary Degrees Awarded by Princeton",NA,"Wikimedia list article","http://www.wikidata.org/entity/Q24060039",FALSE,NA,FALSE,NA,1,NA,FALSE
 "2041","honorary degree","HONORARY DEGREE CONFERENCE AT DUQUESNE UNIVERSITY FOR PRESIDENT JOSEPH MOBUTU (NAID 134046)",NA,"item in the National Archives and Records Administration's holdings","http://www.wikidata.org/entity/Q67660482",FALSE,NA,FALSE,NA,2,NA,FALSE
-"2042","honorary degree","Honorary Degree (2016.309)",NA,"artwork in the Cleveland Museum of Art's collection","http://www.wikidata.org/entity/Q79870703",FALSE,NA,FALSE,NA,2,NA,FALSE
-"2043","honorary degree","HONORARY DEGREES AT THE UNIVERSITY OF ST. ANDREWS",NA,"scientific article published in Science","http://www.wikidata.org/entity/Q59406425",FALSE,NA,FALSE,NA,1,NA,FALSE
+"2042","honorary degree","HONORARY DEGREES AT THE UNIVERSITY OF ST. ANDREWS",NA,"scientific article published in Science","http://www.wikidata.org/entity/Q59406425",FALSE,NA,FALSE,NA,1,NA,FALSE
+"2043","honorary degree","Honorary Degree (2016.309)",NA,"artwork in the Cleveland Museum of Art's collection","http://www.wikidata.org/entity/Q79870703",FALSE,NA,FALSE,NA,2,NA,FALSE
 "2044","honorary degree","HONORARY DEGREE TO SHAH OF IRAN AND KENNEDY MONUMENT (NAID 123896)",NA,"item in the National Archives and Records Administration's holdings","http://www.wikidata.org/entity/Q67616288",FALSE,NA,FALSE,NA,2,NA,FALSE
-"2045","honorary degree","Honorary degrees--does pharmacy need them?",NA,"scientific article published in February 1976","http://www.wikidata.org/entity/Q48421592",FALSE,NA,FALSE,NA,1,NA,FALSE
-"2046","honorary degree","Honorary Degrees at Bristol",NA,"scientific article published in Nature","http://www.wikidata.org/entity/Q60130834",FALSE,NA,FALSE,NA,2,NA,FALSE
-"2047","honorary degree","Honorary Degrees at Durham University",NA,"scientific article published in the British Medical Journal","http://www.wikidata.org/entity/Q58752485",FALSE,NA,FALSE,NA,1,NA,FALSE
+"2045","honorary degree","Honorary Degrees at Durham University",NA,"scientific article published in the British Medical Journal","http://www.wikidata.org/entity/Q58752485",FALSE,NA,FALSE,NA,1,NA,FALSE
+"2046","honorary degree","Honorary degrees--does pharmacy need them?",NA,"scientific article published in February 1976","http://www.wikidata.org/entity/Q48421592",FALSE,NA,FALSE,NA,1,NA,FALSE
+"2047","honorary degree","Honorary Degrees at Bristol",NA,"scientific article published in Nature","http://www.wikidata.org/entity/Q60130834",FALSE,NA,FALSE,NA,2,NA,FALSE
 "2048","honorary member","honorary member",NA,"membership in a learned society granted as an award","http://www.wikidata.org/entity/Q10519151",FALSE,NA,FALSE,NA,3,NA,FALSE
 "2049","honorary member","honorary member",NA,"rank in the honorific orders","http://www.wikidata.org/entity/Q66405303",FALSE,NA,FALSE,NA,1,NA,FALSE
 "2050","honorary member","Honorary Member",NA,"scientific article published in Nature","http://www.wikidata.org/entity/Q60274559",FALSE,NA,FALSE,NA,2,NA,FALSE
@@ -2210,8 +2210,8 @@
 "2209","international exchange","International exchanges: a missed opportunity in pediatric graduate education.",NA,"scientific article","http://www.wikidata.org/entity/Q33245806",FALSE,NA,FALSE,NA,1,NA,FALSE
 "2210","international exchange","International exchange programs in dermatology: a prescription for the present, a hope for the future.",NA,"scientific article","http://www.wikidata.org/entity/Q40113139",FALSE,NA,FALSE,NA,1,NA,FALSE
 "2211","international exchange","International Exchange Bank",NA,NA,"http://www.wikidata.org/entity/Q6050332",FALSE,NA,FALSE,NA,4,"Q6050332",TRUE
-"2212","international exchange","International exchange programs and recruitment.",NA,"scientific article","http://www.wikidata.org/entity/Q53394303",FALSE,NA,FALSE,NA,1,NA,FALSE
-"2213","international exchange","International exchange of scientists",NA,"scientific article published on 01 July 1949","http://www.wikidata.org/entity/Q80391945",FALSE,NA,FALSE,NA,1,NA,FALSE
+"2212","international exchange","International exchange of scientists",NA,"scientific article published on 01 July 1949","http://www.wikidata.org/entity/Q80391945",FALSE,NA,FALSE,NA,1,NA,FALSE
+"2213","international exchange","International exchange programs and recruitment.",NA,"scientific article","http://www.wikidata.org/entity/Q53394303",FALSE,NA,FALSE,NA,1,NA,FALSE
 "2214","international media","International Mediation and Social Networks: The Importance of Indirect Ties",NA,NA,"http://www.wikidata.org/entity/Q58243560",FALSE,NA,FALSE,NA,1,NA,FALSE
 "2215","international media","International Media Invest",NA,"Czech holding company","http://www.wikidata.org/entity/Q67170504",FALSE,NA,FALSE,NA,1,NA,FALSE
 "2216","international media","International Media Production Zone",NA,"free economic zone in Dubai, United Arab Emirates","http://www.wikidata.org/entity/Q6051955",FALSE,NA,FALSE,NA,2,NA,FALSE
@@ -2720,8 +2720,8 @@
 "2719","military service","Military service and men's health trajectories in later life.",NA,"scientific article","http://www.wikidata.org/entity/Q34195735",FALSE,NA,FALSE,NA,1,NA,FALSE
 "2720","military service","Military service, deployments, and exposures in relation to amyotrophic lateral sclerosis etiology and survival",NA,"scientific article","http://www.wikidata.org/entity/Q23915088",FALSE,NA,FALSE,NA,1,NA,FALSE
 "2721","military service","service number","military service number",NA,"http://www.wikidata.org/entity/Q7455778",FALSE,NA,FALSE,NA,1,NA,FALSE
-"2722","military service","Military Service and Amyotrophic Lateral Sclerosis in a Population-based Cohort.",NA,"scientific article","http://www.wikidata.org/entity/Q36157488",FALSE,NA,FALSE,NA,1,NA,FALSE
-"2723","military service","Military Service Council",NA,"military council of Saudi Arabia","http://www.wikidata.org/entity/Q56312226",FALSE,NA,FALSE,NA,1,NA,FALSE
+"2722","military service","Military Service Council",NA,"military council of Saudi Arabia","http://www.wikidata.org/entity/Q56312226",FALSE,NA,FALSE,NA,1,NA,FALSE
+"2723","military service","Military Service and Amyotrophic Lateral Sclerosis in a Population-based Cohort.",NA,"scientific article","http://www.wikidata.org/entity/Q36157488",FALSE,NA,FALSE,NA,1,NA,FALSE
 "2724","military service","Military service, deployments, and exposures in relation to amyotrophic lateral sclerosis etiology",NA,"scientific article","http://www.wikidata.org/entity/Q28394945",FALSE,NA,FALSE,NA,1,NA,FALSE
 "2725","military service","Military service law of the People's Republic of China",NA,NA,"http://www.wikidata.org/entity/Q18835590",FALSE,NA,FALSE,NA,2,NA,FALSE
 "2726","milky white","Calocybe indica","milky white mushroom","species of fungus","http://www.wikidata.org/entity/Q44140422",FALSE,NA,FALSE,NA,1,"Q44140422",TRUE
@@ -2890,12 +2890,12 @@
 "2889","new Institute","New institute shoots for the moon.",NA,"scientific article published on October 1991","http://www.wikidata.org/entity/Q38533856",FALSE,NA,FALSE,NA,1,NA,FALSE
 "2890","new Institute","New Institute of Medicine Report on Molecular Biomarkers.",NA,"scientific article published on 14 April 2016","http://www.wikidata.org/entity/Q47826305",FALSE,NA,FALSE,NA,1,NA,FALSE
 "2891","new Institute","New institute for Berlin",NA,"scientific article published in Nature","http://www.wikidata.org/entity/Q59008581",FALSE,NA,FALSE,NA,2,"Q59008581",TRUE
-"2892","new Institute","New institute for strategic planning",NA,"scientific article published on 01 January 1977","http://www.wikidata.org/entity/Q77677143",FALSE,NA,FALSE,NA,1,NA,FALSE
-"2893","new Institute","New institute tackles information technology",NA,NA,"http://www.wikidata.org/entity/Q64517921",FALSE,NA,FALSE,NA,1,NA,FALSE
+"2892","new Institute","New institute tackles information technology",NA,NA,"http://www.wikidata.org/entity/Q64517921",FALSE,NA,FALSE,NA,1,NA,FALSE
+"2893","new Institute","New institute for strategic planning",NA,"scientific article published on 01 January 1977","http://www.wikidata.org/entity/Q77677143",FALSE,NA,FALSE,NA,1,NA,FALSE
 "2894","new Institute","New institute of medicine",NA,"scientific article published on 01 July 1970","http://www.wikidata.org/entity/Q71441730",FALSE,NA,FALSE,NA,1,NA,FALSE
 "2895","new Institute","New institute to study systems biology",NA,"scientific article published on 01 August 1999","http://www.wikidata.org/entity/Q78070961",FALSE,NA,FALSE,NA,1,NA,FALSE
-"2896","new Institute","New institute in Dresden",NA,"scientific article published on 01 January 2001","http://www.wikidata.org/entity/Q73366839",FALSE,NA,FALSE,NA,1,NA,FALSE
-"2897","new Institute","New institute focuses on health costs",NA,"scientific article published on 01 January 2002","http://www.wikidata.org/entity/Q77634543",FALSE,NA,FALSE,NA,1,NA,FALSE
+"2896","new Institute","New institute focuses on health costs",NA,"scientific article published on 01 January 2002","http://www.wikidata.org/entity/Q77634543",FALSE,NA,FALSE,NA,1,NA,FALSE
+"2897","new Institute","New institute in Dresden",NA,"scientific article published on 01 January 2001","http://www.wikidata.org/entity/Q73366839",FALSE,NA,FALSE,NA,1,NA,FALSE
 "2898","New Jersey","New Jersey",NA,"state of the United States of America","http://www.wikidata.org/entity/Q1408",TRUE,"Q1408",FALSE,NA,25,"Q1408",TRUE
 "2899","New Jersey","New Jersey",NA,"album by the American rock band Bon Jovi","http://www.wikidata.org/entity/Q779923",FALSE,NA,FALSE,NA,2,NA,FALSE
 "2900","New Jersey","Province of New Jersey","New Jersey","English, from 1707, British, possession in North America between 1664 and 1776","http://www.wikidata.org/entity/Q2335128",FALSE,NA,FALSE,NA,5,NA,FALSE
@@ -3367,8 +3367,8 @@
 "3366","Personal Correspondence","Personal Correspondence and Financial Papers (NAID 923488)",NA,"series in the National Archives and Records Administration's holdings","http://www.wikidata.org/entity/Q63905559",FALSE,NA,FALSE,NA,2,NA,FALSE
 "3367","Personal Correspondence","Personal Correspondence (NAID 2635568)",NA,"series in the National Archives and Records Administration's holdings","http://www.wikidata.org/entity/Q63907569",FALSE,NA,FALSE,NA,2,NA,FALSE
 "3368","Personal Correspondence","Personal Correspondence (NAID 649923)",NA,"series in the National Archives and Records Administration's holdings","http://www.wikidata.org/entity/Q63912141",FALSE,NA,FALSE,NA,2,NA,FALSE
-"3369","Personal Correspondence","Personal Correspondence (NAID 37694503)",NA,"series in the National Archives and Records Administration's holdings","http://www.wikidata.org/entity/Q63917239",FALSE,NA,FALSE,NA,2,NA,FALSE
-"3370","Personal Correspondence","Personal Correspondence of Erbprinz Josias zu Waldeck, the Führer of the SS-Oberabschnitt Fulda-Werra (NAID 7581091)",NA,"a series in the National Archives and Records Administration's holdings","http://www.wikidata.org/entity/Q66151364",FALSE,NA,FALSE,NA,2,NA,FALSE
+"3369","Personal Correspondence","Personal Correspondence of Erbprinz Josias zu Waldeck, the Führer of the SS-Oberabschnitt Fulda-Werra (NAID 7581091)",NA,"a series in the National Archives and Records Administration's holdings","http://www.wikidata.org/entity/Q66151364",FALSE,NA,FALSE,NA,2,NA,FALSE
+"3370","Personal Correspondence","Personal Correspondence (NAID 37694503)",NA,"series in the National Archives and Records Administration's holdings","http://www.wikidata.org/entity/Q63917239",FALSE,NA,FALSE,NA,2,NA,FALSE
 "3371","Personal Correspondence","Personal Correspondence and Subject Files (NAID 637010)",NA,"series in the National Archives and Records Administration's holdings","http://www.wikidata.org/entity/Q63912122",FALSE,NA,FALSE,NA,2,NA,FALSE
 "3372","Personal Correspondence","Personal Correspondence Files (NAID 575899)",NA,"series in the National Archives and Records Administration's holdings","http://www.wikidata.org/entity/Q63918207",FALSE,NA,FALSE,NA,2,NA,FALSE
 "3373","Personal Correspondence","Personal Correspondence of Colonel Charles G. Dawes (NAID 6865605)",NA,"a series in the National Archives and Records Administration's holdings","http://www.wikidata.org/entity/Q66171610",FALSE,NA,FALSE,NA,2,NA,FALSE
@@ -3632,8 +3632,8 @@
 "3631","problems that","PROBLEMS THAT COME WITH AGING.",NA,"scientific article published in March 1965","http://www.wikidata.org/entity/Q52133882",FALSE,NA,FALSE,NA,1,NA,FALSE
 "3632","problems that","Problems that Teach the Obvious but Difficult",NA,NA,"http://www.wikidata.org/entity/Q58119445",FALSE,NA,FALSE,NA,1,NA,FALSE
 "3633","problems that","Problems that Physicians should Notice for Better Treatment of Hypercholesterolemia in Japan",NA,NA,"http://www.wikidata.org/entity/Q61804183",FALSE,NA,FALSE,NA,1,NA,FALSE
-"3634","problems that","Problems that mothers' with epilepsy experience when caring for their children",NA,"scientific article published on 01 August 2007","http://www.wikidata.org/entity/Q80760711",FALSE,NA,FALSE,NA,1,NA,FALSE
-"3635","problems that","Problems that arise in the use of the intramedullary fixation principle in fractures",NA,"scientific article published on 01 January 1954","http://www.wikidata.org/entity/Q73362907",FALSE,NA,FALSE,NA,1,NA,FALSE
+"3634","problems that","Problems that arise in the use of the intramedullary fixation principle in fractures",NA,"scientific article published on 01 January 1954","http://www.wikidata.org/entity/Q73362907",FALSE,NA,FALSE,NA,1,NA,FALSE
+"3635","problems that","Problems that mothers' with epilepsy experience when caring for their children",NA,"scientific article published on 01 August 2007","http://www.wikidata.org/entity/Q80760711",FALSE,NA,FALSE,NA,1,NA,FALSE
 "3636","problems that","Problems that deans face",NA,"scientific article published on 01 November 1982","http://www.wikidata.org/entity/Q70515988",FALSE,NA,FALSE,NA,1,NA,FALSE
 "3637","problems that","Problems that arise when a physician leaves a group",NA,"scientific article published on 01 December 1996","http://www.wikidata.org/entity/Q77090055",FALSE,NA,FALSE,NA,1,NA,FALSE
 "3638","process he","Process heterochronies in endochondral ossification.",NA,"scientific article published on August 2000","http://www.wikidata.org/entity/Q40758362",FALSE,NA,FALSE,NA,1,"Q40758362",TRUE
@@ -4431,11 +4431,11 @@
 "4430","theoretical physics","Theoretical Physics in the Metallurgical Laboratory of Chicago",NA,NA,"http://www.wikidata.org/entity/Q55878915",FALSE,NA,FALSE,NA,1,NA,FALSE
 "4431","theoretical physics","Theoretical Physics in the University of London",NA,"scientific article published in Nature","http://www.wikidata.org/entity/Q59013272",FALSE,NA,FALSE,NA,2,NA,FALSE
 "4432","theoretical physics","Theoretical physics: The origins of space and time",NA,"scientific article published in Nature","http://www.wikidata.org/entity/Q59072595",FALSE,NA,FALSE,NA,2,NA,FALSE
-"4433","theoretical physics","Theoretical Physics at Nottingham: Prof. K. S. H. Stevens",NA,"scientific article published in Nature","http://www.wikidata.org/entity/Q58945978",FALSE,NA,FALSE,NA,2,NA,FALSE
-"4434","theoretical physics","Theoretical physics. Hawking slays his own paradox, but colleagues are wary",NA,"scientific article published on 01 July 2004","http://www.wikidata.org/entity/Q80401881",FALSE,NA,FALSE,NA,1,NA,FALSE
+"4433","theoretical physics","Theoretical physics. Hawking slays his own paradox, but colleagues are wary",NA,"scientific article published on 01 July 2004","http://www.wikidata.org/entity/Q80401881",FALSE,NA,FALSE,NA,1,NA,FALSE
+"4434","theoretical physics","Theoretical Physics at Nottingham: Prof. K. S. H. Stevens",NA,"scientific article published in Nature","http://www.wikidata.org/entity/Q58945978",FALSE,NA,FALSE,NA,2,NA,FALSE
 "4435","theoretical physics","Theoretical Physics in the University of Hull : Prof. G. H. A. Cole",NA,"scientific article published in Nature","http://www.wikidata.org/entity/Q58955924",FALSE,NA,FALSE,NA,2,NA,FALSE
 "4436","theoretical physics","Theoretical Physics at Birkbeck College: Prof. D. Bohm",NA,"scientific article published in Nature","http://www.wikidata.org/entity/Q58976348",FALSE,NA,FALSE,NA,1,NA,FALSE
-"4437","theoretical physics","Theoretical physics. Perimeter's threefold way",NA,"scientific article published on 01 December 2003","http://www.wikidata.org/entity/Q79347060",FALSE,NA,FALSE,NA,1,NA,FALSE
+"4437","theoretical physics","Theoretical physics. Constructing spacetime--no strings attached",NA,"scientific article published on 01 November 2002","http://www.wikidata.org/entity/Q78495253",FALSE,NA,FALSE,NA,1,NA,FALSE
 "4438","theoretical physics","Theoretical Physics",NA,NA,"http://www.wikidata.org/entity/Q60123929",FALSE,NA,FALSE,NA,2,NA,FALSE
 "4439","theoretical physics","Theoretical Physics",NA,NA,"http://www.wikidata.org/entity/Q60261077",FALSE,NA,FALSE,NA,2,NA,FALSE
 "4440","theoretical physics","Theoretical Physics",NA,"scientific article published in Nature","http://www.wikidata.org/entity/Q58970232",FALSE,NA,FALSE,NA,2,NA,FALSE
@@ -4553,8 +4553,8 @@
 "4552","those who","Those Who Make Tomorrow",NA,"1946 film directed by Akira Kurosawa","http://www.wikidata.org/entity/Q2637288",FALSE,NA,FALSE,NA,3,NA,FALSE
 "4553","those who","Those Whom the Gods Detest",NA,"album by Nile","http://www.wikidata.org/entity/Q2547412",FALSE,NA,FALSE,NA,2,NA,FALSE
 "4554","those who","Those Who Tell the Truth Shall Die, Those Who Tell the Truth Shall Live Forever",NA,"album by Explosions in the Sky","http://www.wikidata.org/entity/Q777395",FALSE,NA,FALSE,NA,2,NA,FALSE
-"4555","those who","Those Who Love",NA,"1998 film directed by Isabel Coixet","http://www.wikidata.org/entity/Q3602930",FALSE,NA,FALSE,NA,3,NA,FALSE
-"4556","those who","Those Who Remained",NA,"2019 film directed by Barnabás Tóth","http://www.wikidata.org/entity/Q66309296",FALSE,NA,FALSE,NA,2,NA,FALSE
+"4555","those who","Those Who Remained",NA,"2019 film directed by Barnabás Tóth","http://www.wikidata.org/entity/Q66309296",FALSE,NA,FALSE,NA,2,NA,FALSE
+"4556","those who","Those who are fine",NA,"2017 film by Cyril Schäublin","http://www.wikidata.org/entity/Q47539464",FALSE,NA,FALSE,NA,2,NA,FALSE
 "4557","thought experiments","thought experiment",NA,"considering hypothesis, theory, or principle for the purpose of thinking through its consequences","http://www.wikidata.org/entity/Q147027",FALSE,NA,FALSE,NA,11,"Q147027",TRUE
 "4558","thought experiments","Thought experiments on the incidence and prevalence of schizophrenia ""under the influence"" of cannabis.",NA,"scientific article published in April 2007","http://www.wikidata.org/entity/Q51905888",FALSE,NA,FALSE,NA,1,NA,FALSE
 "4559","thought experiments","Thought experiments.",NA,"scientific article published in November 2011","http://www.wikidata.org/entity/Q48533109",FALSE,NA,FALSE,NA,1,NA,FALSE

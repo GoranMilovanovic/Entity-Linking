@@ -1,0 +1,58 @@
+"","searchText","label","alias","description","uri","methodSitelinks","methodSitelinksResult","methodB","methodBResult","methodCMatch","methodCResult","methodC","matchFilter"
+"1","domestic cat","house cat","domestic cat","domesticated feline","http://www.wikidata.org/entity/Q146",FALSE,NA,TRUE,"Q146",72,"Q146",TRUE,TRUE
+"2","house cat","house cat","","domesticated feline","http://www.wikidata.org/entity/Q146",FALSE,NA,TRUE,"Q146",72,"Q146",TRUE,TRUE
+"3","United Kingdom","United Kingdom","","constitutional monarchy in Western Europe; formed in 1927","http://www.wikidata.org/entity/Q145",FALSE,NA,FALSE,NA,36,"Q145",TRUE,TRUE
+"4","New Zealand","New Zealand","","constitutional monarchy in Oceania","http://www.wikidata.org/entity/Q664",FALSE,NA,FALSE,NA,33,"Q664",TRUE,TRUE
+"5","North America","North America","","continent on the Earth's northwestern quadrant","http://www.wikidata.org/entity/Q49",FALSE,NA,FALSE,NA,26,"Q49",TRUE,TRUE
+"6","European Union","European Union","","economic and political union of states mostly located in Europe","http://www.wikidata.org/entity/Q458",FALSE,NA,FALSE,NA,24,"Q458",TRUE,TRUE
+"7","infectious diseases","infectious disease","infectious diseases","disease caused by infection of pathogenic biological agents in a host organism","http://www.wikidata.org/entity/Q18123741",FALSE,NA,FALSE,NA,22,"Q18123741",TRUE,TRUE
+"8","Roman Empire","Byzantine Empire","Roman Empire","Roman Empire during Late Antiquity and the Middle Ages","http://www.wikidata.org/entity/Q12544",FALSE,NA,FALSE,NA,21,"Q12544",TRUE,TRUE
+"9","social group","social group","","two or more humans who interact with one another","http://www.wikidata.org/entity/Q874405",FALSE,NA,FALSE,NA,21,"Q874405",TRUE,TRUE
+"10","pest control","pest control","","group of methods to control some species that are harmful to health, economy or ecology","http://www.wikidata.org/entity/Q2306047",FALSE,NA,FALSE,NA,18,"Q2306047",TRUE,TRUE
+"11","human settlements","human settlement","human settlements","community of any size, in which people live","http://www.wikidata.org/entity/Q486972",FALSE,NA,FALSE,NA,17,"Q486972",TRUE,TRUE
+"12","life expectancy","life expectancy","","statistical measure of how long a person or organism may live, based on factors of their life","http://www.wikidata.org/entity/Q188419",FALSE,NA,FALSE,NA,14,"Q188419",TRUE,TRUE
+"13","aluminum foil","aluminium foil","aluminum foil","thin, flexible sheets of aluminium, used for wrapping food, and other purposes","http://www.wikidata.org/entity/Q447349",FALSE,NA,FALSE,NA,13,"Q447349",TRUE,TRUE
+"14","Forum Romanum","Roman Forum","Forum Romanum","Roma","http://www.wikidata.org/entity/Q180212",FALSE,NA,FALSE,NA,13,"Q180212",TRUE,TRUE
+"15","domestic animals","domesticated animal","domestic animals","animal that has been tamed and that lives with humans","http://www.wikidata.org/entity/Q622852",FALSE,NA,FALSE,NA,12,"Q622852",TRUE,TRUE
+"16","inner ear","inner ear","","innermost part of the vertebrate ear","http://www.wikidata.org/entity/Q212344",FALSE,NA,FALSE,NA,12,"Q212344",TRUE,TRUE
+"17","South Island","South Island","","Southernmost and largest of the two main islands in New Zealand","http://www.wikidata.org/entity/Q120755",FALSE,NA,FALSE,NA,12,"Q120755",TRUE,TRUE
+"18","agricultural land","agricultural land","","land used for agricultural purposes","http://www.wikidata.org/entity/Q3395383",FALSE,NA,FALSE,NA,11,"Q3395383",TRUE,TRUE
+"19","Prunella modularis","Dunnock","Prunella modularis","species of bird","http://www.wikidata.org/entity/Q26698",FALSE,NA,FALSE,NA,11,"Q26698",TRUE,TRUE
+"20","town hall","city hall","town hall","chief administrative building of a city or town","http://www.wikidata.org/entity/Q543654",FALSE,NA,FALSE,NA,11,"Q543654",TRUE,TRUE
+"21","Greek literature","Greek literature","","written works in the Greek language","http://www.wikidata.org/entity/Q1089547",FALSE,NA,FALSE,NA,10,"Q1089547",TRUE,TRUE
+"22","sexual maturity","sexual maturity","","portion of a life cycle in which an organism is capable of sexual reproduction","http://www.wikidata.org/entity/Q609370",FALSE,NA,FALSE,NA,9,"Q609370",TRUE,TRUE
+"23","social behavior","social organism behavior","social behavior","behavior among two or more organisms, typically from the same species","http://www.wikidata.org/entity/Q921513",FALSE,NA,FALSE,NA,9,"Q921513",TRUE,TRUE
+"24","eye movement","eye movement","","voluntary or involuntary movement of the eyes, helping in acquiring, fixating and tracking visual stimuli","http://www.wikidata.org/entity/Q760256",FALSE,NA,FALSE,NA,8,"Q760256",TRUE,TRUE
+"25","freshwater fish","freshwater fish","","fish that live all or much of their lives in freshwater","http://www.wikidata.org/entity/Q1072742",FALSE,NA,FALSE,NA,8,"Q1072742",TRUE,TRUE
+"26","artificial selection","artificial selection","","process by which humans use animal and plant breeding to selectively develop particular phenotypic traits","http://www.wikidata.org/entity/Q995745",FALSE,NA,FALSE,NA,7,"Q995745",TRUE,TRUE
+"27","Biodiversity Heritage Library","Biodiversity Heritage Library","","digital library, online database and large-scale digitization project for biodiversity literature","http://www.wikidata.org/entity/Q172266",FALSE,NA,FALSE,NA,7,"Q172266",TRUE,TRUE
+"28","body language","body language","","a type of nonverbal communication in which physical behavior is used to express or convey","http://www.wikidata.org/entity/Q477298",FALSE,NA,FALSE,NA,7,"Q477298",TRUE,TRUE
+"29","Wikimedia Commons","Wikimedia Commons","","online repository of free-use images, sound and other media files, part of the Wikimedia ecosystem","http://www.wikidata.org/entity/Q565",FALSE,NA,FALSE,NA,7,"Q565",TRUE,TRUE
+"30","intellectual tradition","school of thought","intellectual tradition","group of people sharing common outlook on an academic issue or field","http://www.wikidata.org/entity/Q1387659",FALSE,NA,FALSE,NA,6,"Q1387659",TRUE,TRUE
+"31","medical emergency","medical emergency","","injury or illness that is acute and poses an immediate risk to a person's life or long term health","http://www.wikidata.org/entity/Q2751242",FALSE,NA,FALSE,NA,6,"Q2751242",TRUE,TRUE
+"32","scent glands","scent gland","scent glands","exocrine glands found in most mammals","http://www.wikidata.org/entity/Q1264033",FALSE,NA,FALSE,NA,6,"Q1264033",TRUE,TRUE
+"33","observation point","scenic viewpoint","observation point","high place where people can gather to view scenery","http://www.wikidata.org/entity/Q6017969",FALSE,NA,FALSE,NA,5,"Q6017969",TRUE,TRUE
+"34","righting reflex","righting reflex","","A reflex process in which an animal immediately tries to turn over after being placed in a supine position.","http://www.wikidata.org/entity/Q7333746",FALSE,NA,FALSE,NA,5,"Q7333746",TRUE,TRUE
+"35","feline diseases","cat disease","feline diseases","disease that afflicts cats","http://www.wikidata.org/entity/Q2084422",FALSE,NA,FALSE,NA,4,"Q2084422",TRUE,TRUE
+"36","Felis catus","Felis catus","","species of mammal","http://www.wikidata.org/entity/Q20980826",FALSE,NA,FALSE,NA,4,"Q20980826",TRUE,TRUE
+"37","Konstantin Alekseevich Satunin","Konstantin Alekseevich Satunin","","Russian zoologist","http://www.wikidata.org/entity/Q4409061",FALSE,NA,FALSE,NA,4,"Q4409061",TRUE,TRUE
+"38","bad luck","misfortune","bad luck","experience of negative events due to chance","http://www.wikidata.org/entity/Q690140",FALSE,NA,FALSE,NA,3,"Q690140",TRUE,TRUE
+"39","fur coat","fur coat","","","http://www.wikidata.org/entity/Q25397898",FALSE,NA,FALSE,NA,3,"Q25397898",TRUE,TRUE
+"40","human activity","human activity","","activity initiated by a human","http://www.wikidata.org/entity/Q61788060",FALSE,NA,FALSE,NA,3,"Q61788060",TRUE,TRUE
+"41","large numbers","large number","large numbers","numbers that are significantly larger than those ordinarily used in everyday life","http://www.wikidata.org/entity/Q1816844",FALSE,NA,FALSE,NA,3,"Q1816844",TRUE,TRUE
+"42","million years","megaannum","million years","unit of a quantity of 1,000,000 years","http://www.wikidata.org/entity/Q20764",FALSE,NA,FALSE,NA,3,"Q20764",TRUE,TRUE
+"43","social hierarchy","social hierarchy","","","http://www.wikidata.org/entity/Q4430235",FALSE,NA,FALSE,NA,3,"Q4430235",TRUE,TRUE
+"44","anatomical feature","anatomical structure","anatomical feature","entity with a single connected inherent 3D shape that's created by coordinated expression of the organism's own DNA","http://www.wikidata.org/entity/Q4936952",FALSE,NA,FALSE,NA,2,"Q4936952",TRUE,TRUE
+"45","Animal Care","animal care","","","http://www.wikidata.org/entity/Q21012419",FALSE,NA,FALSE,NA,2,"Q21012419",TRUE,TRUE
+"46","External links","Template:External links","External links","Wikimedia template","http://www.wikidata.org/entity/Q13365838",FALSE,NA,FALSE,NA,2,"Q13365838",TRUE,TRUE
+"47","scientific name","scientific name","","scientific name used in the study of biology or in the study of botany","http://www.wikidata.org/entity/Q10753560",FALSE,NA,FALSE,NA,2,"Q10753560",TRUE,TRUE
+"48","Zoological Nomenclature","zoological nomenclature","","scientific naming of animals","http://www.wikidata.org/entity/Q3343211",FALSE,NA,FALSE,NA,2,"Q3343211",TRUE,TRUE
+"49","ancient Greek word","ancient Greek word","","word use by ancient Greek speakers","http://www.wikidata.org/entity/Q78612105",FALSE,NA,FALSE,NA,1,"Q78612105",TRUE,TRUE
+"50","contributing factor","contributing factor","","condition that influences an effect, but does not cause it","http://www.wikidata.org/entity/Q18603648",FALSE,NA,FALSE,NA,1,"Q18603648",TRUE,TRUE
+"51","dictionary definition","dictionary entry","dictionary definition","part of a dictionary, that defines a single, specific word or phrase","http://www.wikidata.org/entity/Q1580166",FALSE,NA,FALSE,NA,1,"Q1580166",TRUE,TRUE
+"52","Female cat","female cat","","","http://www.wikidata.org/entity/Q24248440",FALSE,NA,FALSE,NA,1,"Q24248440",TRUE,TRUE
+"53","gene mutation","gene mutation","","","http://www.wikidata.org/entity/Q1502331",FALSE,NA,FALSE,NA,1,"Q1502331",TRUE,TRUE
+"54","Greek word","ancient Greek word","Greek word","word use by ancient Greek speakers","http://www.wikidata.org/entity/Q78612105",FALSE,NA,FALSE,NA,1,"Q78612105",TRUE,TRUE
+"55","Heritage Library","heritage library","","library that preserves specific elements from a collection permanently","http://www.wikidata.org/entity/Q2208411",FALSE,NA,FALSE,NA,1,"Q2208411",TRUE,TRUE
+"56","human vision","human vision","","perception of light by human","http://www.wikidata.org/entity/Q23817639",FALSE,NA,FALSE,NA,1,"Q23817639",TRUE,TRUE
+"57","Latin word","Latin word","","a word in Latin language","http://www.wikidata.org/entity/Q78612407",FALSE,NA,FALSE,NA,1,"Q78612407",TRUE,TRUE
